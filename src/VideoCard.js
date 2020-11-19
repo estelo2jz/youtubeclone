@@ -1,6 +1,7 @@
 import React from 'react';
 import './VideoCard.css';
-import AccountCircleSharpIcon from '@material-ui/icons/AccountCircleSharp';
+import AccountCircleIcon from '@material-ui/icons/AccountCircle';
+import Avatar from "@material-ui/core/Avatar"
 
 
 function VideoCard({ image, title, channel, views, timestamp, channelImage }) {
@@ -10,16 +11,17 @@ function VideoCard({ image, title, channel, views, timestamp, channelImage }) {
     <div className="videoCard">
       <img className="videoCard__thumbnail" src={image} alt="" />
       <div className="videoCard__info">
-        <AccountCircleSharpIcon
+        <Avatar 
           className="videoCard__avatar"
           alt={channel}
-          srl={channelImage}        
+          src={channelImage}       
         />
+        
         <div className="videoCard__text">
           <h4>{title}</h4>
           <p>{channel}</p>
           <p>
-            {views} . {timestamp}
+            {views} &middot; {timestamp}
           </p>
         </div>
       </div>
@@ -27,4 +29,4 @@ function VideoCard({ image, title, channel, views, timestamp, channelImage }) {
   )
 }
 
-export default VideoCard
+export default VideoCard;

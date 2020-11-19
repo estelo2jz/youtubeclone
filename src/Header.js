@@ -5,7 +5,8 @@ import SearchSharpIcon from '@material-ui/icons/SearchSharp';
 import VideoCallSharpIcon from '@material-ui/icons/VideoCallSharp';
 import AppsSharpIcon from '@material-ui/icons/AppsSharp';
 import NotificationsActiveSharpIcon from '@material-ui/icons/NotificationsActiveSharp';
-import AccountCircleSharpIcon from '@material-ui/icons/AccountCircleSharp';
+import Avatar from "@material-ui/core/Avatar"
+
 
 import Newme from './newme.jpg';
 
@@ -24,7 +25,7 @@ function Header() {
         <VideoCallSharpIcon className="header__icon" />
         <AppsSharpIcon className="header__icon"  />
         <NotificationsActiveSharpIcon className="header__icon"  />
-        <AccountCircleSharpIcon
+        <Avatar
           alt="Eshtelo"
           src="https://avatars2.githubusercontent.com/u/49965889?s=460&u=a33bdcda0c260bbdd896071495a26ef72e212351&v=4"
         />
