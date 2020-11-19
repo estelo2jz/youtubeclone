@@ -7,10 +7,17 @@ function VideoRow({ views, subs, description, timestamp, channel, title, image})
       <img src={image} alt="" />
       <div className="videoRow__text">
         <h3>{title}</h3>
-        <p>
-          {channel} &middot; {subs} Subscribers &middot; {views} views &middot; {timestamp}
+        <p className="videoRow__headline">
+          {channel + " "} &middot; {" "}
+          <span className="videoRow__subs">
+            <span className="videoRow__subsNumber">
+            {subs + " "} 
+            </span>
+            Subscribers
+          </span> 
+          {views + " "} views &middot; {" "} {timestamp}
         </p>
-        <p>
+        <p className="videoRow__description">
           {description}
         </p>
       </div>
