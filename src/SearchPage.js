@@ -2,6 +2,7 @@ import React from 'react';
 import './SearchPage.css';
 import TuneIcon from '@material-ui/icons/Tune';
 import ChannelRow from './ChannelRow';
+import VideoRow from './VideoRow';
 function SearchPage() {
   return (
     <div className="searchPage">
@@ -19,6 +20,19 @@ function SearchPage() {
         noOfVideos={32}
         description="Just another coder trying to make it to Apple or Google either or."
       />
+
+      <hr/>
+
+      <VideoRow 
+        views="150k"
+        subs="1k"
+        description="I will teach you how to play TIC TAC TOE!"
+        timestamp="3 days ago"
+        channel="estelo2jz"
+        title="TIK TAK TOE tutorial"
+        image="https://upload.wikimedia.org/wikipedia/commons/thumb/3/32/Tic_tac_toe.svg/1200px-Tic_tac_toe.svg.png"
+      />
+
     </div>
   )
 }
