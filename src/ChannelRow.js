@@ -1,5 +1,5 @@
 import React from 'react';
-import './ChannelRow.css';
+import './styles/ChannelRow.css';
 import Avatar from "@material-ui/core/Avatar"
 import VerifiedIcon from '@material-ui/icons/CheckCircleOutlineTwoTone';
 

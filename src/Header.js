@@ -1,5 +1,5 @@
 import React, {useState} from 'react';
-import './Header.css';
+import './styles/Header.css';
 import MenuSharpIcon from '@material-ui/icons/MenuSharp';
 import SearchSharpIcon from '@material-ui/icons/SearchSharp';
 import VideoCallSharpIcon from '@material-ui/icons/VideoCallSharp';

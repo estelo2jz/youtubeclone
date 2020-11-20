@@ -1,5 +1,5 @@
 import React from 'react';
-import './SearchPage.css';
+import './styles/SearchPage.css';
 import TuneIcon from '@material-ui/icons/Tune';
 import ChannelRow from './ChannelRow';
 import VideoRow from './VideoRow';

@@ -1,5 +1,5 @@
 import React from 'react';
-import './Recommended.css';
+import './styles/Recommended.css';
 import VideoCard from './VideoCard';
 
 function RecommendedVideos() {
