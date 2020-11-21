@@ -9,7 +9,7 @@ function Trending() {
     // this is going to the collection from the Firestore that we created in the database,
     // and it take a live snapshot of what the collection look like.
     // and set the videos in our state to the following.
-    db.collection('videos').onSnapshot(snapshot => (
+    db.collection('trending').onSnapshot(snapshot => (
       setVideos(snapshot.docs.map((doc) => doc.data()))
     ))
     // if you dont include any dependencies in the array[],
@@ -19,6 +19,7 @@ function Trending() {
     <div>
         {videos.map(({id, channel, channelImage, image, timestamp, title, views}) => (
           <VideoCard 
+            key={id}
             channel={channel}
             channelImage={channelImage}
             image={image}
