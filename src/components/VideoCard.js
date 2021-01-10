@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import './styles/VideoCard.css';
+import '../styles/VideoCard.css';
 import AccountCircleIcon from '@material-ui/icons/AccountCircle';
 import Avatar from "@material-ui/core/Avatar"
 

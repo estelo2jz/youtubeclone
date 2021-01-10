@@ -1,4 +1,5 @@
-import React, {useState} from 'react';
+import React, { useState, useEffect, useRef } from 'react';
+import { CSSTransition } from 'react-transition-group';
 import './styles/Header.css';
 import MenuSharpIcon from '@material-ui/icons/MenuSharp';
 import SearchSharpIcon from '@material-ui/icons/SearchSharp';
@@ -9,7 +10,6 @@ import Avatar from "@material-ui/core/Avatar"
 // using Link will not refresh the page, but the <a> tag will.
 import { Link } from 'react-router-dom';
 
-
 import Newme from './newme.jpg';
 
 function Header() {
@@ -17,7 +17,8 @@ function Header() {
   return (
     <div className="header">
       <div className="header__left">
-        <MenuSharpIcon className="header__menu__icon" />
+        <MenuSharpIcon className="header__menu__icon"      
+        />
         <Link to="/">
           <img 
             className="header__logo" 

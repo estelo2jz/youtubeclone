@@ -1,15 +1,15 @@
 import React, { useState, useEffect } from 'react';
 import VideoCard from '../VideoCard';
-import db from '../firebase';
+import db from '../../firebase';
 
-function Subs() {
+function Library() {
   const [videos, setVideos] = useState([]);
   // lifecycle method, componentDidUpdate is every single lifestyles method has been replace by useEffect method.
   useEffect(() => {
     // this is going to the collection from the Firestore that we created in the database,
     // and it take a live snapshot of what the collection look like.
     // and set the videos in our state to the following.
-    db.collection('subscription').onSnapshot(snapshot => (
+    db.collection('library').onSnapshot(snapshot => (
       setVideos(snapshot.docs.map((doc) => doc.data()))
     ))
     // if you dont include any dependencies in the array[],
@@ -32,4 +32,4 @@ function Subs() {
   )
 }
 
-export default Subs;
+export default Library;

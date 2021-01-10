@@ -1,16 +1,22 @@
 import './App.css';
 import Header from './Header';
-import RecommendedVideos from './RecommendedVideos';
-import Sidebar from './Sidebar';
+import Home from './components/Home';
+import RecommendedVideos from './components/RecommendedVideos';
 import SearchPage from './SearchPage';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
-import Subs from './components/Subs';
-import Library from './components/Library';
-import LikedVideos from './components/LikedVideos';
-import Trending from './components/Trending';
-import WatchLater from './components/WatchLater';
-import YourVideos from './components/YourVideos';
-import History from './components/History';
+import Subs from './components/category/Subs';
+import Library from './components/category/Library';
+import LikedVideos from './components/category/LikedVideos';
+import Trending from './components/category/Trending';
+import WatchLater from './components/category/WatchLater';
+import YourVideos from './components/category/YourVideos';
+import History from './components/category/History';
+import NavBar from './components/NavBar';
+
+import Overview from './components/pages/Overview';
+import Team from './components/pages/Team';
+import { Reports, ReportsOne, ReportsTwo, ReportsThree } from './components/pages/Reports';
+import Sidebar from './components/Sidebar';
 
 function App() {
   return (
@@ -18,10 +24,33 @@ function App() {
     {/* Router is whats in charge of determining what url loads what components,
      EX were in a Homepage, and what components should we show the Hompoge component or the search page component  */}
       <Router>
-        <Header />
-      {/* to determine the components we use a Switch */}
+        <Sidebar />
         <Switch>
-          <Route exact path="/Trending">
+          {/* <Route path='/overview' exact component={Overview} />
+          <Route path='/reports' exact component={Reports} />
+          <Route path='/reports/reports1' exact component={ReportsOne} />
+          <Route path='/reports/reports2' exact component={ReportsTwo} />
+          <Route path='/reports/reports3' exact component={ReportsThree} />
+          <Route path='/team' exact component={Team} /> */}
+          <Route exact path="/"  component={Home}>
+          </Route>
+          <Route exact path="/trending"  component={Trending}>
+          </Route>
+          <Route path="/subs"  component={Subs}>
+          </Route>
+          <Route path="/library"  component={Library}>
+          </Route>
+          <Route path="/yourvideos"  component={YourVideos}>
+          </Route>
+          <Route path="/watchlater"  component={WatchLater}>
+          </Route>
+          <Route path="/likedvideos"  component={LikedVideos}>
+          </Route>
+          <Route path="/history"  component={History}>
+          </Route>
+          <Route path="/search/:searchTerm"  component={SearchPage}>
+          </Route>
+          {/* <Route exact path="/Trending">
             <div className="app__page">
               <Sidebar />
               <Trending />
@@ -74,7 +103,7 @@ function App() {
               <Sidebar />
               <RecommendedVideos />
             </div>
-          </Route>
+          </Route> */}
         </Switch>
       </Router>
 
