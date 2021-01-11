@@ -4,28 +4,33 @@
   margin: 10px;
   height: 280px;
   /* max-width: 50%; */
-  background: rgb(206, 206, 206);
+  background: #161414;
 }
 .videoCard__thumbnail {
+  background-size: cover;
+  background-position: center;
   height: 170px;
-  width: 100%;
+  img {
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+  }
 }
 .videoCard__info {
   display: flex;
   margin-top: 10px;
-  padding-right: 30px;
-  color: rgb(0, 0, 0);
+  padding-right: 25px;
 
 }
 .videoCard__text {
   margin-left: 15px;
-  color: rgb(0, 0, 0);
+  /* color: rgb(228, 0, 0); */
 
 }
 .videoCard__text > h4 {
   font-size: 14px;
   margin-bottom: 5px;
-  color: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
      overflow: hidden;
    text-overflow: ellipsis;
    display: -webkit-box;
@@ -35,7 +40,7 @@
 }
 .videoCard__text > p {
   font-size: 14px;
-  color: rgb(0, 0, 0);
+  color: rgb(202, 198, 198);
 }
 .video__avatar {
   height: 30px !important;

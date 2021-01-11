@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import '../styles/VideoCard.css';
+import '../styles/VideoCard.scss';
 import AccountCircleIcon from '@material-ui/icons/AccountCircle';
 import Avatar from "@material-ui/core/Avatar"
 
@@ -10,7 +10,9 @@ function VideoCard({ image, title, channel, views, timestamp, channelImage }) {
 
   return (
     <div className="videoCard">
-      <img className="videoCard__thumbnail" src={image} alt="" />
+      <div  className="videoCard__thumbnail">
+        <img src={image} alt="" />
+      </div>
       <div className="videoCard__info">
 
       {/* {videos.map(({image, title, channel, views, timestamp, channelImage}) => (
