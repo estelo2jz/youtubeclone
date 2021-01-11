@@ -1,8 +1,8 @@
 import React from 'react';
-import './styles/SearchPage.css';
+import '../../styles/SearchPage.css';
 import TuneIcon from '@material-ui/icons/Tune';
-import ChannelRow from './ChannelRow';
-import VideoRow from './VideoRow';
+import ChannelRow from '../../ChannelRow';
+import VideoRow from '../../VideoRow';
 function SearchPage() {
   return (
     <div className="searchPage">

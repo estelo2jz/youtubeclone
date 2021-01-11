@@ -70,6 +70,20 @@ function PopularTopic() {
             </label>
           </Link>
         </div>
+        <div className="popular-topic__item">
+          <Link className="popular-topic__link" to="/">
+            <label>
+              Explore
+            </label>
+          </Link>
+        </div>
+        <div className="popular-topic__item">
+          <Link className="popular-topic__link" to="/">
+            <label>
+              Channels
+            </label>
+          </Link>
+        </div>
       </div>
     </div>
   )

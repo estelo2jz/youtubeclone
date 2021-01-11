@@ -1,0 +1,21 @@
+.your-videos__container {
+  /* 80% */
+  flex: 0.8;
+  background-color: #161414;
+  padding: 40px 20px;
+  padding-bottom: 0;
+  height: 100%;
+  h2 {
+   margin-left: 5px;
+   margin-bottom: 20px;
+  }
+  .your-videos__videos {
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: center;
+   width: 100%;
+  //  align-content: left;
+  // margin: 10px;
+
+ }
+}

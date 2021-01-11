@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import VideoCard from '../VideoCard';
+import './categoryStyles/LikedVideos.scss';
 import db from '../../firebase';
 
 function LikedVideos() {
@@ -16,18 +17,20 @@ function LikedVideos() {
     // this code will fire once when the component load and whenever videos changes
   }, [])
   return (
-    <div>
-        {videos.map(({id, channel, channelImage, image, timestamp, title, views}) => (
-          <VideoCard 
+    <div className="liked-videos__container">
+      <div className="liked-videos__videos">
+        {videos.map(({ id, channel, channelImage, image, timestamp, title, views }) => (
+          <VideoCard
             key={id}
             channel={channel}
             channelImage={channelImage}
             image={image}
-            timestamp={timestamp + ' ' + "days ago"} 
+            timestamp={timestamp + ' ' + "days ago"}
             title={title}
             views={views + "K" + ' ' + "views"}
           />
         ))}
+      </div>
     </div>
   )
 }

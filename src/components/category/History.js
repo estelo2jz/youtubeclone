@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import VideoCard from '../VideoCard';
+import './categoryStyles/History.scss';
 import db from '../../firebase';
 
 function History() {
@@ -16,18 +17,20 @@ function History() {
     // this code will fire once when the component load and whenever videos changes
   }, [])
   return (
-    <div>
-        {videos.map(({id, channel, channelImage, image, timestamp, title, views}) => (
-          <VideoCard 
+    <div className="history__container">
+      <div className="history__videos">
+        {videos.map(({ id, channel, channelImage, image, timestamp, title, views }) => (
+          <VideoCard
             key={id}
             channel={channel}
             channelImage={channelImage}
             image={image}
-            timestamp={timestamp + ' ' + "days ago"} 
+            timestamp={timestamp + ' ' + "days ago"}
             title={title}
             views={views + "K" + ' ' + "views"}
           />
         ))}
+      </div>
     </div>
   )
 }

@@ -29,7 +29,6 @@ function Sidebar() {
       <hr />
       <Link to="/Library">
         <SidebarRow activeClassName Icon={VideoLibrarySharpIcon} title="Library" />
-      
       </Link>
       <Link to="/History">
         <SidebarRow activeClassName Icon={HistorySharpIcon} title="History" />

@@ -1,26 +1,41 @@
 .videoCard {
   margin-bottom: 40px;
-  width: 270px;
+  width: 319px;
+  margin: 10px;
+  height: 280px;
+  /* max-width: 50%; */
+  background: rgb(206, 206, 206);
 }
 .videoCard__thumbnail {
-  height: 140px;
-  width: 250px;
+  height: 170px;
+  width: 100%;
 }
 .videoCard__info {
   display: flex;
   margin-top: 10px;
   padding-right: 30px;
+  color: rgb(0, 0, 0);
+
 }
 .videoCard__text {
   margin-left: 15px;
+  color: rgb(0, 0, 0);
+
 }
 .videoCard__text > h4 {
   font-size: 14px;
   margin-bottom: 5px;
+  color: rgb(0, 0, 0);
+     overflow: hidden;
+   text-overflow: ellipsis;
+   display: -webkit-box;
+   -webkit-line-clamp: 1; /* number of lines to show */
+   -webkit-box-orient: vertical;
+
 }
 .videoCard__text > p {
   font-size: 14px;
-  color: gray;
+  color: rgb(0, 0, 0);
 }
 .video__avatar {
   height: 30px !important;

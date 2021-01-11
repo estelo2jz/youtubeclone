@@ -2,7 +2,7 @@ import './App.css';
 import Header from './Header';
 import Home from './components/Home';
 import RecommendedVideos from './components/RecommendedVideos';
-import SearchPage from './SearchPage';
+import SearchPage from './components/pages/SearchPage';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import Subs from './components/category/Subs';
 import Library from './components/category/Library';
@@ -13,8 +13,6 @@ import YourVideos from './components/category/YourVideos';
 import History from './components/category/History';
 import NavBar from './components/NavBar';
 
-import Overview from './components/pages/Overview';
-import Team from './components/pages/Team';
 import { Reports, ReportsOne, ReportsTwo, ReportsThree } from './components/pages/Reports';
 import Sidebar from './components/Sidebar';
 
@@ -26,12 +24,10 @@ function App() {
       <Router>
         <Sidebar />
         <Switch>
-          {/* <Route path='/overview' exact component={Overview} />
           <Route path='/reports' exact component={Reports} />
           <Route path='/reports/reports1' exact component={ReportsOne} />
           <Route path='/reports/reports2' exact component={ReportsTwo} />
           <Route path='/reports/reports3' exact component={ReportsThree} />
-          <Route path='/team' exact component={Team} /> */}
           <Route exact path="/"  component={Home}>
           </Route>
           <Route exact path="/trending"  component={Trending}>

@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import VideoCard from '../VideoCard';
+import './categoryStyles/Trending.scss';
 import db from '../../firebase';
 
 function Trending() {
@@ -16,7 +17,8 @@ function Trending() {
     // this code will fire once when the component load and whenever videos changes
   }, [])
   return (
-    <div>
+    <div className="trending__container">
+      <div className="trending__videos">
         {videos.map(({id, channel, channelImage, image, timestamp, title, views}) => (
           <VideoCard 
             key={id}
@@ -28,6 +30,7 @@ function Trending() {
             views={views + "K" + ' ' + "views"}
           />
         ))}
+      </div>
     </div>
   )
 }

@@ -11,6 +11,7 @@ import VideoCallSharpIcon from '@material-ui/icons/VideoCallSharp';
 import AppsSharpIcon from '@material-ui/icons/AppsSharp';
 import SettingsApplicationsIcon from '@material-ui/icons/SettingsApplications';
 import NotificationsActiveSharpIcon from '@material-ui/icons/NotificationsActiveSharp';
+import WhatshotIcon from '@material-ui/icons/Whatshot';
 import Avatar from "@material-ui/core/Avatar"
 
 const Nav = styled.div`
@@ -62,7 +63,7 @@ const NavIcon = styled(Link)`
 
 const SidebarNav = styled.nav`
   background: #15171c;
-  width: 250px;
+  width: 200px;
   height: 100%;
   display: flex;
   justify-content: center;

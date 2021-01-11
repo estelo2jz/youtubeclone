@@ -3,6 +3,11 @@ import * as FaIcons from 'react-icons/fa';
 import * as AiIcons from 'react-icons/ai';
 import * as IoIcons from 'react-icons/io';
 import * as RiIcons from 'react-icons/ri';
+import * as MdIcons from 'react-icons/md';
+import * as HiIcons from 'react-icons/hi';
+import * as FiIcons from 'react-icons/fi';
+import WatchLaterIcon from '@material-ui/icons/WatchLater';
+import OndemandVideoIcon from '@material-ui/icons/OndemandVideo';
 
 export const SidebarData = [
   {
@@ -28,21 +33,21 @@ export const SidebarData = [
   {
     title: 'Trending',
     path: '/trending',
-    icon: <AiIcons.AiFillHome />,
+    icon: <MdIcons.MdWhatshot />,
     iconClosed: <RiIcons.RiArrowDownSFill />,
     iconOpened: <RiIcons.RiArrowUpSFill />,
   },
   {
     title: 'Subscriptions',
     path: '/subs',
-    icon: <AiIcons.AiFillHome />,
+    icon: <MdIcons.MdSubscriptions />,
     iconClosed: <RiIcons.RiArrowDownSFill />,
     iconOpened: <RiIcons.RiArrowUpSFill />,
   },
   {
     title: 'Library',
     path: '/library',
-    icon: <IoIcons.IoIosPaper />,
+    icon: <MdIcons.MdVideoLibrary />,
     iconClosed: <RiIcons.RiArrowDownSFill />,
     iconOpened: <RiIcons.RiArrowUpSFill />,
 
@@ -69,27 +74,27 @@ export const SidebarData = [
   {
     title: 'History',
     path: '/history',
-    icon: <FaIcons.FaCartPlus />
+    icon: <FaIcons.FaHistory />
   },
   {
     title: 'Your Videos',
     path: '/yourvideos',
-    icon: <IoIcons.IoMdPeople />
+    icon: <OndemandVideoIcon />
   },
   {
     title: 'Watch Later',
     path: '/watchlater',
-    icon: <FaIcons.FaCartPlus />
+    icon: <WatchLaterIcon />
   },
   {
     title: 'Liked Videos',
     path: '/likedvideos',
-    icon: <IoIcons.IoMdPeople />
+    icon: <HiIcons.HiThumbUp />
   },
   {
     title: 'Show More',
     path: '/showmore',
-    icon: <FaIcons.FaEnvelopeOpenText />,
+    icon: <FiIcons.FiMoreVertical />,
 
     iconClosed: <RiIcons.RiArrowDownSFill />,
     iconOpened: <RiIcons.RiArrowUpSFill />,
@@ -98,18 +103,18 @@ export const SidebarData = [
       {
         
         title: 'Save Folder One',
-        path: '/shoemore/save1',
+        path: '/showmore/save1',
         icon: <IoIcons.IoIosPaper />
       },
       {
-        title: 'Save Folder One',
-        path: '/shoemore/save2',
+        title: 'Save Folder Two',
+        path: '/showmore/save2',
         icon: <IoIcons.IoIosPaper />
       },
       {
         
-        title: 'Save Folder One',
-        path: '/shoemore/save1',
+        title: 'Save Folder Three',
+        path: '/showmore/save2',
         icon: <IoIcons.IoIosPaper />
       },
     ]

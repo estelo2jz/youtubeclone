@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import VideoCard from '../VideoCard';
+import './categoryStyles/Subs.scss';
 import db from '../../firebase';
 
 function Subs() {
@@ -16,7 +17,8 @@ function Subs() {
     // this code will fire once when the component load and whenever videos changes
   }, [])
   return (
-    <div>
+    <div className="subs__container">
+      <div className="subs__videos">
         {videos.map(({id, channel, channelImage, image, timestamp, title, views}) => (
           <VideoCard 
             key={id}
@@ -28,6 +30,7 @@ function Subs() {
             views={views + "K" + ' ' + "views"}
           />
         ))}
+      </div>
     </div>
   )
 }
