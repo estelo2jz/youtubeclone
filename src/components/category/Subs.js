@@ -1,65 +1,43 @@
-import React, { useState, useEffect } from 'react';
+import React, {useState} from 'react'
+import { Link } from 'react-router-dom';
 import './categoryStyles/Subs.scss';
-import db from '../../firebase';
+import { SubsData } from './SubsDataContext';
 import Avatar from "@material-ui/core/Avatar"
-
-function SubsCard({ image, title, channel, views, timestamp, channelImage }) {
-  return (
-    <div className="subs-card__container">
-      <div  className="subs-card__thumbnail">
-        <img src={image} alt="" />
-      </div>
-      <div className="subs-card__info">
-      <Avatar 
-        className="subs-card__avatar"
-        alt={channel}
-        src={channelImage}       
-      />
-      <div className="subs-card__text">
-        <h4>{title}</h4>
-        <p>{channel}</p>
-        <p>
-          {views} &middot; {timestamp}
-        </p>
-      </div>
-      </div>
-    </div>
-  )
-}
+import CheckCircleIcon from '@material-ui/icons/CheckCircle';
 
 function Subs() {
-  const [videos, setVideos] = useState([]);
-  // lifecycle method, componentDidUpdate is every single lifestyles method has been replace by useEffect method.
-  useEffect(() => {
-    // this is going to the collection from the Firestore that we created in the database,
-    // and it take a live snapshot of what the collection look like.
-    // and set the videos in our state to the following.
-    db.collection('subscription').onSnapshot(snapshot => (
-      setVideos(snapshot.docs.map((doc) => doc.data()))
-    ))
-    // if you dont include any dependencies in the array[],
-    // this code will fire once when the component load and whenever videos changes
-  }, [])
   return (
     <div className="subs__container">
       <div className="subs_heading">
         <p>Today</p>
       </div>
       <div className="subs__videos">
-        {videos.map(({id, channel, channelImage, image, timestamp, title, views}) => (
-          <SubsCard 
-            key={id}
-            channel={channel}
-            channelImage={channelImage}
-            image={image}
-            timestamp={timestamp + ' ' + "days ago"} 
-            title={title}
-            views={views + "K" + ' ' + "views"}
-          />
-        ))}
+        {SubsData.map((item, index) => {
+          return (
+            <div key={index} className="subs-card__container">
+              <Link to={item.path} >
+                <div className="subs-card__thumbnail">
+                  <img src={item.image}  alt="channel-image" />
+                </div>
+                <div className="subs-card__info">
+                  <p>{item.title}</p> 
+                </div>
+                <div className="subs-card__text">
+                  <span>
+                    <p>{item.channel}</p> 
+                    <p className="subs-card__icon">{item.icon}</p>
+                  </span>
+                  <p>
+                    {item.views + item.maxViews  +' ' + "views"} &middot; {item.timestamp + ' ' + item.filter + ' ' + "ago"}
+                  </p>
+                </div>
+              </Link>
+            </div>
+          );
+        })}
       </div>
     </div>
   )
 }
 
-export default Subs;
+export default Subs

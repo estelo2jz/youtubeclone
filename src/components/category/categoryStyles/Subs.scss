@@ -3,12 +3,16 @@
   // flex: 0.8;
   background-color: #161414;
   padding: 40px 0px;
-  padding-bottom: 0;
+  padding-bottom: 40px;
   height: 100%;
-  p {
-  //  margin-left: 5px;
-   margin-bottom: 20px;
-   color: white;
+  .subs_heading {
+    margin-bottom: 10px;
+    p {
+      margin-left: 45px;
+      font-weight: 700;
+      color: white;
+    }
+    
   }
   .subs__videos {
    display: flex;
@@ -19,13 +23,105 @@
    //  align-content: left;
    // margin: 10px;
    
+   .subs-card__container {
+     max-width: 40%;
+     margin: 2px;
+     width: 210px;
+     height: 226px;
+     background-color: rgb(38, 37, 37);
+     overflow: hidden;
+     a {
+       text-decoration: none;
+      }
+      .subs-card__thumbnail {
+        
+        img {
+          width: 100%;
+          height: 100%;
+          -webkit-box-shadow: 0 8px 6px -6px black;
+          -moz-box-shadow: 0 8px 6px -6px black;
+               box-shadow: 0 8px 6px -6px black;
+        }
+        
+      }
+      .subs-card__info {
+       margin-top: 1px;
+       margin-left: 2px;
+       overflow: hidden;
+       text-overflow: ellipsis;
+       display: -webkit-box;
+       -webkit-line-clamp: 2; /* number of lines to show */
+       -webkit-box-orient: vertical;
+       font-size: 0.8em;
+       height: 37px;
+       width: 100%;
+       color: white;
+      //  background-color: rgb(21, 255, 0);
+   
+     }
+     .subs-card__avatar {
+   
+     }
+     .subs-card__text {
+       display: flex;
+       flex-direction: column;
+      //  justify-content: center;
+      //  align-items: center;
+       text-align: left;
+       font-size: 0.8em;
+       height: 100%;
+       overflow: hidden;
+       margin-left: 2px;
+       width: 100%;
+       color: rgb(165, 162, 162);
+       margin-top: 5px;
+       margin: 0;
+       padding: 0;
+
+      //  text-overflow: ellipsis;
+      //  display: -webkit-box;
+      //  -webkit-line-clamp: 2; /* number of lines to show */
+      //  -webkit-box-orient: vertical;
+       height: 60px;
+      //  background-color: red;
+      p {
+       margin-left: 2px;
+      }
+
+      span {
+        display: flex;
+        justify-content: left;
+        text-align: left;
+        margin-bottom: 10px;
+        //  margin-left: 2px;
+
+        p {
+          color: crimson !important;
+
+        }
+        
+        .subs-card__icon {
+          position: relative;
+          margin-top: 3px;
+          margin-left: 3px;
+          z-index: 20;
+          .MuiSvgIcon-root {
+            font-size: 1em;
+          }
+        }
+      }
+     }
+   }
   }
 }
 
-.subs-card__container {
-  max-width: 40%;
-  margin: 2px;
-  width: 210px;
-  height: 226px;
-  background-color: red;
-}
+@media only screen and (max-width: 300px) {
+  .subs-card__container {
+    .subs-card__info {
+      font-size: 0.5em;
+    }
+    .subs-card__text {
+      font-size: 0.5em;
+    }
+  }
+}  
