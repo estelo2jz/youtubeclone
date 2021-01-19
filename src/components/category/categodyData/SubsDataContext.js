@@ -31,7 +31,7 @@ export const SubsData = [
     channalImage: "https://i.ytimg.com/an_webp/bwQ3H4NWGWY/mqdefault_6s.webp?du=3000&sqp=CNzYm4AG&rs=AOn4CLDkrbF48v1faRKspxJZGPmjlScvOg",
     views: "956",
     timestamp: "1",
-    icon: "",
+    icon: <CheckCircleIcon />,
     filter: "minutes",
     maxViews: "K"
   },

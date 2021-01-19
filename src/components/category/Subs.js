@@ -1,7 +1,7 @@
 import React, {useState} from 'react'
 import { Link } from 'react-router-dom';
 import './categoryStyles/Subs.scss';
-import { SubsData } from './SubsDataContext';
+import { SubsData } from './categodyData/SubsDataContext';
 import Avatar from "@material-ui/core/Avatar"
 import CheckCircleIcon from '@material-ui/icons/CheckCircle';
 
