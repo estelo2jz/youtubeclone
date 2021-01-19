@@ -1,7 +1,31 @@
 import React, { useState, useEffect } from 'react';
-import VideoCard from '../VideoCard';
 import './categoryStyles/Subs.scss';
 import db from '../../firebase';
+import Avatar from "@material-ui/core/Avatar"
+
+function SubsCard({ image, title, channel, views, timestamp, channelImage }) {
+  return (
+    <div className="subs-card__container">
+      <div  className="subs-card__thumbnail">
+        <img src={image} alt="" />
+      </div>
+      <div className="subs-card__info">
+      <Avatar 
+        className="subs-card__avatar"
+        alt={channel}
+        src={channelImage}       
+      />
+      <div className="subs-card__text">
+        <h4>{title}</h4>
+        <p>{channel}</p>
+        <p>
+          {views} &middot; {timestamp}
+        </p>
+      </div>
+      </div>
+    </div>
+  )
+}
 
 function Subs() {
   const [videos, setVideos] = useState([]);
@@ -18,9 +42,12 @@ function Subs() {
   }, [])
   return (
     <div className="subs__container">
+      <div className="subs_heading">
+        <p>Today</p>
+      </div>
       <div className="subs__videos">
         {videos.map(({id, channel, channelImage, image, timestamp, title, views}) => (
-          <VideoCard 
+          <SubsCard 
             key={id}
             channel={channel}
             channelImage={channelImage}

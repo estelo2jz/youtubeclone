@@ -1,21 +1,31 @@
 .subs__container {
   /* 80% */
-  flex: 0.8;
+  // flex: 0.8;
   background-color: #161414;
-  padding: 40px 20px;
+  padding: 40px 0px;
   padding-bottom: 0;
   height: 100%;
-  h2 {
-   margin-left: 5px;
+  p {
+  //  margin-left: 5px;
    margin-bottom: 20px;
+   color: white;
   }
   .subs__videos {
    display: flex;
    flex-wrap: wrap;
    justify-content: center;
    width: 100%;
-  //  align-content: left;
-  // margin: 10px;
+   padding-bottom: 40px;
+   //  align-content: left;
+   // margin: 10px;
+   
+  }
+}
 
- }
+.subs-card__container {
+  max-width: 40%;
+  margin: 2px;
+  width: 210px;
+  height: 226px;
+  background-color: red;
 }

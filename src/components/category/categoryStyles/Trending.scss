@@ -2,12 +2,29 @@
   /* 80% */
   flex: 0.8;
   background-color: #161414;
-  padding: 40px 20px;
+  padding: 40px 0px;
   padding-bottom: 0;
   height: 100%;
-  h2 {
-   margin-left: 5px;
-   margin-bottom: 20px;
+  .trending__category-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 40px;
+    .trending__category {
+      margin: 0px 10px;
+      text-align: center;
+      cursor: pointer;
+      img {
+        border-radius: 50%;
+        width: 70px;
+      }
+      p {
+        color: rgb(170, 169, 169);
+        font-weight: bold;
+        font-size: 0.7em;
+      }
+    }
   }
   .trending__videos {
    display: flex;

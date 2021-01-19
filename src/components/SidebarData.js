@@ -79,12 +79,12 @@ export const SidebarData = [
   {
     title: 'Your Videos',
     path: '/yourvideos',
-    icon: <OndemandVideoIcon />
+    icon: <MdIcons.MdVideoLibrary />
   },
   {
     title: 'Watch Later',
     path: '/watchlater',
-    icon: <WatchLaterIcon />
+    icon: <MdIcons.MdSubscriptions />
   },
   {
     title: 'Liked Videos',

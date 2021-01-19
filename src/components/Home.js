@@ -1,4 +1,5 @@
 import React from 'react';
+import '../styles/Home.scss';
 import Recommended from './RecommendedVideos';
 import PopularTopic from './PopularTopic';
 
