@@ -1,19 +1,29 @@
 .history__container {
   /* 80% */
-  flex: 0.8;
+  display: flex;
+  flex-wrap: wrap;
   background-color: #161414;
   padding: 40px 20px;
-  padding-bottom: 0;
+  justify-content: center;
   height: 100%;
   h2 {
-   margin-left: 5px;
-   margin-bottom: 20px;
+    margin-left: 5px;
+    margin-bottom: 20px;
   }
+  
+  .history__right-container {
+    background-color: rgb(88, 82, 82);
+    width: 300px;
+    height: 100vh;
+  }
+  
   .history__videos {
-   display: flex;
-   flex-wrap: wrap;
-   justify-content: center;
-   width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    //  justify-content: center;
+    width: 100%;
+    padding-bottom: 20px;
+    background-color: rgb(29, 29, 29);
   //  align-content: left;
   // margin: 10px;
 
