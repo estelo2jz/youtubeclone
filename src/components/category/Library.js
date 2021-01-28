@@ -25,6 +25,26 @@ function Library() {
   }, [])
   return (
     <div className="library__container">
+      <div className="library__avatar-info">
+        <div className="library__image">
+          <img src="https://yt3.ggpht.com/yti/ANoDKi7NAE9_TOC4q-pl7Ub37nT6gHK4_bxPu81jTQ=s160-c-k-c0x00ffffff-no-rj" alt="avatar" />
+          <span>Estelo Abellanosa</span>
+        </div>
+        <div className="library__ul">
+          <ul>
+            <li>Subscriptions</li>
+            <li>336</li>
+          </ul>
+          <ul>
+            <li>Uploads</li>
+            <li>7</li>
+          </ul>
+          <ul>
+            <li>Likes</li>
+            <li>1,003</li>
+          </ul>
+        </div>
+      </div>
       <div className="library__history-container">
         <div className="library__heading">
           <span>
@@ -82,23 +102,23 @@ function Library() {
             </div>
           </div>
         </div>
-
-        {/* <div>
-          <div className="subs__videos">
+      </div>
+      <div className="library__video-container">
+        <div className="library__videos">
           {LibraryData.map((item, index) => {
             return (
-              <div key={index} className="subs-card__container">
+              <div key={index} className="library-card__container">
                 <Link to={item.path} >
-                  <div className="subs-card__thumbnail">
+                  <div className="library-card__thumbnail">
                     <img src={item.image}  alt="channel-image" />
                   </div>
-                  <div className="subs-card__info">
+                  <div className="library-card__info">
                     <p>{item.title}</p> 
                   </div>
-                  <div className="subs-card__text">
+                  <div className="library-card__text">
                     <span>
                       <p>{item.channel}</p> 
-                      <p className="subs-card__icon">{item.icon}</p>
+                      <p className="library-card__icon">{item.icon}</p>
                     </span>
                     <p>
                       {item.views + item.maxViews  +' ' + "views"} &middot; {item.timestamp + ' ' + item.filter + ' ' + "ago"}
@@ -108,27 +128,6 @@ function Library() {
               </div>
             );
           })}
-          </div>
-        </div> */}
-      </div>
-      <div className="library__avatar-info">
-        <div className="library__image">
-          <img src="https://yt3.ggpht.com/yti/ANoDKi7NAE9_TOC4q-pl7Ub37nT6gHK4_bxPu81jTQ=s160-c-k-c0x00ffffff-no-rj" alt="avatar" />
-          <span>Estelo Abellanosa</span>
-        </div>
-        <div className="library__ul">
-          <ul>
-            <li>Subscriptions</li>
-            <li>336</li>
-          </ul>
-          <ul>
-            <li>Uploads</li>
-            <li>7</li>
-          </ul>
-          <ul>
-            <li>Likes</li>
-            <li>1,003</li>
-          </ul>
         </div>
       </div>
       {/* <div className="library__videos">

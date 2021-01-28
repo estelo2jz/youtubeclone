@@ -122,6 +122,86 @@ function RecommendedVideos() {
           image="https://miro.medium.com/max/5760/1*rbSRs0yGxTcOGRdsUFtVxg.png"        
         />
 
+        <VideoCard
+            title="Title"
+            views="210K Views"
+            timestamp="6 days ago"
+            channelImage=""
+            channel="Channel Name"
+            image=""        
+          />
+        <VideoCard
+            title="Title"
+            views="210K Views"
+            timestamp="6 days ago"
+            channelImage=""
+            channel="Channel Name"
+            image=""        
+          />
+        <VideoCard
+            title="Title"
+            views="210K Views"
+            timestamp="6 days ago"
+            channelImage=""
+            channel="Channel Name"
+            image=""        
+          />
+        <VideoCard
+            title="Title"
+            views="210K Views"
+            timestamp="6 days ago"
+            channelImage=""
+            channel="Channel Name"
+            image=""        
+          />
+        <VideoCard
+            title="Title"
+            views="210K Views"
+            timestamp="6 days ago"
+            channelImage=""
+            channel="Channel Name"
+            image=""        
+          />
+        <VideoCard
+            title="Title"
+            views="210K Views"
+            timestamp="6 days ago"
+            channelImage=""
+            channel="Channel Name"
+            image=""        
+          />
+        <VideoCard
+            title="Title"
+            views="210K Views"
+            timestamp="6 days ago"
+            channelImage=""
+            channel="Channel Name"
+            image=""        
+          />
+        <VideoCard
+            title="Title"
+            views="210K Views"
+            timestamp="6 days ago"
+            channelImage=""
+            channel="Channel Name"
+            image=""        
+          />
+        <VideoCard
+            title="Title"
+            views="210K Views"
+            timestamp="6 days ago"
+            channelImage=""
+            channel="Channel Name"
+            image=""        
+          />
+        <VideoCard
+            title="Title"
+            views="210K Views"
+            timestamp="6 days ago"
+            channelImage=""
+            channel="Channel Name"
+            image=""        
+        />     
       </div>
     </div>
   )
