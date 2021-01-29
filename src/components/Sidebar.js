@@ -16,7 +16,7 @@ import Avatar from "@material-ui/core/Avatar"
 
 const Nav = styled.div`
   background: #15171c;
-  height: 60px;
+  height: 100%;
   width: 100%;
   display: flex;
   justify-content: flex-start;
@@ -41,7 +41,7 @@ const NavIcon = styled(Link)`
   margin-left: 2rem;
   margin-top: -10px;
   font-size: 2rem;
-  height: 80px;
+  height: 70px;
   display: flex;
   justify-content: flex-start;
   align-items: center;
@@ -63,7 +63,7 @@ const NavIcon = styled(Link)`
 
 const SidebarNav = styled.nav`
   background: #15171c;
-  width: 200px;
+  width: 180px;
   height: 100%;
   display: flex;
   justify-content: center;

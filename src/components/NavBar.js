@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import '../styles/Nav.scss';
 
 function NavBar(e) {
@@ -7,45 +8,45 @@ function NavBar(e) {
   return (
     <div>
       <div id="navbar">
-        <a href="#" class="menu-bars" id="show-menu">
+        <Link href="#" class="menu-bars" id="show-menu">
           <i class="fas fa-bars">bars</i>
-        </a>
+        </Link>
       </div>
       <nav id="nav-menu">
         <ul class="nav-menu-items">
           <div id="navbar-toggle">
-            <a href="#" class="menu-bars" id="hide-menu">
+            <Link href="#" class="menu-bars" id="hide-menu">
               <i class="fas fa-bars nav-icon"></i>
-            </a>
-            <a href="#">
+            </Link>
+            <Link href="#">
               <h1>
                 <i class="fab fa-youtube" id="youtube-logo"></i>
                 YouTube
               </h1>
-            </a>
+            </Link>
           </div>
           <hr />
           <div class="nav-section">
             <li class="nav-text">
-              <a href="#"><i class="fas fa-home nav-icon"></i>Home</a>
+              <Link href="#"><i class="fas fa-home nav-icon"></i>Home</Link>
             </li>
             <li class="nav-text">
-              <a href="#"><i class="fas fa-fire nav-icon"></i>Trending</a>
+              <Link href="#"><i class="fas fa-fire nav-icon"></i>Trending</Link>
             </li>
             <li class="nav-text">
-              <a href="#"><i class="fab fa-youtube nav-icon"></i>Subscriptions</a>
+              <Link href="#"><i class="fab fa-youtube nav-icon"></i>Subscriptions</Link>
             </li>
           </div>
           <hr />
           <div class="nav-section">
             <li class="nav-text">
-              <a href="#"><i class="fas fa-play-circle nav-icon"></i>Library</a>
+              <Link href="#"><i class="fas fa-play-circle nav-icon"></i>Library</Link>
             </li>
             <li class="nav-text">
-              <a href="#"><i class="fas fa-history nav-icon"></i>History</a>
+              <Link href="#"><i class="fas fa-history nav-icon"></i>History</Link>
             </li>
             <li class="nav-text">
-              <a href="#"><i class="fas fa-clock nav-icon"></i>Watch Later</a>
+              <Link href="#"><i class="fas fa-clock nav-icon"></i>Watch Later</Link>
             </li>
           </div>
         </ul>

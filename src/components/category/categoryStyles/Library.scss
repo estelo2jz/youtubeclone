@@ -5,8 +5,9 @@
   padding-bottom: 0;
   height: 100%;
   display: flex;
+  overflow: hidden;
   flex-wrap: wrap;
-  justify-content: space-between;
+  // justify-content: space-between;
   justify-content: center;
   .library__history-container {
     // background-color: rgb(34, 34, 34);
@@ -41,7 +42,7 @@
       .library__recent-subs {
         // background-color: rgb(56, 55, 55);
         // width: 50%;
-        height: 400px;
+        height: 100%;
         .library__subs {
           background-color: rgb(255, 255, 255);
           padding: 10px 0px;
@@ -153,7 +154,7 @@
             // width: 45px;
             // height: 100%;
             width: 90px;
-            height: 150px;
+            height: 120px;
             span {
               color: rgb(22, 243, 107);
               background-size: 100% 100%;
@@ -222,10 +223,12 @@
       align-items: center;
       img {
         border-radius: 50%;
-        width: 80px;
+        width: 70px;
       }
       span {
         color: white;
+        padding-top: 10px;
+        font-size: 0.8em;
       }
     }
     .library__ul {
@@ -244,6 +247,8 @@
         margin: 0;
         li {
           list-style: none;
+          padding: 0px 3px;
+          font-size: 0.8em;
 
         }
       }
@@ -269,13 +274,13 @@
     }
   }
   .library__video-container {
-    padding: 20px 0px;
+    padding: 20px 10px;
     width: 100%;
     height: 100%;
-    background-color: red;
+    // background-color: red;
     .library__videos {
       display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));    
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));    
       justify-content: center;
       align-items: center;
       align-content: center;
@@ -286,14 +291,22 @@
       height: 100%;
       display: grid;
       flex-direction: column;
-      grid-gap: 5px;
+      grid-gap: 10px;
       overflow: hidden;
-    
+      
     }
     .library-card__container {
+      background-color: rgb(39, 39, 39);
+      width: 100%;
+      height: 100%;
+      overflow: hidden;
+      margin: 10px 0px;
       .library-card__thumbnail {
+        overflow: hidden;
+        width: 100%;
         .library-card__channel-image {
           .library-card__info {
+            width: 100%;
 
           }
           .library-card__text {
