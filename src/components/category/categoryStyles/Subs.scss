@@ -1,11 +1,14 @@
 .subs__container {
   /* 80% */
   // flex: 0.8;
+  display: flex;
+  flex-direction: column;
   width: 100%;
   background-color: #161414;
   padding: 40px 0px;
   padding-bottom: 40px;
   height: 100%;
+  overflow: hidden;
   .subs_heading {
     margin-bottom: 10px;
     p {
@@ -15,127 +18,130 @@
     }
     
   }
-  .subs__videos {
-  //  display: flex;
-  //  flex-wrap: wrap;
-  //  justify-content: center;
-  //  width: 100%;
-  //  padding-bottom: 40px;
-   //  align-content: left;
-   // margin: 10px;
-    // margin: 0px 2px;
-
-
-   display: grid;
-   grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));    
-   justify-content: center;
-   align-items: center;
-   align-content: center;
-   width: 100%;
-   height: 100%;
-   // padding: 5px;
-   // margin: 2px;
-   height: 100%;
-   display: grid;
-   flex-direction: column;
-   grid-gap: 3px;
-   
-   .subs-card__container {
-    //  max-width: 40%;
-    //  margin: 2px;
-     width: 100%;
-    //  height: 226px;
-     background-color: rgb(38, 37, 37);
-     overflow: hidden;
-     a {
-       text-decoration: none;
-      }
-      .subs-card__thumbnail {
-        height: 130px;
-        width: 100%;
-        
-        img {
-          width: 100%;
-          height: 100%;
-          background-size: cover;
-          background-position: center;
-          -webkit-box-shadow: 0 8px 6px -6px black;
-          -moz-box-shadow: 0 8px 6px -6px black;
-               box-shadow: 0 8px 6px -6px black;
-        }
-        
-      }
-      .subs-card__info {
-       margin-top: 1px;
-       margin: 0px 2px;
-       overflow: hidden;
-       text-overflow: ellipsis;
-       display: -webkit-box;
-       -webkit-line-clamp: 2; /* number of lines to show */
-       -webkit-box-orient: vertical;
-       font-size: 0.7em;
-       height: 33px;
-       width: 100%;
-       color: white;
-       font-weight: 600;
-      //  background-color: rgb(21, 255, 0);
-   
-     }
-     .subs-card__avatar {
-   
-     }
-     .subs-card__text {
-       display: flex;
-       flex-direction: column;
-      //  justify-content: center;
-      //  align-items: center;
-       text-align: left;
-       font-size: 0.8em;
-       height: 100%;
-       overflow: hidden;
-       margin-left: 2px;
-       width: 100%;
-       color: rgb(165, 162, 162);
-       margin-top: 5px;
-       margin: 0;
-       padding: 0;
-
-      //  text-overflow: ellipsis;
-      //  display: -webkit-box;
-      //  -webkit-line-clamp: 2; /* number of lines to show */
-      //  -webkit-box-orient: vertical;
-       height: 60px;
-      //  background-color: red;
-      p {
-       margin-left: 2px;
-      }
-
-      span {
+  .sub-video__container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    // padding: 20px 10px;
+    width: 100%;
+    height: 100%;
+    .subs__videos {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));    
+      justify-content: center;
+      align-items: center;
+      width: 100%;
+      height: 100%;
+      // padding: 0px 5px;
+      // margin: 2px;
+      height: 100%;
+      grid-gap: 5px;
+      overflow: hidden;
+      
+      .subs-card__container {
         display: flex;
-        justify-content: left;
-        text-align: left;
-        margin-bottom: 10px;
-        //  margin-left: 2px;
-
-        p {
-          color: crimson !important;
-
+        flex-direction: column;
+        //  max-width: 40%;
+        //  margin: 2px;
+        width: 100%;
+        height: 300px;
+        //  height: 226px;
+        background-color: rgb(38, 37, 37);
+        overflow: hidden;
+        a {
+          text-decoration: none;
         }
-        
-        .subs-card__icon {
-          position: relative;
-          margin-top: 2px;
-          margin-left: 3px;
-          margin-right: 3px;
-          color: rgb(158, 158, 158) !important;
-          // z-index: 20;
-          .MuiSvgIcon-root {
-            font-size: 1em;
+        .subs-card__thumbnail {
+          height: 200px;
+          width: 100%;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          
+          img {
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center;
+            width: 100%;
+            // height: 100%;
+            -webkit-box-shadow: 0 8px 6px -6px black;
+            -moz-box-shadow: 0 8px 6px -6px black;
+            box-shadow: 0 8px 6px -6px black;
+          }
+          
+        }
+        .subs-card__info {
+          margin-top: 1px;
+          margin: 0px 2px;
+          overflow: hidden;
+          text-overflow: ellipsis;
+         display: -webkit-box;
+         -webkit-line-clamp: 2; /* number of lines to show */
+         -webkit-box-orient: vertical;
+         font-size: 0.8em;
+         height: 33px;
+         width: 100%;
+         color: white;
+         font-weight: 600;
+        //  background-color: rgb(21, 255, 0);
+     
+       }
+       .subs-card__avatar {
+     
+       }
+       .subs-card__text {
+         display: flex;
+         flex-direction: column;
+        //  justify-content: center;
+        //  align-items: center;
+         text-align: left;
+         font-size: 0.8em;
+         height: 100%;
+         overflow: hidden;
+         margin-left: 2px;
+         width: 100%;
+         color: rgb(165, 162, 162);
+         margin-top: 5px;
+         margin: 0;
+         padding: 0;
+  
+        //  text-overflow: ellipsis;
+        //  display: -webkit-box;
+        //  -webkit-line-clamp: 2; /* number of lines to show */
+        //  -webkit-box-orient: vertical;
+         height: 60px;
+        //  background-color: red;
+        p {
+         margin-left: 2px;
+        }
+  
+        span {
+          display: flex;
+          justify-content: left;
+          text-align: left;
+          margin-bottom: 10px;
+          //  margin-left: 2px;
+  
+          p {
+            color: crimson !important;
+  
+          }
+          
+          .subs-card__icon {
+            position: relative;
+            margin-top: 2px;
+            margin-left: 3px;
+            margin-right: 3px;
+            color: rgb(158, 158, 158) !important;
+            // z-index: 20;
+            .MuiSvgIcon-root {
+              font-size: 1em;
+            }
           }
         }
-      }
+       }
      }
-   }
+    }
   }
 }
 

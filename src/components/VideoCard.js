@@ -14,17 +14,17 @@ function VideoCard({ image, title, channel, views, timestamp, channelImage }) {
         <img src={image} alt="" />
       </div>
       <div className="videoCard__info">
+          {/* {videos.map(({image, title, channel, views, timestamp, channelImage}) => (
+            <div></div>
 
-      {/* {videos.map(({image, title, channel, views, timestamp, channelImage}) => (
-        <div></div>
-
-      ))} */}
-        <Avatar 
-          className="videoCard__avatar"
-          alt={channel}
-          src={channelImage}       
-        />
-        
+          ))} */}
+        <div>
+          <Avatar 
+            className="videoCard__avatar"
+            alt={channel}
+            src={channelImage}       
+          />
+        </div>
         <div className="videoCard__text">
           <h4>{title}</h4>
           <p>{channel}</p>
@@ -32,7 +32,6 @@ function VideoCard({ image, title, channel, views, timestamp, channelImage }) {
             {views} &middot; {timestamp}
           </p>
         </div>
-      
       </div>
     </div>
   )

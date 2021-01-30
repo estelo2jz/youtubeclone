@@ -25,84 +25,81 @@ function Library() {
   }, [])
   return (
     <div className="library__container">
-      <div className="library__avatar-info">
-        <div className="library__image">
-          <img src="https://yt3.ggpht.com/yti/ANoDKi7NAE9_TOC4q-pl7Ub37nT6gHK4_bxPu81jTQ=s160-c-k-c0x00ffffff-no-rj" alt="avatar" />
-          <span>Estelo Abellanosa</span>
-        </div>
-        <div className="library__ul">
-          <ul>
-            <li>Subscriptions</li>
-            <li>336</li>
-          </ul>
-          <ul>
-            <li>Uploads</li>
-            <li>7</li>
-          </ul>
-          <ul>
-            <li>Likes</li>
-            <li>1,003</li>
-          </ul>
-        </div>
-      </div>
-      <div className="library__history-container">
-        <div className="library__heading">
-          <span>
-            <FaIcons.FaHistory />
-          </span>
-          <p>History</p>
-        </div>
-        <div className="library__recent-container">
-          <div className="library__recent-subs">
-            <div className="library__subs">
-              <p>Recent Subscriptions</p>
+      {/* <div className="library__flex-container">
+        
+      </div> */}
+        <div className="library__profile">
+          <div className="library__avatar-info">
+            <div className="library__image">
+              <img src="https://yt3.ggpht.com/yti/ANoDKi7NAE9_TOC4q-pl7Ub37nT6gHK4_bxPu81jTQ=s160-c-k-c0x00ffffff-no-rj" alt="avatar" />
+              <span>Estelo Abellanosa</span>
             </div>
-            <div className="library__subs-children">
-              <div className="library__subs-child"><span><PlayArrowIcon /></span></div>
-              <div className="library__subs-child"><span><PlayArrowIcon /></span></div>
-              <div className="library__subs-child"><span><PlayArrowIcon /></span></div>
-              <div className="library__subs-child"><span><PlayArrowIcon /></span></div>
-              <div className="library__subs-child"><span><PlayArrowIcon /></span></div>
-              <div className="library__subs-child"><span><PlayArrowIcon /></span></div>
-              <div className="library__subs-child"><span><PlayArrowIcon /></span></div>
-              <div className="library__subs-child"><span><PlayArrowIcon /></span></div>
-              <div className="library__subs-child"><span><PlayArrowIcon /></span></div>
-            </div>
-          </div>
-          <div className="library__recent-uploads">
-            <div className="library__uploads">
-              <p>Recent Uploads</p>
-            </div>
-            <div className="library__uploads-children">
-              <div className="library__uploads-child"><span><PublishIcon /></span></div>
-              <div className="library__uploads-child"><span><PublishIcon /></span></div>
-              <div className="library__uploads-child"><span><PublishIcon /></span></div>
-              <div className="library__uploads-child"><span><PublishIcon /></span></div>
-              <div className="library__uploads-child"><span><PublishIcon /></span></div>
-              <div className="library__uploads-child"><span><PublishIcon /></span></div>
-              <div className="library__uploads-child"><span><PublishIcon /></span></div>
-              <div className="library__uploads-child"><span><PublishIcon /></span></div>
-              <div className="library__uploads-child"><span><PublishIcon /></span></div>
-            </div>
-          </div>
-          <div className="library__recent-likes">
-            <div className="library__likes">
-              <p>Recent Likes</p>
-            </div>
-            <div className="library__likes-children">
-              <div className="library__likes-child"><span><ThumbsUpDownIcon /></span></div>
-              <div className="library__likes-child"><span><ThumbsUpDownIcon /></span></div>
-              <div className="library__likes-child"><span><ThumbsUpDownIcon /></span></div>
-              <div className="library__likes-child"><span><ThumbsUpDownIcon /></span></div>
-              <div className="library__likes-child"><span><ThumbsUpDownIcon /></span></div>
-              <div className="library__likes-child"><span><ThumbsUpDownIcon /></span></div>
-              <div className="library__likes-child"><span><ThumbsUpDownIcon /></span></div>
-              <div className="library__likes-child"><span><ThumbsUpDownIcon /></span></div>
-              <div className="library__likes-child"><span><ThumbsUpDownIcon /></span></div>
+            <div className="library__ul">
+              <ul>
+                <li>Subscriptions</li>
+                <li>336</li>
+              </ul>
+              <ul>
+                <li>Uploads</li>
+                <li>7</li>
+              </ul>
+              <ul>
+                <li>Likes</li>
+                <li>1,003</li>
+              </ul>
             </div>
           </div>
         </div>
-      </div>
+
+        <div className="library__history-container">
+          <div className="library__heading">
+            <span>
+              <FaIcons.FaHistory />
+            </span>
+            <p>History</p>
+          </div>
+          <div className="library__recent-container">
+            <div className="library__recent-subs">
+              <div className="library__subs">
+                <p>Recent Subscriptions</p>
+              </div>
+              <div className="library__subs-children">
+                <div className="library__subs-child"><span></span></div>
+                <div className="library__subs-child"><span></span></div>
+                <div className="library__subs-child"><span></span></div>
+                <div className="library__subs-child"><span></span></div>
+                <div className="library__subs-child"><span></span></div>
+                <div className="library__subs-child"><span></span></div>
+              </div>
+            </div>
+            <div className="library__recent-uploads">
+              <div className="library__uploads">
+                <p>Recent Uploads</p>
+              </div>
+              <div className="library__uploads-children">
+                <div className="library__uploads-child"><span></span></div>
+                <div className="library__uploads-child"><span></span></div>
+                <div className="library__uploads-child"><span></span></div>
+                <div className="library__uploads-child"><span></span></div>
+                <div className="library__uploads-child"><span></span></div>
+                <div className="library__uploads-child"><span></span></div>
+              </div>
+            </div>
+            <div className="library__recent-likes">
+              <div className="library__likes">
+                <p>Recent Likes</p>
+              </div>
+              <div className="library__likes-children">
+                <div className="library__likes-child"><span></span></div>
+                <div className="library__likes-child"><span></span></div>
+                <div className="library__likes-child"><span></span></div>
+                <div className="library__likes-child"><span></span></div>
+                <div className="library__likes-child"><span></span></div>
+                <div className="library__likes-child"><span></span></div>
+              </div>
+            </div>
+          </div>
+        </div>
       <div className="library__video-container">
         <div className="library__videos">
           {LibraryData.map((item, index) => {
@@ -113,13 +110,15 @@ function Library() {
                     <img src={item.image}  alt="channel-image" />
                   </div>
                   <div className="library-card__info">
-                    <p>{item.title}</p> 
+                    <div>
+                      <p>{item.title}</p> 
+                    </div>
                   </div>
                   <div className="library-card__text">
-                    <span>
+                    <div className="library-card__channel-icon">
                       <p>{item.channel}</p> 
                       <p className="library-card__icon">{item.icon}</p>
-                    </span>
+                    </div>
                     <p>
                       {item.views + item.maxViews  +' ' + "views"} &middot; {item.timestamp + ' ' + item.filter + ' ' + "ago"}
                     </p>
