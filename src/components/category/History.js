@@ -9,7 +9,6 @@ import DeleteIcon from '@material-ui/icons/Delete';
 import PauseCircleOutlineIcon from '@material-ui/icons/PauseCircleOutline';
 import SettingsIcon from '@material-ui/icons/Settings';
 
-
 function HistoryCard() {
   return (
     <div>

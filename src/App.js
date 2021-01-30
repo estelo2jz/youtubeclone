@@ -24,10 +24,10 @@ function App() {
       <Router>
         <Sidebar />
         <Switch>
-          <Route path='/reports' exact component={Reports} />
-          <Route path='/reports/reports1' exact component={ReportsOne} />
-          <Route path='/reports/reports2' exact component={ReportsTwo} />
-          <Route path='/reports/reports3' exact component={ReportsThree} />
+          <Route path='/showmore' exact component={Reports} />
+          <Route path='/showmore/save1' exact component={ReportsOne} />
+          <Route path='/showmore/save2' exact component={ReportsTwo} />
+          <Route path='/showmore/save3' exact component={ReportsThree} />
           <Route exact path="/"  component={Home}>
           </Route>
           <Route exact path="/trending"  component={Trending}>

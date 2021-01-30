@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react';
 import VideoCard from '../VideoCard';
 import './categoryStyles/WatchVideos.scss';
 import db from '../../firebase';
+import ComingSoon from '../ComingSoon';
 
 function WatchLater() {
   const [videos, setVideos] = useState([]);
@@ -19,7 +20,8 @@ function WatchLater() {
   return (
     <div className="watch-videos__container">
       <div className="watch-videos__videos">
-        {videos.map(({ id, channel, channelImage, image, timestamp, title, views }) => (
+        <ComingSoon />
+        {/* {videos.map(({ id, channel, channelImage, image, timestamp, title, views }) => (
           <VideoCard
             key={id}
             channel={channel}
@@ -29,7 +31,7 @@ function WatchLater() {
             title={title}
             views={views + "K" + ' ' + "views"}
           />
-        ))}
+        ))} */}
       </div>
     </div>
   )

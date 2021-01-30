@@ -102,19 +102,19 @@ export const SidebarData = [
     subNav: [
       {
         
-        title: 'Save Folder One',
+        title: 'music',
         path: '/showmore/save1',
         icon: <IoIcons.IoIosPaper />
       },
       {
-        title: 'Save Folder Two',
+        title: 'codes',
         path: '/showmore/save2',
         icon: <IoIcons.IoIosPaper />
       },
       {
         
-        title: 'Save Folder Three',
-        path: '/showmore/save2',
+        title: 'anime',
+        path: '/showmore/save3',
         icon: <IoIcons.IoIosPaper />
       },
     ]

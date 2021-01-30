@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react';
 import VideoCard from '../VideoCard';
 import './categoryStyles/LikedVideos.scss';
 import db from '../../firebase';
+import ComingSoon from '../ComingSoon';
 
 function LikedVideos() {
   const [videos, setVideos] = useState([]);
@@ -19,7 +20,8 @@ function LikedVideos() {
   return (
     <div className="liked-videos__container">
       <div className="liked-videos__videos">
-        {videos.map(({ id, channel, channelImage, image, timestamp, title, views }) => (
+        <ComingSoon />
+        {/* {videos.map(({ id, channel, channelImage, image, timestamp, title, views }) => (
           <VideoCard
             key={id}
             channel={channel}
@@ -29,7 +31,7 @@ function LikedVideos() {
             title={title}
             views={views + "K" + ' ' + "views"}
           />
-        ))}
+        ))} */}
       </div>
     </div>
   )
