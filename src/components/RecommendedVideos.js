@@ -202,6 +202,166 @@ function RecommendedVideos() {
             channel="Channel Name"
             image=""        
         />     
+                <VideoCard
+            title="Title"
+            views="210K Views"
+            timestamp="6 days ago"
+            channelImage=""
+            channel="Channel Name"
+            image=""        
+          />
+        <VideoCard
+            title="Title"
+            views="210K Views"
+            timestamp="6 days ago"
+            channelImage=""
+            channel="Channel Name"
+            image=""        
+          />
+        <VideoCard
+            title="Title"
+            views="210K Views"
+            timestamp="6 days ago"
+            channelImage=""
+            channel="Channel Name"
+            image=""        
+          />
+        <VideoCard
+            title="Title"
+            views="210K Views"
+            timestamp="6 days ago"
+            channelImage=""
+            channel="Channel Name"
+            image=""        
+          />
+        <VideoCard
+            title="Title"
+            views="210K Views"
+            timestamp="6 days ago"
+            channelImage=""
+            channel="Channel Name"
+            image=""        
+          />
+        <VideoCard
+            title="Title"
+            views="210K Views"
+            timestamp="6 days ago"
+            channelImage=""
+            channel="Channel Name"
+            image=""        
+          />
+        <VideoCard
+            title="Title"
+            views="210K Views"
+            timestamp="6 days ago"
+            channelImage=""
+            channel="Channel Name"
+            image=""        
+          />
+        <VideoCard
+            title="Title"
+            views="210K Views"
+            timestamp="6 days ago"
+            channelImage=""
+            channel="Channel Name"
+            image=""        
+          />
+        <VideoCard
+            title="Title"
+            views="210K Views"
+            timestamp="6 days ago"
+            channelImage=""
+            channel="Channel Name"
+            image=""        
+          />
+        <VideoCard
+            title="Title"
+            views="210K Views"
+            timestamp="6 days ago"
+            channelImage=""
+            channel="Channel Name"
+            image=""        
+        />     
+                <VideoCard
+            title="Title"
+            views="210K Views"
+            timestamp="6 days ago"
+            channelImage=""
+            channel="Channel Name"
+            image=""        
+          />
+        <VideoCard
+            title="Title"
+            views="210K Views"
+            timestamp="6 days ago"
+            channelImage=""
+            channel="Channel Name"
+            image=""        
+          />
+        <VideoCard
+            title="Title"
+            views="210K Views"
+            timestamp="6 days ago"
+            channelImage=""
+            channel="Channel Name"
+            image=""        
+          />
+        <VideoCard
+            title="Title"
+            views="210K Views"
+            timestamp="6 days ago"
+            channelImage=""
+            channel="Channel Name"
+            image=""        
+          />
+        <VideoCard
+            title="Title"
+            views="210K Views"
+            timestamp="6 days ago"
+            channelImage=""
+            channel="Channel Name"
+            image=""        
+          />
+        <VideoCard
+            title="Title"
+            views="210K Views"
+            timestamp="6 days ago"
+            channelImage=""
+            channel="Channel Name"
+            image=""        
+          />
+        <VideoCard
+            title="Title"
+            views="210K Views"
+            timestamp="6 days ago"
+            channelImage=""
+            channel="Channel Name"
+            image=""        
+          />
+        <VideoCard
+            title="Title"
+            views="210K Views"
+            timestamp="6 days ago"
+            channelImage=""
+            channel="Channel Name"
+            image=""        
+          />
+        <VideoCard
+            title="Title"
+            views="210K Views"
+            timestamp="6 days ago"
+            channelImage=""
+            channel="Channel Name"
+            image=""        
+          />
+        <VideoCard
+            title="Title"
+            views="210K Views"
+            timestamp="6 days ago"
+            channelImage=""
+            channel="Channel Name"
+            image=""        
+        />     
       </div>
     </div>
   )
