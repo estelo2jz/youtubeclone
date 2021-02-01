@@ -1,7 +1,14 @@
+.videoCard__container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
 .videoCard {
   // width: 250px;
   // margin: 2px;
   height: 100%;
+  width: 100%;
   /* max-width: 50%; */
   background: #161414;
   cursor: pointer;

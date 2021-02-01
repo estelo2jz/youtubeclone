@@ -41,31 +41,34 @@ function History() {
             <p>Watch history</p>
             <p>Today</p>
         </div>
-        <div className="history__videos">
-          {HistoryData.map((item, index) => {
-            return (
-              <div key={index} className="history-card__container">
-                <Link to={item.path} >
-                  <div className="history-card__thumbnail">
-                    <img src={item.image}  alt="channel-image" />
-                  </div>
-                  <div className="history-card__info">
-                    <p>{item.title}</p> 
-                  </div>
-                  <div className="history-card__text">
-                    <span>
-                      <p>{item.channel}</p> 
-                      <p className="history-card__icon">{item.icon}</p>
-                    </span>
-                    <p>
-                      {item.views + item.maxViews  +' ' + "views"} &middot; {item.timestamp + ' ' + item.filter + ' ' + "ago"}
-                    </p>
-                  </div>
-                </Link>
-              </div>
-            );
-          })}
+        <div className="history__videos-container">
+          <div className="history__videos">
+            {HistoryData.map((item, index) => {
+              return (
+                <div key={index} className="history-card__container">
+                  <Link to={item.path} >
+                    <div className="history-card__thumbnail">
+                      <img src={item.image}  alt="channel-image" />
+                    </div>
+                    <div className="history-card__info">
+                      <p>{item.title}</p> 
+                    </div>
+                    <div className="history-card__text">
+                      <span>
+                        <p>{item.channel}</p> 
+                        <p className="history-card__icon">{item.icon}</p>
+                      </span>
+                      <p>
+                        {item.views + item.maxViews  +' ' + "views"} &middot; {item.timestamp + ' ' + item.filter + ' ' + "ago"}
+                      </p>
+                    </div>
+                  </Link>
+                </div>
+              );
+            })}
+          </div>
         </div>
+
       </div>
       <div className="history__right-outer">
         <div className="history__right-container">

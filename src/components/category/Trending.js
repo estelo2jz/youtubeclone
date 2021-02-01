@@ -40,18 +40,20 @@ function Trending() {
           <p>Fashion & Beauty</p>
         </div>
       </div>
-      <div className="trending__videos">
-        {videos.map(({id, channel, channelImage, image, timestamp, title, views}) => (
-          <VideoCard
-            key={id}
-            channel={channel}
-            channelImage={channelImage}
-            image={image}
-            timestamp={timestamp + ' ' + "days ago"}
-            title={title}
-            views={views + "K" + ' ' + "views"}
-          />
-        ))}
+      <div className="trending__video-container">
+        <div className="trending__videos">
+          {videos.map(({id, channel, channelImage, image, timestamp, title, views}) => (
+            <VideoCard
+              key={id}
+              channel={channel}
+              channelImage={channelImage}
+              image={image}
+              timestamp={timestamp + ' ' + "days ago"}
+              title={title}
+              views={views + "K" + ' ' + "views"}
+            />
+          ))}
+        </div>
       </div>
     </div>
   )
