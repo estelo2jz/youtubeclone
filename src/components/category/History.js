@@ -48,7 +48,7 @@ function History() {
                 <div key={index} className="history-card__container">
                   <Link to={item.path} >
                     <div className="history-card__thumbnail">
-                      <img src={item.image}  alt="channel-image" />
+                      <img src={item.image}  alt="channel" />
                     </div>
                     <div className="history-card__info">
                       <p>{item.title}</p> 
