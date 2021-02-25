@@ -5,7 +5,8 @@
   padding: 40px 0px;
   padding-bottom: 0;
   height: 100%;
-  h2 {
+  p {
+    font-size: clamp(2rem, 5vw, 2rem);
     color: white;
    margin-left: 5px;
    margin-bottom: 20px;

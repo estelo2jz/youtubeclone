@@ -1,3 +1,8 @@
+// @use './abstracts/fonts';
+$heading-size: clamp(2rem, 5vh, 3rem,);
+$text-size: clamp(1rem, 1vw, 1rem);
+
+
 .videoCard__container {
   display: flex;
   justify-content: center;
@@ -42,7 +47,12 @@
   padding: 10px 0px;
   background-color: rgb(63, 62, 62);
   width: 100%;
-  height: 60px;
+  // height: 60px;
+
+}
+.videoCard__info:hover {
+  transition: all 0.3s ease-in-out;
+  background-color: rgb(91, 91, 91);
 
 }
 .videoCard__text {
@@ -53,8 +63,7 @@
 
 }
 .videoCard__text > h4 {
-  font-size: 14px;
-  font-size: 0.7em;
+  font-size: clamp(1rem, 1vw, 1rem);
   margin-bottom: 5px;
   color: rgb(255, 255, 255);
      overflow: hidden;
@@ -65,9 +74,10 @@
 
 }
 .videoCard__text > p {
-  font-size: 1px;
+  font-size: $text-size;
   color: rgb(202, 198, 198);
-  font-size: 0.8em;
+  margin: 0;
+  padding: 0;
 }
 .videoCard__avatar {
   margin-left: 3px;
