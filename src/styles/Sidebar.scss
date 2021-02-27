@@ -12,7 +12,7 @@
     .sidebar__area {
       position: relative;
       display: inline-block;
-      float: right;
+      // float: right;
     }
     .sidebar__profile-area {
       margin-right: 30px;
@@ -24,9 +24,12 @@
       position: absolute;
       background-color: #15171c;
       padding-top: 10px;
-      margin-left: 5px !important;
+      // margin-left: 25px !important;
       // min-width: 150px;
       z-index: 100000;
+      svg {
+        font-size: 2rem;
+      }
     }
     .sidebar__menu a {
       color: rgb(255, 255, 255);
