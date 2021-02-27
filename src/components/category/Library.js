@@ -107,7 +107,7 @@ function Library() {
               <div key={index} className="library-card__container">
                 <Link to={item.path} >
                   <div className="library-card__thumbnail">
-                    <img src={item.image}  alt="channel-image" />
+                    <img src={item.image}  alt="channel-thumbnail" />
                   </div>
                   <div className="library-card__info">
                     <div>
@@ -120,7 +120,7 @@ function Library() {
                       <p className="library-card__icon">{item.icon}</p>
                     </div>
                     <p>
-                      {item.views + item.maxViews  +' ' + "views"} &middot; {item.timestamp + ' ' + item.filter + ' ' + "ago"}
+                      {item.views + item.maxViews  + ' ' +  "views"} &middot; {item.timestamp + ' ' + item.filter + ' ' + "ago"}
                     </p>
                   </div>
                 </Link>

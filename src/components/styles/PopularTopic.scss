@@ -1,13 +1,18 @@
 .popular-topic__container {
+  // display: in;
+  // width: 100%;
+  background-color: #161414;
   .popular-topic__box {
     display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;  
-    padding: 10px 0px;
-    background-color: #161414;
+    overflow-x: scroll;
     border-top: 1px solid rgb(94, 91, 91);
     border-bottom: 1px solid rgb(94, 91, 91);
+    // display: flex;
+    // // flex-wrap: wrap;
+    // justify-content: center;
+    // align-items: center;  
+    // padding: 10px 0px;
+    // background-color: #161414;
     .popular-topic__item {
       background-color: #303030;
       display: flex;
