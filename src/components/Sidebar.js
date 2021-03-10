@@ -114,10 +114,10 @@ const Sidebar = () => {
                 />
               </div>
               <div className="sidebar__menu">
-                <a href="#"><VideoCallSharpIcon /></a>
-                <a href="#"><AppsSharpIcon /></a>
-                <a href="#"><NotificationsActiveSharpIcon /></a>
-                <a href="#"><SettingsApplicationsIcon /></a>
+                <a href="/#"><VideoCallSharpIcon /></a>
+                <a href="/#"><AppsSharpIcon /></a>
+                <a href="/#"><NotificationsActiveSharpIcon /></a>
+                <a href="/#"><SettingsApplicationsIcon /></a>
               </div>
             </div>
 
