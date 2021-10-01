@@ -13,7 +13,12 @@ import YourVideos from './components/category/YourVideos';
 import History from './components/category/History';
 import NavBar from './components/NavBar';
 
-import { Reports, ReportsOne, ReportsTwo, ReportsThree } from './components/pages/Reports';
+// import { ShowmoreMain, OptionOne, OptionTwo, OptionThree } from './components/pages/Reports';
+import { ShowmoreMain } from './components/pages/Reports';
+import OptionOne from './components/pages/options/OptionOne';
+import OptionTwo from './components/pages/options/OptionTwo';
+import OptionThree from './components/pages/options/OptionThree';
+
 import Sidebar from './components/Sidebar';
 
 function App() {
@@ -24,10 +29,10 @@ function App() {
       <Router>
         <Sidebar />
         <Switch>
-          <Route path='/showmore' exact component={Reports} />
-          <Route path='/showmore/save1' exact component={ReportsOne} />
-          <Route path='/showmore/save2' exact component={ReportsTwo} />
-          <Route path='/showmore/save3' exact component={ReportsThree} />
+          <Route path='/showmore' exact component={ShowmoreMain} />
+          <Route path='/showmore/save1' exact component={OptionOne} />
+          <Route path='/showmore/save2' exact component={OptionTwo} />
+          <Route path='/showmore/save3' exact component={OptionThree} />
           <Route exact path="/"  component={Home}>
           </Route>
           <Route exact path="/trending"  component={Trending}>
