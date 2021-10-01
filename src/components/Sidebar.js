@@ -63,7 +63,7 @@ const NavIcon = styled(Link)`
 
 const SidebarNav = styled.nav`
   background: #15171c;
-  width: 185px;
+  width: 230px;
   height: 100%;
   display: flex;
   justify-content: center;
@@ -149,10 +149,10 @@ const Sidebar = () => {
               <h6 className='submenu__bars'>
                 <AiIcons.AiOutlineClose onClick={showSidebar} />
               </h6>
-              {/* <p className='submenu__logo'>
+              <p className='submenu__logo'>
                 <i class="fab fa-youtube" id="youtube-logo"></i>
-                YouTube
-              </p> */}
+                {/* YouTube */}
+              </p>
             </NavIcon>
             {SidebarData.map((item, index) => {
               return <SubMenu item={item} key={index} />;
