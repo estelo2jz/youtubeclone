@@ -5,10 +5,12 @@
   align-items: center;
   background: #15171c;
   color: white;
+  
   // padding: 0px;
   // margin: 0px;
   height: 70px;
   .sidebar__left-container {
+    overflow: hidden;
     display: flex;
     align-items: center;
     // justify-content: center;
