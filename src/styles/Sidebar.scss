@@ -44,6 +44,19 @@
     justify-content: center;
     align-items: center;
     // margin-right: 100px;
+
+    .sidebar__sub-menu {
+      a {
+        color: white;
+        font-size: 2em;
+        margin-left: 10px;
+        margin-right: 10px;
+        text-decoration: none;
+        &:hover {
+          color: #ffc107;
+        }
+      }
+    }
     .sidebar__area {
       position: relative;
       display: inline-block;
@@ -57,23 +70,69 @@
       // height: 100px;
     }
     .sidebar__menu {
+      width: 320px;
       justify-content: center;
       align-items: center;
       display: none;
       position: absolute;
       background-color: #15171c;
+      // background-color: red;
       // height: 300px;
       // padding-top: 10px;
-      padding: 10px;
-      margin-left: -15px !important;
+      padding: 10px 0px;
+      margin-top: -40px;
+      margin-left: -270px !important;
+      border-left: 0.5px solid #202229;
+      border-right: 0.5px solid #202229;
+      border-bottom: 0.5px solid #202229;
+
       // min-width: 150px;
       z-index: 100000;
+
+      .sidebar__account {
+        display: flex;
+        // flex-direction: column;
+        align-items: center;
+        span {
+          margin-left: 30px;
+          margin-top: 20px;
+          margin-bottom: 20px;
+
+        }
+      }
       svg {
         font-size: 2rem;
       }
+
+      .sidebar__hr {
+        width: 100%;
+      }
+
+      .sidebar__links {
+        display: flex;
+        // justify-content: center;
+        align-items: center;
+        span {
+          // display: flex;
+          // align-items: center;
+          // justify-content: center;
+          margin-left: 30px;
+          font-weight: 700;
+          // margin-right: 100px;
+          width: 100%;
+        }
+        .sidebar__right-arrow {
+        }
+      }
+      .sidebar__res-mode {   
+        display: flex; 
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 10px;
+      }
     }
     .sidebar__menu a {
-      color: rgb(255, 255, 255);
+      color: rgb(223, 219, 219);
       // padding: 0px 10px;
       padding: 10px 10px;
       text-decoration: none;
@@ -83,6 +142,7 @@
     .sidebar__menu a:hover {
       background-color: crimson;
       color: #fff;
+      // display: block;
     }
     .sidebar__area:hover .sidebar__menu {
       display: block;
