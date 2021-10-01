@@ -3,6 +3,9 @@ hr {
   height: 1px;
   border: none;
 }
+.navbar__container {
+  // padding: 0px 10px;
+}
 #navbar {
   background-color: #212121;
   height: 100px;
@@ -21,6 +24,7 @@ hr {
   height: 100vh;
   display: flex;
   justify-content: center;
+  align-items: center;
   position: fixed;
   top: 0;
   left: -300px;
@@ -65,6 +69,13 @@ hr {
   display: flex;
   justify-content: start;
   align-items: center;
+
+  .nav__link-container {
+
+  }
+  .nav__youtube-container {
+    
+  }
 }
 #navbar-toggle h1 {
   color: #fff;

@@ -7,6 +7,7 @@
     overflow-x: scroll;
     border-top: 1px solid rgb(94, 91, 91);
     border-bottom: 1px solid rgb(94, 91, 91);
+    padding: 20px;
     // display: flex;
     // // flex-wrap: wrap;
     // justify-content: center;
@@ -23,7 +24,7 @@
       margin: 5px;
       box-shadow: inset 10 0 10px;
       border-radius: 50px;
-      padding: 0px 20px;
+      padding: 10px 30px;
       cursor: pointer;
       
       a {
@@ -33,6 +34,7 @@
       }
       .popular-topic__link {
         width: 100%;
+        // padding: 20px;
       }
       label {
         justify-content: center;

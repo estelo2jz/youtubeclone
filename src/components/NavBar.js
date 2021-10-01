@@ -6,7 +6,7 @@ function NavBar(e) {
   const sideMenu = document.querySelector('#nav-menu');
 
   return (
-    <div>
+    <div className="navbar__container">
       <div id="navbar">
         <Link href="#" class="menu-bars" id="show-menu">
           <i class="fas fa-bars">bars</i>
@@ -15,13 +15,13 @@ function NavBar(e) {
       <nav id="nav-menu">
         <ul class="nav-menu-items">
           <div id="navbar-toggle">
-            <Link href="#" class="menu-bars" id="hide-menu">
+            <Link class="nav__link-container" href="#" class="menu-bars" id="hide-menu">
               <i class="fas fa-bars nav-icon"></i>
             </Link>
-            <Link href="#">
+            <Link class="nav__youtube-container" href="#">
               <h1>
                 <i class="fab fa-youtube" id="youtube-logo"></i>
-                YouTube
+                {/* YouTube */}
               </h1>
             </Link>
           </div>

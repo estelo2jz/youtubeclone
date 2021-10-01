@@ -84,6 +84,86 @@ function PopularTopic() {
             </label>
           </Link>
         </div>
+
+
+
+        <div className="popular-topic__item">
+          <Link className="popular-topic__link" to="/">
+            <label>
+              Music
+            </label>
+          </Link>
+        </div>
+        <div className="popular-topic__item">
+          <Link className="popular-topic__link" to="/">
+            <label>
+              Recently Uploaded
+            </label>
+          </Link>
+        </div>
+        <div className="popular-topic__item">
+          <Link className="popular-topic__link" to="/">
+            <label>
+              Live
+            </label>
+          </Link>
+        </div>
+        <div className="popular-topic__item">
+          <Link className="popular-topic__link" to="/">
+            <label>
+              Gaming
+            </label>
+          </Link>
+        </div>
+        <div className="popular-topic__item">
+          <Link className="popular-topic__link" to="/">
+            <label>
+              Trailers
+            </label>
+          </Link>
+        </div>
+        <div className="popular-topic__item">
+          <Link className="popular-topic__link" to="/">
+            <label>
+              Latest News
+            </label>
+          </Link>
+        </div>
+        <div className="popular-topic__item">
+          <Link className="popular-topic__link" to="/">
+            <label>
+              Most Popular
+            </label>
+          </Link>
+        </div>
+        <div className="popular-topic__item">
+          <Link className="popular-topic__link" to="/">
+            <label>
+              Most Watched
+            </label>
+          </Link>
+        </div>
+        <div className="popular-topic__item">
+          <Link className="popular-topic__link" to="/">
+            <label>
+              Recently Watched
+            </label>
+          </Link>
+        </div>
+        <div className="popular-topic__item">
+          <Link className="popular-topic__link" to="/">
+            <label>
+              Explore
+            </label>
+          </Link>
+        </div>
+        <div className="popular-topic__item">
+          <Link className="popular-topic__link" to="/">
+            <label>
+              Channels
+            </label>
+          </Link>
+        </div>
       </div>
     </div>
   )

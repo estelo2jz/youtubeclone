@@ -41,7 +41,7 @@ const NavIcon = styled(Link)`
   margin-left: 2rem;
   margin-top: -10px;
   font-size: 2rem;
-  height: 70px;
+  height: 80px;
   display: flex;
   justify-content: flex-start;
   align-items: center;
@@ -74,7 +74,7 @@ const SidebarNav = styled.nav`
   z-index: 10;
   overflow: hidden;
   p {
-    margin-left: 27px;
+    // margin-left: 27px;
     font-size: 0.6em;
   }
 `;
@@ -92,17 +92,17 @@ const Sidebar = () => {
     <>
       <IconContext.Provider value={{ color: '#fff' }}>
         <div className="sidebar__container">
-          <Nav>
-            <NavIcon to='#'>
-              <h5>
+          <Nav className="sidebar__left-container">
+            <NavIcon className="sidebar__bars-container" to='#'>
+              <div className="sidebar__bars">
                 <FaIcons.FaBars onClick={showSidebar} />
-              </h5>
+              </div>
             </NavIcon>
-            <NavIcon to="/">
-              <span>
+            <NavIcon className="sidebar__youtube-container" to="/">
+              <div className="sidebar__youtube-logo">
                 <i class="fab fa-youtube" id="youtube-logo"></i>
-                YouTube
-              </span>
+                {/* YouTube */}
+              </div>
             </NavIcon>
           </Nav>
           <div  className="sidebar__profile">
@@ -142,14 +142,14 @@ const Sidebar = () => {
         </div>
         <SidebarNav sidebar={sidebar}>
           <SidebarWrap>
-            <NavIcon to='#'>
-              <h6>
+            <NavIcon className='submenu__container' to='#'>
+              <h6 className='submenu__bars'>
                 <AiIcons.AiOutlineClose onClick={showSidebar} />
               </h6>
-              <p>
+              {/* <p className='submenu__logo'>
                 <i class="fab fa-youtube" id="youtube-logo"></i>
                 YouTube
-              </p>
+              </p> */}
             </NavIcon>
             {SidebarData.map((item, index) => {
               return <SubMenu item={item} key={index} />;
