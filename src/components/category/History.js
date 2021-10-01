@@ -100,6 +100,8 @@ function History() {
           </div>
         </div>
       </div>
+
+      
       <div className="history__left-outer">
         <div  className="history__left-outer-header">
             <p>Watch history</p>
@@ -135,6 +137,39 @@ function History() {
                 </div>
               );
             })}
+            {/* <div className="history__videos-data-1">
+            </div> */}
+
+            {/* <div className="history__videos-data-2">
+              {HistoryData.map((item, index) => {
+                return (
+                  <div key={index} className="history-card__container">
+                    <Link to={item.path} className="history-card__flex-helper" >
+                      <div className="history-card__thumbnail">
+                        <img src={item.image} alt="channel-thumbnail" />
+                      </div>
+                      <div className="history-card__desc">
+                        <div className="history-card__info">
+                          <p>{item.title}</p>
+                        </div>
+                        <div className="history-card__text">
+                          <span>
+                            <p>{item.channel}</p>
+                            <p className="history-card__icon">{item.icon}</p>
+                          </span>
+                          <p>
+                            {item.views + item.maxViews + ' ' + "views"}
+                          </p>
+                        </div>
+                        <div className="history-card__main-desc">
+                          <p>{item.desc}</p>
+                        </div>
+                      </div>
+                    </Link>
+                  </div>
+                );
+              })}
+            </div> */}
           </div>
         </div>
 
