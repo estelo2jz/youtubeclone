@@ -17,6 +17,7 @@ import VideoCallOutlinedIcon from '@material-ui/icons/VideoCallOutlined';
 import AppsOutlinedIcon from '@material-ui/icons/AppsOutlined';
 import NotificationsNoneOutlinedIcon from '@material-ui/icons/NotificationsNoneOutlined';
 import WhatshotIcon from '@material-ui/icons/Whatshot';
+import CancelPresentationIcon from '@material-ui/icons/CancelPresentation';
 import Avatar from "@material-ui/core/Avatar"
 
 import KeyboardArrowRightOutlinedIcon from '@material-ui/icons/KeyboardArrowRightOutlined';
@@ -125,7 +126,7 @@ const Sidebar = () => {
             </NavIcon>
             <NavIcon className="sidebar__youtube-container" to="/">
               <div className="sidebar__youtube-logo">
-                {/* <i class="fab fa-youtube" id="youtube-logo"></i> */}
+                <i class="fab fa-youtube" id="youtube-logo"></i>
                 {/* YouTube */}
               </div>
             </NavIcon>
@@ -329,9 +330,9 @@ const Sidebar = () => {
         <SidebarNav sidebar={sidebar}>
           <SidebarWrap>
             <NavIcon className='submenu__container' to='#'>
-              <h6 className='submenu__bars'>
-                <AiIcons.AiOutlineClose onClick={showSidebar} />
-              </h6>
+              <span className='submenu__bars'>
+                <CancelPresentationIcon onClick={showSidebar} />
+              </span>
               <p className='submenu__logo'>
                 <i class="fab fa-youtube" id="youtube-logo"></i>
                 {/* YouTube */}
