@@ -37,10 +37,10 @@ export const ShowmoreMain = () => {
           {/* <OptionTwo /> */}
           <div className="showmore__item">
             <div className="showmore_-item-option-two">
-              <a href="/showmore/save2">
+              <Link to="/showmore/save2">
                 <span>Code's</span>
                 <img src={CodeBg} alt="image" />
-              </a>
+              </Link>
             </div>
 
           </div>
@@ -49,10 +49,10 @@ export const ShowmoreMain = () => {
           {/* <OptionThree /> */}
           <div className="showmore__item">
             <div className="showmore_-item-option-three">
-              <a href="/showmore/save3">
+              <Link to="/showmore/save3">
                 <span>Anime's</span>
                 <img src={AnimeBg} alt="image" />
-              </a>
+              </Link>
 
             </div>
           </div>
