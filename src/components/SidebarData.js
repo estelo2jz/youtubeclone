@@ -106,23 +106,22 @@ export const SidebarData = [
         path: '/showmore',
         icon: <IoIcons.IoIosPaper />
       },
-      {
+      // {
+      //   title: 'music',
+      //   path: '/showmore/save1',
+      //   icon: <IoIcons.IoIosPaper />
+      // },
+      // {
+      //   title: 'codes',
+      //   path: '/showmore/save2',
+      //   icon: <IoIcons.IoIosPaper />
+      // },
+      // {
         
-        title: 'music',
-        path: '/showmore/save1',
-        icon: <IoIcons.IoIosPaper />
-      },
-      {
-        title: 'codes',
-        path: '/showmore/save2',
-        icon: <IoIcons.IoIosPaper />
-      },
-      {
-        
-        title: 'anime',
-        path: '/showmore/save3',
-        icon: <IoIcons.IoIosPaper />
-      },
+      //   title: 'anime',
+      //   path: '/showmore/save3',
+      //   icon: <IoIcons.IoIosPaper />
+      // },
     ]
   },
 ];
