@@ -138,9 +138,9 @@ const Sidebar = () => {
             <div className="sidebar__sub-menu">
               <a href="#"><MicIcon /></a>
             </div>
-            <div className="sidebar__sub-menu">
+            {/* <div className="sidebar__sub-menu">
               <a href="#"><VideoCallOutlinedIcon /></a>
-            </div>
+            </div> */}
             <div className="sidebar__sub-menu">
               <a href="#"><AppsOutlinedIcon /></a>
             </div>
