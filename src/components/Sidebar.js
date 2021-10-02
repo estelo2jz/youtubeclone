@@ -125,7 +125,7 @@ const Sidebar = () => {
             </NavIcon>
             <NavIcon className="sidebar__youtube-container" to="/">
               <div className="sidebar__youtube-logo">
-                <i class="fab fa-youtube" id="youtube-logo"></i>
+                {/* <i class="fab fa-youtube" id="youtube-logo"></i> */}
                 {/* YouTube */}
               </div>
             </NavIcon>
