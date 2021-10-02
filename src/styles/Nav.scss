@@ -16,7 +16,7 @@ hr {
 }
 .menu-bars {
   margin-left: 2rem;
-  font-size: 2rem;
+  font-size: rem;
   color: #fff;
 }
 #nav-menu {
@@ -95,3 +95,6 @@ hr {
   flex-direction: column;
 }
 
+@media screen and (min-device-width: 481px) and (max-device-width: 768px) { 
+  
+}
