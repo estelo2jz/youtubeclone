@@ -334,7 +334,7 @@ const Sidebar = () => {
                 <CancelPresentationIcon onClick={showSidebar} />
               </span>
               <p className='submenu__logo'>
-                <i class="fab fa-youtube" id="youtube-logo"></i>
+                {/* <i class="fab fa-youtube" id="youtube-logo"></i> */}
                 {/* YouTube */}
               </p>
             </NavIcon>
