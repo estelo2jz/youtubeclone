@@ -4,6 +4,7 @@ import ComingSoon from '../ComingSoon';
 import OptionOne from './options/OptionOne';
 import OptionTwo from './options/OptionTwo';
 import OptionThree from './options/OptionThree';
+import {Link} from 'react-router-dom';
 
 
 import MusicBg from '../images/optionImage/music.jpg';
@@ -25,10 +26,10 @@ export const ShowmoreMain = () => {
           {/* <OptionOne /> */}
           <div className="showmore__item">
             <div className="showmore_-item-option-one">
-              <a href="/showmore/save1">
+              <Link to="/showmore/save1">
                 <span>Music's</span>
                 <img src={MusicBg} alt="image" />
-              </a>
+              </Link>
             </div>
           </div>
         </div>
