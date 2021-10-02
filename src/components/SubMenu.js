@@ -2,6 +2,9 @@ import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import styled from 'styled-components';
 
+
+import './styles/SubMenu.scss';
+
 const SidebarLink = styled(Link)`
   display: flex;
   color: #e1e9fc;
@@ -35,14 +38,11 @@ const DropdownLink = styled(Link)`
   color: #f5f5f5;
   font-size: 15px;
 
-  // span {
-  //   font-size: 90px;
-  // }
-
   &:hover {
     background: #632ce4;
     cursor: pointer;
   }
+
 `;
 
 const SubMenu = ({ item }) => {
@@ -52,10 +52,14 @@ const SubMenu = ({ item }) => {
 
   return (
     <>
-      <SidebarLink to={item.path} onClick={item.subNav && showSubnav}>
-        <div>
-          {item.icon}
-          <SidebarLabel>{item.title}</SidebarLabel>
+      <a className="submenu__links" href={item.path} onClick={item.subNav && showSubnav}>
+        <div className="submenu__container">
+          <span className="submenu__icon">
+            {item.icon}
+          </span>
+          <span className="submenu__title">
+            {item.title}
+          </span>
         </div>
         <div>
           {item.subNav && subnav
@@ -64,11 +68,11 @@ const SubMenu = ({ item }) => {
             ? item.iconClosed
             : null}
         </div>
-      </SidebarLink>
+      </a>
       {subnav &&
         item.subNav.map((item, index) => {
           return (
-            <DropdownLink to={item.path} key={index}>
+            <DropdownLink className="submenu__dropdown" to={item.path} key={index}>
               <i>
                 {item.icon}
               </i>
