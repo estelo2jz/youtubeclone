@@ -93,13 +93,19 @@ export const SidebarData = [
   },
   {
     title: 'Show More',
-    path: '/showmore',
+    // path: '/showmore',
     icon: <FiIcons.FiMoreVertical />,
 
-    iconClosed: <RiIcons.RiArrowDownSFill />,
-    iconOpened: <RiIcons.RiArrowUpSFill />,
+    // iconClosed: <RiIcons.RiArrowDownSFill />,
+    // iconOpened: <RiIcons.RiArrowUpSFill />,
 
     subNav: [
+      {
+
+        title: 'All Saved',
+        path: '/showmore',
+        icon: <IoIcons.IoIosPaper />
+      },
       {
         
         title: 'music',
