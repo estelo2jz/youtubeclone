@@ -5,7 +5,7 @@
   align-items: center;
   background: #15171c;
   color: white;
-  overflow: hidden;
+  // overflow: hidden;
   
   // padding: 0px;
   // margin: 0px;
@@ -37,16 +37,18 @@
         height: 100%;
         font-size: 40px;
         margin-top: 10px;
-        margin-left: -20px;
+        margin-left: -10px;
       }
     }
   }
   
   .sidebar__profile {
+    position: relative;
     display: flex;
     justify-content: center;
     align-items: center;
     margin-right: -15px;
+    z-index: inherit;
 
     .sidebar__sub-menu {
       a {
