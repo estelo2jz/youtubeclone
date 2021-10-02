@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Link } from 'react-router-dom';
+import { Link, NavLink } from 'react-router-dom';
 import styled from 'styled-components';
 
 
@@ -52,7 +52,7 @@ const SubMenu = ({ item }) => {
 
   return (
     <>
-      <a className="submenu__links" href={item.path} onClick={item.subNav && showSubnav}>
+      <SidebarLink className="submenu__links" to={item.path} onClick={item.subNav && showSubnav}>
         <div className="submenu__container">
           <span className="submenu__icon">
             {item.icon}
@@ -68,7 +68,7 @@ const SubMenu = ({ item }) => {
             ? item.iconClosed
             : null}
         </div>
-      </a>
+      </SidebarLink>
       {subnav &&
         item.subNav.map((item, index) => {
           return (
