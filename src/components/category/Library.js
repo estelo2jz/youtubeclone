@@ -6,10 +6,26 @@ import VideoCard from '../VideoCard';
 import { LibraryData } from './categodyData/LibraryContext';
 import './categoryStyles/Library.scss';
 import db from '../../firebase';
+
 import Avatar from "@material-ui/core/Avatar";
 import PlayArrowIcon from '@material-ui/icons/PlayArrow';
 import PublishIcon from '@material-ui/icons/Publish';
 import ThumbsUpDownIcon from '@material-ui/icons/ThumbsUpDown';
+import ArrowRightAltIcon from '@material-ui/icons/ArrowRightAlt';
+
+import Anime1 from '../images/libraryImg/anime1.jpg';
+import Anime2 from '../images/libraryImg/anime2.jpg';
+import Anime3 from '../images/libraryImg/anime3.jpg';
+import Anime4 from '../images/libraryImg/anime4.jpeg';
+import Anime5 from '../images/libraryImg/anime5.jpg';
+import Anime6 from '../images/libraryImg/anime6.jpg';
+
+import JDM1 from '../images/libraryImg/jdm1.jpg';
+import JDM2 from '../images/libraryImg/jdm2.jpg';
+import JDM3 from '../images/libraryImg/jdm3.jpg';
+import JDM4 from '../images/libraryImg/jdm4.jpg';
+import JDM5 from '../images/libraryImg/jdm5.jpg';
+import JDM6 from '../images/libraryImg/jdm6.jpg';
 
 function Library() {
   const [videos, setVideos] = useState([]);
@@ -68,7 +84,7 @@ function Library() {
                 <div className="library__subs-container">
                   <div className="library__subs-child">
                     <span>
-                      <img alt="demoimage" src="https://i.ytimg.com/an_webp/ANVCNCUrno8/mqdefault_6s.webp?du=3000&sqp=CI6M3IoG&rs=AOn4CLCiYz5Dc0pH0y7enPwMzajUHBV6gQ" />
+                      <img alt="demoimage" src={Anime1} />
                     </span>
                   </div>
                   <div className="library__subs-heading">
@@ -80,7 +96,7 @@ function Library() {
                 <div className="library__subs-container">
                   <div className="library__subs-child">
                     <span>
-                    <img alt="demoimage" src="https://i.ytimg.com/an_webp/vNaPrlygAI8/mqdefault_6s.webp?du=3000&sqp=CMuv3IoG&rs=AOn4CLDZEOv1Wu7j24BY7dfdXv-fDMyiFQ" />
+                    <img alt="demoimage" src={Anime2} />
                     </span>
                   </div>
                   <div className="library__subs-heading">
@@ -92,7 +108,7 @@ function Library() {
                 <div className="library__subs-container">
                   <div className="library__subs-child">
                     <span>
-                    <img alt="demoimage" src="https://i.ytimg.com/an_webp/Fe72k8PFdho/mqdefault_6s.webp?du=3000&sqp=CJzH3IoG&rs=AOn4CLD79A5JEC4Wqviq5nJr2yf7Ic_UUw" />
+                    <img alt="demoimage" src={Anime3} />
                     </span>
                   </div>
                   <div className="library__subs-heading">
@@ -104,19 +120,19 @@ function Library() {
                 <div className="library__subs-container">
                   <div className="library__subs-child">
                     <span>
-                    <img alt="demoimage" src="https://i.ytimg.com/vi/5qap5aO4i9A/hq720.jpg?sqp=-oaymwEcCOgCEMoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLB6KAYW8BN9j5s-5nSSxs_g3DdfmA" />
+                    <img alt="demoimage" src={Anime4} />
                     </span>
                   </div>
                   <div className="library__subs-heading">
                     <p>
-                      Lofi Girl
+                      Hogake4EVER
                     </p>
                   </div>
                 </div>
                 <div className="library__subs-container">
                   <div className="library__subs-child">
                     <span>
-                    <img alt="demoimage" src="https://i.ytimg.com/an_webp/XhZmm32yNCw/mqdefault_6s.webp?du=3000&sqp=CJyj3IoG&rs=AOn4CLDoaANuzUgfIEje4T_XyTWAPeAlgA" />
+                    <img alt="demoimage" src={Anime5} />
                     </span>
                   </div>
                   <div className="library__subs-heading">
@@ -128,7 +144,7 @@ function Library() {
                 <div className="library__subs-container">
                   <div className="library__subs-child">
                     <span>
-                    <img alt="demoimage" src="https://i.ytimg.com/an_webp/f-Df8qRIa1I/mqdefault_6s.webp?du=3000&sqp=COqy3IoG&rs=AOn4CLCw24J8u8Hp5Y0W6ehoJ_IbbMj5_g" />
+                    <img alt="demoimage" src={Anime6} />
                     </span>
                   </div>
                   <div className="library__subs-heading">
@@ -137,6 +153,9 @@ function Library() {
                     </p>
                   </div>
                 </div>
+              </div>
+              <div className="load-more">
+                Load More
               </div>
             </div>
             <div className="library__recent-uploads">
@@ -147,7 +166,7 @@ function Library() {
                 <div className="library__uploads-container">
                   <div className="library__uploads-child">
                     <span>
-                      <img alt="demoimage" src="https://i.ytimg.com/an_webp/D3-m86SmLqs/mqdefault_6s.webp?du=3000&sqp=CNPU3IoG&rs=AOn4CLAY4QBH77oDZk1rhIdUYPRDpX9sxg" />
+                      <img alt="demoimage" src={JDM1} />
                     </span>
                   </div>
                   <div className="library__uploads-heading">
@@ -159,7 +178,7 @@ function Library() {
                 <div className="library__uploads-container">
                   <div className="library__uploads-child">
                     <span>
-                    <img alt="demoimage" src="https://i.ytimg.com/an_webp/1iRrryWSc30/mqdefault_6s.webp?du=3000&sqp=CLyl3IoG&rs=AOn4CLA0gr8tbgt0-hKSbr4jEDDXeVNpeQ" />
+                    <img alt="demoimage" src={JDM2} />
                     </span>
                   </div>
                   <div className="library__uploads-heading">
@@ -171,7 +190,7 @@ function Library() {
                 <div className="library__uploads-container">
                   <div className="library__uploads-child">
                     <span>
-                    <img alt="demoimage" src="https://i.ytimg.com/an_webp/ozZ8DHDXmK4/mqdefault_6s.webp?du=3000&sqp=CMi13IoG&rs=AOn4CLDXDK_TNHm6fxjcM-RnC9VHCuSq2Q" />
+                    <img alt="demoimage" src={JDM3} />
                     </span>
                   </div>
                   <div className="library__uploads-heading">
@@ -183,7 +202,7 @@ function Library() {
                 <div className="library__uploads-container">
                   <div className="library__uploads-child">
                     <span>
-                    <img alt="demoimage" src="https://i.ytimg.com/vi/Chwkk-6m7jk/hq720.jpg?sqp=-oaymwEcCOgCEMoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDTE0dYErN43agiiuSMFzm30V80oA" />
+                    <img alt="demoimage" src={JDM4} />
                     </span>
                   </div>
                   <div className="library__uploads-heading">
@@ -195,7 +214,7 @@ function Library() {
                 <div className="library__uploads-container">
                   <div className="library__uploads-child">
                     <span>
-                    <img alt="demoimage" src="https://i.ytimg.com/an_webp/I5XjafzY9iI/mqdefault_6s.webp?du=3000&sqp=COK53IoG&rs=AOn4CLDLITRi-9JUePhDlQ1hrQkRpLQiGw" />
+                    <img alt="demoimage" src={JDM5} />
                     </span>
                   </div>
                   <div className="library__uploads-heading">
@@ -207,7 +226,7 @@ function Library() {
                 <div className="library__uploads-container">
                   <div className="library__uploads-child">
                     <span>
-                    <img alt="demoimage" src="https://i.ytimg.com/an_webp/8cY7JMm5Zw8/mqdefault_6s.webp?du=3000&sqp=CKPO3IoG&rs=AOn4CLApnx5S_mh4ehCGxJ-uVO9OBX--GQ" />
+                    <img alt="demoimage" src={JDM6} />
                     </span>
                   </div>
                   <div className="library__uploads-heading">
@@ -216,6 +235,9 @@ function Library() {
                     </p>
                   </div>
                 </div>
+              </div>
+              <div className="load-more">
+                Load More
               </div>
             </div>
             <div className="library__recent-likes">
@@ -295,6 +317,9 @@ function Library() {
                     </p>
                   </div>
                 </div>
+              </div>
+              <div className="load-more">
+                Load More
               </div>
             </div>
           </div>
