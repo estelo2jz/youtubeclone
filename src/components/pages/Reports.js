@@ -6,6 +6,8 @@ import OptionTwo from './options/OptionTwo';
 import OptionThree from './options/OptionThree';
 import {Link} from 'react-router-dom';
 
+import FolderIcon from '@material-ui/icons/Folder';
+
 
 import MusicBg from '../images/optionImage/music.jpg';
 import CodeBg from '../images/optionImage/codes.jfif';
@@ -20,6 +22,9 @@ export const ShowmoreMain = () => {
     <div className='showmore'>
       <div className='showmore__saved'>
         Saved
+        <span>
+          <FolderIcon />
+        </span>
       </div>
       <div className='showmore__container'>
         <div className="showmore__item-container">
@@ -101,6 +106,92 @@ export const ShowmoreMain = () => {
               <a href="/">
                 <span>React Native</span>
                <img src={NativeBg} alt="image" />
+              </a>
+
+            </div>
+          </div>
+        </div>
+
+
+        <div className="showmore__item-container">
+          {/* <OptionOne /> */}
+          <div className="showmore__item">
+            <div className="showmore_-item-option-one">
+              <Link to="/showmore/save1">
+                <span>Music's</span>
+                <img src={MusicBg} alt="image" />
+              </Link>
+            </div>
+          </div>
+        </div>
+        <div className="showmore__item-container">
+          {/* <OptionTwo /> */}
+          <div className="showmore__item">
+            <div className="showmore_-item-option-two">
+              <Link to="/showmore/save2">
+                <span>Code's</span>
+                <img src={CodeBg} alt="image" />
+              </Link>
+            </div>
+
+          </div>
+        </div>
+        <div className="showmore__item-container">
+          {/* <OptionThree /> */}
+          <div className="showmore__item">
+            <div className="showmore_-item-option-three">
+              <Link to="/showmore/save3">
+                <span>Anime's</span>
+                <img src={AnimeBg} alt="image" />
+              </Link>
+
+            </div>
+          </div>
+        </div>
+        <div className="showmore__item-container">
+          {/* <OptionThree /> */}
+          <div className="showmore__item">
+            {/* <img src={} alt="image"/> */}
+            <div className="showmore_-item-option-three">
+              <a href="/">
+                <span>Anime song OP</span>
+                <img src={AnimeSongBg} alt="image" />
+              </a>
+
+            </div>
+          </div>
+        </div>
+        <div className="showmore__item-container">
+          {/* <OptionThree /> */}
+          <div className="showmore__item">
+            <div className="showmore_-item-option-three">
+              <a href="/">
+                <span>JDM cars</span>
+                <img src={JDMBg} alt="image" />
+              </a>
+
+            </div>
+          </div>
+        </div>
+        <div className="showmore__item-container">
+          {/* <OptionThree /> */}
+          <div className="showmore__item">
+            <div className="showmore_-item-option-three">
+              <a href="/">
+                <span>React</span>
+                <img src={ReactBg} alt="image" />
+              </a>
+
+            </div>
+          </div>
+        </div>
+        <div className="showmore__item-container">
+          {/* <OptionThree /> */}
+          <div className="showmore__item">
+            <div className="showmore_-item-option-three">
+              <a href="/">
+                <span>React Native</span>
+                <img src={NativeBg} alt="image" />
               </a>
 
             </div>
