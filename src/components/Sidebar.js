@@ -172,132 +172,134 @@ const Sidebar = () => {
                   </span>
                 </a>
                 <hr className="sidebar__hr" />
-                <a className="sidebar__links" href="/#">
-                  <div className="sidebar__icons">
-                    <AccountCircleOutlinedIcon />
-                  </div>
-                  <span>
-                    Your Channel
-                  </span>
-                </a>
-                <a className="sidebar__links" href="/#">
-                  <div className="sidebar__icons">
-                    <MonetizationOnOutlinedIcon />
-                  </div>
-                  <span>
-                    Purchase and memberships
-                  </span>
-                </a>
-                <a className="sidebar__links" href="/#">
-                  <div className="sidebar__icons">
-                    <OndemandVideoSharpIcon />
-                  </div>
-                  <span>
-                    YouTube Studio
-                  </span>
-                </a>
-                <a className="sidebar__links" href="/#">
-                  <div className="sidebar__icons">
-                    <SupervisorAccountSharpIcon />
-                  </div>
-                  <span>
-                    Switch account
-                  </span>
-                  <div className="sidebar__right-arrow">
-                    <KeyboardArrowRightOutlinedIcon />
-                  </div>
-                </a>
-                <a className="sidebar__links" href="/#">
-                  <div className="sidebar__icons">
-                    <ExitToAppOutlinedIcon />
-                  </div>
-                  <span>
-                    Sign out
-                  </span>
-                </a>
-                <hr className="sidebar__hr" />
-                <a className="sidebar__links" href="/#">
-                  <div className="sidebar__icons">
-                    <Brightness2OutlinedIcon />
-                  </div>
-                  <span>
-                    Appereance: Device theme
-                  </span>
-                  <div className="sidebar__right-arrow">
-                    <KeyboardArrowRightOutlinedIcon />
-                  </div>
-                </a>
-                <a className="sidebar__links" href="/#">
-                  <div className="sidebar__icons">
-                    <TranslateOutlinedIcon />
-                  </div>
-                  <span>
-                    Language: English
-                  </span>
-                  <div className="sidebar__right-arrow">
-                    <KeyboardArrowRightOutlinedIcon />
-                  </div>
-                </a>
-                <a className="sidebar__links" href="/#">
-                  <div className="sidebar__icons">
-                    <LanguageOutlinedIcon />
-                  </div>
-                  <span>
-                    Location: United States
-                  </span>
-                  <div className="sidebar__right-arrow">
-                    <KeyboardArrowRightOutlinedIcon />
-                  </div>
-                </a>
-                <a className="sidebar__links" href="/#">
-                  <div className="sidebar__icons">
-                    <SettingsOutlinedIcon />
-                  </div>
-                  <span>
-                    Settings
-                  </span>
-                </a>
-                <a className="sidebar__links" href="/#">
-                  <div className="sidebar__icons">
-                    <VerifiedUserOutlinedIcon />
-                  </div>
-                  <span>
-                    Your data in YouTube
-                  </span>
-                </a>
-                <a className="sidebar__links" href="/#">
-                  <div className="sidebar__icons">
-                    <HelpOutlineOutlinedIcon />
-                  </div>
-                  <span>
-                    Help
-                  </span>
-                </a>
-                <a className="sidebar__links" href="/#">
-                  <div className="sidebar__icons">
-                    <FeedbackOutlinedIcon />
-                  </div>
-                  <span>
-                    Send feedback
-                  </span>
-                </a>
-                <a className="sidebar__links" href="/#">
-                  <div className="sidebar__icons">
-                    <KeyboardTwoToneIcon />
-                  </div>
-                  <span>
-                    Keyboard shortcuts
-                  </span>
-                </a>
-                <hr className="sidebar__hr" />
-                <a className="sidebar__res-mode" href="/#">
-                  <span>
-                    Restricted Mode: Off
-                  </span>
-                  <div className="sidebar__right-arrow">
-                    <KeyboardArrowRightOutlinedIcon />
-                  </div>
-                </a>
+                <div className="sidebar__scroll-container">
+                  <a className="sidebar__links" href="/#">
+                    <div className="sidebar__icons">
+                      <AccountCircleOutlinedIcon />
+                    </div>
+                    <span>
+                      Your Channel
+                    </span>
+                  </a>
+                  <a className="sidebar__links" href="/#">
+                    <div className="sidebar__icons">
+                      <MonetizationOnOutlinedIcon />
+                    </div>
+                    <span>
+                      Purchase and memberships
+                    </span>
+                  </a>
+                  <a className="sidebar__links" href="/#">
+                    <div className="sidebar__icons">
+                      <OndemandVideoSharpIcon />
+                    </div>
+                    <span>
+                      YouTube Studio
+                    </span>
+                  </a>
+                  <a className="sidebar__links" href="/#">
+                    <div className="sidebar__icons">
+                      <SupervisorAccountSharpIcon />
+                    </div>
+                    <span>
+                      Switch account
+                    </span>
+                    <div className="sidebar__right-arrow">
+                      <KeyboardArrowRightOutlinedIcon />
+                    </div>
+                  </a>
+                  <a className="sidebar__links" href="/#">
+                    <div className="sidebar__icons">
+                      <ExitToAppOutlinedIcon />
+                    </div>
+                    <span>
+                      Sign out
+                    </span>
+                  </a>
+                  <hr className="sidebar__hr" />
+                  <a className="sidebar__links" href="/#">
+                    <div className="sidebar__icons">
+                      <Brightness2OutlinedIcon />
+                    </div>
+                    <span>
+                      Appereance: Device theme
+                    </span>
+                    <div className="sidebar__right-arrow">
+                      <KeyboardArrowRightOutlinedIcon />
+                    </div>
+                  </a>
+                  <a className="sidebar__links" href="/#">
+                    <div className="sidebar__icons">
+                      <TranslateOutlinedIcon />
+                    </div>
+                    <span>
+                      Language: English
+                    </span>
+                    <div className="sidebar__right-arrow">
+                      <KeyboardArrowRightOutlinedIcon />
+                    </div>
+                  </a>
+                  <a className="sidebar__links" href="/#">
+                    <div className="sidebar__icons">
+                      <LanguageOutlinedIcon />
+                    </div>
+                    <span>
+                      Location: United States
+                    </span>
+                    <div className="sidebar__right-arrow">
+                      <KeyboardArrowRightOutlinedIcon />
+                    </div>
+                  </a>
+                  <a className="sidebar__links" href="/#">
+                    <div className="sidebar__icons">
+                      <SettingsOutlinedIcon />
+                    </div>
+                    <span>
+                      Settings
+                    </span>
+                  </a>
+                  <a className="sidebar__links" href="/#">
+                    <div className="sidebar__icons">
+                      <VerifiedUserOutlinedIcon />
+                    </div>
+                    <span>
+                      Your data in YouTube
+                    </span>
+                  </a>
+                  <a className="sidebar__links" href="/#">
+                    <div className="sidebar__icons">
+                      <HelpOutlineOutlinedIcon />
+                    </div>
+                    <span>
+                      Help
+                    </span>
+                  </a>
+                  <a className="sidebar__links" href="/#">
+                    <div className="sidebar__icons">
+                      <FeedbackOutlinedIcon />
+                    </div>
+                    <span>
+                      Send feedback
+                    </span>
+                  </a>
+                  <a className="sidebar__links" href="/#">
+                    <div className="sidebar__icons">
+                      <KeyboardTwoToneIcon />
+                    </div>
+                    <span>
+                      Keyboard shortcuts
+                    </span>
+                  </a>
+                  <hr className="sidebar__hr" />
+                  <a className="sidebar__res-mode" href="/#">
+                    <span>
+                      Restricted Mode: Off
+                    </span>
+                    <div className="sidebar__right-arrow">
+                      <KeyboardArrowRightOutlinedIcon />
+                    </div>
+                  </a>
+                </div>
               </div>
 
               {/* <div className="sidebar__menu">
