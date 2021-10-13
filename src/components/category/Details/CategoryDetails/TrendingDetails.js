@@ -1,6 +1,6 @@
 import React, { useContext, useState, useRef } from 'react'
 import { useParams } from 'react-router-dom'
-import {HistoryDataContext} from '../CategoryInventory/HistoryInventory';
+import {TrendingDataContext} from '../CategoryInventory/TrendingInventory';
 import { Link } from 'react-router-dom'
 
 // import DetailsThumb from '../../DetailsThumb';
@@ -14,7 +14,7 @@ import './styles/main.scss';
 
 export default function TrendingDetails() {
   const { id } = useParams();
-  const value = useContext(HistoryDataContext)
+  const value = useContext(TrendingDataContext)
   const [products] = value.products
 
   const [index, setIndex] = useState(0)
@@ -40,9 +40,14 @@ export default function TrendingDetails() {
             </div> */}
             <div className="box-details">
               <div className="box-img">
-                <div className="box-img-container" 
+              <div className="box-img-container">
+                  <video loop controls autoPlay={true} muted >
+                   <source src={product.video} type="video/mp4"/>
+                  </video>
+                </div>
+                {/* <div className="box-img-container" 
                   style={{ backgroundImage: `url(${product.images[index]})` }} ref={imgDiv}
-                />
+                /> */}
                 <div>
                   {/* <DetailsThumb images={product.images} setIndex={setIndex} /> */}
                 </div>
@@ -54,18 +59,18 @@ export default function TrendingDetails() {
                     {product.title}
                   </span>
                 </p>
-                <p className="box-specs-items">
+                {/* <p className="box-specs-items">
                   <span></span>
                   <span>
                     {product.channel}
                   </span>
-                </p>
-                <p className="box-specs-items">
+                </p> */}
+                {/* <p className="box-specs-items">
                   <span></span>
                   <span>
                     {product.channelImage}
                   </span>
-                </p>
+                </p> */}
                 <p className="box-specs-items">
                   <span></span>
                   <span>
