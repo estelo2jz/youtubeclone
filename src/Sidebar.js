@@ -23,7 +23,7 @@ function Sidebar() {
       <Link to="/Trending">
         <SidebarRow activeClassName Icon={WhatshotSharpIcon} title="Trending" />
       </Link>
-      <Link to="/Subs">
+      <Link to="/Subscrption">
         <SidebarRow activeClassName Icon={SubscriptionsSharpIcon} title="Subscriptions" />
       </Link>
       <hr />
