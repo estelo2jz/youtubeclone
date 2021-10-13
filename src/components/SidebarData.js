@@ -39,7 +39,7 @@ export const SidebarData = [
   },
   {
     title: 'Subscriptions',
-    path: '/subs',
+    path: '/subscription',
     icon: <MdIcons.MdSubscriptions />,
     iconClosed: <RiIcons.RiArrowDownSFill />,
     iconOpened: <RiIcons.RiArrowUpSFill />,
