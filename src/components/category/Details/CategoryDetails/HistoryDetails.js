@@ -65,12 +65,12 @@ export default function HistoryDetails() {
                     {product.channel}
                   </span>
                 </p>
-                <p className="box-specs-items">
+                {/* <p className="box-specs-items">
                   <span></span>
                   <span>
                     {product.channelImage}
                   </span>
-                </p>
+                </p> */}
                 <p className="box-specs-items">
                   <span></span>
                   <span>
