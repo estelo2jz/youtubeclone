@@ -60,7 +60,7 @@ function Trending() {
           <p>Fashion & Beauty</p>
         </div>
       </div>
-      <div className="trending__video-container">
+      {/* <div className="trending__video-container">
         <div className="trending__videos">
           {videos.map(({id, channel, channelImage, image, timestamp, title, views}) => (
             <VideoCard
@@ -74,7 +74,7 @@ function Trending() {
             />
           ))}
         </div>
-      </div>
+      </div> */}
     </div>
   )
 }
