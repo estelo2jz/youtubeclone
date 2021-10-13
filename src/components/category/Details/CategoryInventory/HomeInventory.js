@@ -27,7 +27,7 @@ export const HomeDataProvider = (props) => {
       icon: <CheckCircleIcon />,
       filter: "minutes",
       "video": Code1,
-      desc: "",
+                desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia,Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia,Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia,",
       maxViews: "K",
       "images": [
         'https://cdn.cultofmac.com/wp-content/uploads/2013/11/CoM-webdev.jpg'
@@ -72,7 +72,7 @@ export const HomeDataProvider = (props) => {
       icon: <CheckCircleIcon />,
       filter: "minutes",
       "video": "",
-      desc: "",
+                desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia,Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia,Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia,",
       maxViews: "K",
       "images": [
         'https://i.ytimg.com/vi/cyQQ3pnMf7I/hqdefault.jpg'
@@ -117,7 +117,7 @@ export const HomeDataProvider = (props) => {
       icon: <CheckCircleIcon />,
       filter: "minutes",
       "video": "",
-      desc: "",
+                desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia,Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia,Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia,",
       maxViews: "K",
       "images": [
         'https://www.denofgeek.com/wp-content/uploads/2020/03/anime-2020.jpg?resize=768%2C432'
@@ -162,7 +162,7 @@ export const HomeDataProvider = (props) => {
       icon: <CheckCircleIcon />,
       filter: "minutes",
       "video": "",
-      desc: "",
+                desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia,Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia,Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia,",
       maxViews: "K",
       "images": [
         'https://qph.fs.quoracdn.net/main-qimg-139abffb2b1a5948f86535a7440616e6.webp'
@@ -207,7 +207,7 @@ export const HomeDataProvider = (props) => {
       icon: <CheckCircleIcon />,
       filter: "minutes",
       "video": "",
-      desc: "",
+                desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia,Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia,Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia,",
       maxViews: "K",
       "images": [
         'https://attackofthefanboy.com/wp-content/uploads/2020/06/cyber-night-city-wire.jpg'
@@ -252,7 +252,7 @@ export const HomeDataProvider = (props) => {
       icon: <CheckCircleIcon />,
       filter: "minutes",
       "video": "",
-      desc: "",
+                desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia,Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia,Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia,",
       maxViews: "K",
       "images": [
         'https://www.gamepressure.com/gallery/html/news/bigphotos/596541437.jpg'
@@ -297,7 +297,7 @@ export const HomeDataProvider = (props) => {
       icon: <CheckCircleIcon />,
       filter: "minutes",
       "video": "",
-      desc: "",
+                desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia,Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia,Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia,",
       maxViews: "K",
       "images": [
         'https://miro.medium.com/max/5760/1*rbSRs0yGxTcOGRdsUFtVxg.png'
@@ -344,7 +344,7 @@ export const HomeDataProvider = (props) => {
       icon: <CheckCircleIcon />,
       filter: "minutes",
       "video": "",
-      desc: "",
+                desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia,Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia,Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia,",
       maxViews: "K",
       "images": [
       ],
@@ -388,7 +388,7 @@ export const HomeDataProvider = (props) => {
       icon: <CheckCircleIcon />,
       filter: "minutes",
       "video": "",
-      desc: "",
+                desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia,Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia,Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia,",
       maxViews: "K",
       "images": [
       ],
@@ -432,7 +432,7 @@ export const HomeDataProvider = (props) => {
       icon: <CheckCircleIcon />,
       filter: "minutes",
       "video": "",
-      desc: "",
+                desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia,Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia,Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia,",
       maxViews: "K",
       "images": [
       ],
@@ -476,7 +476,7 @@ export const HomeDataProvider = (props) => {
       icon: <CheckCircleIcon />,
       filter: "minutes",
       "video": "",
-      desc: "",
+                desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia,Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia,Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia,",
       maxViews: "K",
       "images": [
       ],
@@ -520,7 +520,7 @@ export const HomeDataProvider = (props) => {
       icon: <CheckCircleIcon />,
       filter: "minutes",
       "video": "",
-      desc: "",
+                desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia,Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia,Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia,",
       maxViews: "K",
       "images": [
       ],
@@ -564,7 +564,7 @@ export const HomeDataProvider = (props) => {
       icon: <CheckCircleIcon />,
       filter: "minutes",
       "video": "",
-      desc: "",
+                desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia,Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia,Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia,",
       maxViews: "K",
       "images": [
       ],
@@ -608,7 +608,7 @@ export const HomeDataProvider = (props) => {
       icon: <CheckCircleIcon />,
       filter: "minutes",
       "video": "",
-      desc: "",
+                desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia,Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia,Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia,",
       maxViews: "K",
       "images": [
       ],
@@ -652,7 +652,7 @@ export const HomeDataProvider = (props) => {
       icon: <CheckCircleIcon />,
       filter: "minutes",
       "video": "",
-      desc: "",
+                desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia,Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia,Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia,",
       maxViews: "K",
       "images": [
       ],
@@ -696,7 +696,7 @@ export const HomeDataProvider = (props) => {
       icon: <CheckCircleIcon />,
       filter: "minutes",
       "video": "",
-      desc: "",
+                desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia,Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia,Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia,",
       maxViews: "K",
       "images": [
       ],
@@ -740,7 +740,7 @@ export const HomeDataProvider = (props) => {
       icon: <CheckCircleIcon />,
       filter: "minutes",
       "video": "",
-      desc: "",
+                desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia,Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia,Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia,",
       maxViews: "K",
       "images": [
       ],
@@ -784,7 +784,7 @@ export const HomeDataProvider = (props) => {
       icon: <CheckCircleIcon />,
       filter: "minutes",
       "video": "",
-      desc: "",
+                desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia,Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia,Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia,",
       maxViews: "K",
       "images": [
       ],
@@ -828,7 +828,7 @@ export const HomeDataProvider = (props) => {
       icon: <CheckCircleIcon />,
       filter: "minutes",
       "video": "",
-      desc: "",
+                desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia,Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia,Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia,",
       maxViews: "K",
       "images": [
       ],
@@ -872,7 +872,7 @@ export const HomeDataProvider = (props) => {
       icon: <CheckCircleIcon />,
       filter: "minutes",
       "video": "",
-      desc: "",
+                desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia,Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia,Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia,",
       maxViews: "K",
       "images": [
       ],
@@ -916,7 +916,7 @@ export const HomeDataProvider = (props) => {
       icon: <CheckCircleIcon />,
       filter: "minutes",
       "video": "",
-      desc: "",
+                desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia,Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia,Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia,",
       maxViews: "K",
       "images": [
       ],
@@ -960,7 +960,7 @@ export const HomeDataProvider = (props) => {
       icon: <CheckCircleIcon />,
       filter: "minutes",
       "video": "",
-      desc: "",
+                desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia,Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia,Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia,",
       maxViews: "K",
       "images": [
       ],
@@ -1004,7 +1004,7 @@ export const HomeDataProvider = (props) => {
       icon: <CheckCircleIcon />,
       filter: "minutes",
       "video": "",
-      desc: "",
+                desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia,Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia,Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia,",
       maxViews: "K",
       "images": [
       ],
@@ -1048,7 +1048,7 @@ export const HomeDataProvider = (props) => {
       icon: <CheckCircleIcon />,
       filter: "minutes",
       "video": "",
-      desc: "",
+                desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia,Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia,Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia,",
       maxViews: "K",
       "images": [
       ],
@@ -1092,7 +1092,7 @@ export const HomeDataProvider = (props) => {
       icon: <CheckCircleIcon />,
       filter: "minutes",
       "video": "",
-      desc: "",
+                desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia,Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia,Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia,",
       maxViews: "K",
       "images": [
       ],
@@ -1136,7 +1136,7 @@ export const HomeDataProvider = (props) => {
       icon: <CheckCircleIcon />,
       filter: "minutes",
       "video": "",
-      desc: "",
+                desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia,Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia,Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia,",
       maxViews: "K",
       "images": [
       ],
@@ -1180,7 +1180,7 @@ export const HomeDataProvider = (props) => {
       icon: <CheckCircleIcon />,
       filter: "minutes",
       "video": "",
-      desc: "",
+                desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia,Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia,Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia,",
       maxViews: "K",
       "images": [
       ],
@@ -1224,7 +1224,7 @@ export const HomeDataProvider = (props) => {
       icon: <CheckCircleIcon />,
       filter: "minutes",
       "video": "",
-      desc: "",
+                desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia,Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia,Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia,",
       maxViews: "K",
       "images": [
       ],
@@ -1268,7 +1268,7 @@ export const HomeDataProvider = (props) => {
       icon: <CheckCircleIcon />,
       filter: "minutes",
       "video": "",
-      desc: "",
+                desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia,Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia,Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia,",
       maxViews: "K",
       "images": [
       ],
@@ -1312,7 +1312,7 @@ export const HomeDataProvider = (props) => {
       icon: <CheckCircleIcon />,
       filter: "minutes",
       "video": "",
-      desc: "",
+                desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia,Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia,Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia,",
       maxViews: "K",
       "images": [
       ],
@@ -1356,7 +1356,7 @@ export const HomeDataProvider = (props) => {
       icon: <CheckCircleIcon />,
       filter: "minutes",
       "video": "",
-      desc: "",
+                desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia,Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia,Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia,",
       maxViews: "K",
       "images": [
       ],
@@ -1400,7 +1400,7 @@ export const HomeDataProvider = (props) => {
       icon: <CheckCircleIcon />,
       filter: "minutes",
       "video": "",
-      desc: "",
+                desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia,Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia,Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia,",
       maxViews: "K",
       "images": [
       ],
@@ -1444,7 +1444,7 @@ export const HomeDataProvider = (props) => {
       icon: <CheckCircleIcon />,
       filter: "minutes",
       "video": "",
-      desc: "",
+                desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia,Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia,Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia,",
       maxViews: "K",
       "images": [
       ],
@@ -1488,7 +1488,7 @@ export const HomeDataProvider = (props) => {
       icon: <CheckCircleIcon />,
       filter: "minutes",
       "video": "",
-      desc: "",
+                desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia,Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia,Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia,",
       maxViews: "K",
       "images": [
       ],
@@ -1532,7 +1532,7 @@ export const HomeDataProvider = (props) => {
       icon: <CheckCircleIcon />,
       filter: "minutes",
       "video": "",
-      desc: "",
+                desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia,Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia,Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia,",
       maxViews: "K",
       "images": [
       ],
