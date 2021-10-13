@@ -25,7 +25,7 @@ export default function TrendingData() {
         {products.map((product) => (
           <div className="trending-data" key={product._id}>
             <Link
-              to={`/home/${product._id}`}
+              to={`/trending/${product._id}`}
               className="trending-data__flex-helper"
             >
               <div className="trending-data__thumbnail">
