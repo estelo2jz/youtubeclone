@@ -6,6 +6,8 @@ import { Link } from 'react-router-dom'
 // import DetailsThumb from '../../DetailsThumb';
 // import JapanContacts from './DetailsContacts/JapanContacts';
 
+import VideoBio from './components/VideoBio';
+
 import SearchIcon from '@material-ui/icons/Search';
 
 
@@ -45,68 +47,19 @@ export default function HomeDetails() {
                    <source src={product.video} type="video/mp4"/>
                   </video>
                 </div>
-                {/* <div className="box-img-container" 
-                  style={{ backgroundImage: `url(${product.images[index]})` }} ref={imgDiv}
-                /> */}
                 {/* <div>
                   <DetailsThumb images={product.images} setIndex={setIndex} />
                 </div> */}
+                <div className="box-img-info">
+                  <div className="box-img-info-contents">
+                    <VideoBio />
+                  </div>
+                </div>
               </div>
               <div className="box-specs-container">
-                <p className="box-specs-items">
-                  <span></span>
-                  <span>
-                    {product.title}
-                  </span>
-                </p>
-                <p className="box-specs-items">
-                  <span></span>
-                  <span>
-                    {product.channel}
-                  </span>
-                </p>
-                <p className="box-specs-items">
-                  <span></span>
-                  <span>
-                    {product.channelImage}
-                  </span>
-                </p>
-                <p className="box-specs-items">
-                  <span></span>
-                  <span>
-                    {product.views}
-                  </span>
-                </p>
-                <p className="box-specs-items">
-                  <span></span>
-                  <span>
-                    {product.timestamp}
-                  </span>
-                </p>
-                <p className="box-specs-items">
-                  <span></span>
-                  <span>
-                    {product.icon}
-                  </span>
-                </p>
-                <p className="box-specs-items">
-                  <span></span>
-                  <span>
-                    {product.filter}
-                  </span>
-                </p>
-                <p className="box-specs-items">
-                  <span></span>
-                  <span>
-                    {product.desc}
-                  </span>
-                </p>
-                <p className="box-specs-items">
-                  <span></span>
-                  <span>
-                    {product.mazViews}
-                  </span>
-                </p>
+                <div className="more-videos__container">
+
+                </div>
               </div>
             </div>
             {/* <JapanContacts />
