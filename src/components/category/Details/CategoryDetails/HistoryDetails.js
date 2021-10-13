@@ -40,9 +40,14 @@ export default function HistoryDetails() {
             </div> */}
             <div className="box-details">
               <div className="box-img">
-                <div className="box-img-container" 
+              <div className="box-img-container">
+                  <video loop controls autoPlay={true} muted >
+                   <source src={product.video} type="video/mp4"/>
+                  </video>
+                </div>
+                {/* <div className="box-img-container" 
                   style={{ backgroundImage: `url(${product.images[index]})` }} ref={imgDiv}
-                />
+                /> */}
                 <div>
                   {/* <DetailsThumb images={product.images} setIndex={setIndex} /> */}
                 </div>
