@@ -21,7 +21,7 @@ export default function SubscriptionData() {
         {products.map((product) => (
           <div className="subscription-data" key={product._id}>
             <Link
-              to={`/home/${product._id}`}
+              to={`/subscription/${product._id}`}
               className="subscription-data__flex-helper"
             >
               <div className="subscription-data__thumbnail">
