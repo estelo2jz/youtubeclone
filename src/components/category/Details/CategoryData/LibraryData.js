@@ -25,7 +25,7 @@ export default function LibraryData() {
         {products.map((product) => (
           <div className="library-data" key={product._id}>
             <Link
-              to={`/home/${product._id}`}
+              to={`/library/${product._id}`}
               className="library-data__flex-helper"
             >
               <div className="library-data__thumbnail">
