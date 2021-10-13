@@ -1,6 +1,9 @@
 .details {
   width: 100%;
   padding: 0px 0px;
+  background-color: #181818;
+  height: 100%;
+  color: #fff;
 
   .details__header {
     display: flex;
@@ -55,7 +58,12 @@
       display: flex;
       flex-direction: column;
 
-      .box-img-outer {}
+     .box-img-info {
+       height: 200px;
+       .box-img-info-contents {
+
+       }
+     }
 
       .box-img-container {
         // height: 300px;
@@ -89,10 +97,11 @@
     }
 
     .box-specs-container {
-      background-color: red;
       width: 50%;
       height: 100%;
+      padding: 20px;
       .box-specs-outer {
+        background-color: #d71345;
         .box-specs-items {
 
           display: flex;
