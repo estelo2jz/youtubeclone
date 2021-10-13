@@ -1,5 +1,5 @@
 import React, { useContext } from "react";
-import { HistoryDataContext } from "../CategoryInventory/HistoryInventory";
+import { SubscriptionDataContext } from "../CategoryInventory/SubscriptionInventory";
 import { Link } from "react-router-dom";
 
 import SearchIcon from "@material-ui/icons/Search";
@@ -12,7 +12,7 @@ import Avatar from "@material-ui/core/Avatar";
 import "./styles/subscriptiondata.scss";
 
 export default function SubscriptionData() {
-  const value = useContext(HistoryDataContext);
+  const value = useContext(SubscriptionDataContext);
   const [products] = value.products;
 
   return (
