@@ -1,5 +1,5 @@
 import React, { useContext } from "react";
-import { HistoryDataContext } from "../CategoryInventory/HistoryInventory";
+import { TrendingDataContext } from "../CategoryInventory/TrendingInventory";
 import { Link } from "react-router-dom";
 
 import TrendingHeader from './components/TrendingHeader';
@@ -13,7 +13,7 @@ import Avatar from "@material-ui/core/Avatar";
 import "./styles/trendingdata.scss";
 
 export default function TrendingData() {
-  const value = useContext(HistoryDataContext);
+  const value = useContext(TrendingDataContext);
   const [products] = value.products;
 
   return (
