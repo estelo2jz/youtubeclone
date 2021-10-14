@@ -1,6 +1,7 @@
 import React from 'react';
 import '../styles/Home.scss';
 import Recommended from './RecommendedVideos';
+import HomeData from '../components/category/Details/CategoryData/HomeData';
 import PopularTopic from './PopularTopic';
 
 import './styles/PopularTopic.scss';
@@ -14,7 +15,7 @@ function Home() {
         </div>
       </div>
       <div className="home__box">
-        <Recommended />
+        <HomeData />
       </div>
     </div>
   )
