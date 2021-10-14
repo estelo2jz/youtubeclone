@@ -19,7 +19,6 @@ export default function HomeData() {
 
   return (
     <div className="">
-      {/* <PopularTopic /> */}
       <div className="home-data__container">
         {products.map((product) => (
           <div className="home-data" key={product._id}>
