@@ -42,7 +42,7 @@ export default function HomeData() {
                   <h4>{product.title}</h4>
                   <p>{product.channel}</p>
                   <p>
-                    {product.views} &middot; {product.timestamp}
+                    {product.views} views &middot; {product.timestamp}
                   </p>
                 </div>
               </div>
