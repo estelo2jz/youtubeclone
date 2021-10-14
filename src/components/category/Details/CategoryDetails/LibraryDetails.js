@@ -3,7 +3,7 @@ import { useParams } from 'react-router-dom'
 import {LibraryDataContext} from '../CategoryInventory/LibraryInventory';
 import { Link } from 'react-router-dom'
 
-import VideoBio from './components/VideoBio';
+import VideoBio from './components/VideoComponents/LibraryBio';
 import RecommendVideos from './components/RecommendVideos';
 
 
