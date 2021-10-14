@@ -1,9 +1,9 @@
 import React, { useContext, useState, useRef } from 'react'
 import { useParams } from 'react-router-dom'
-import { HomeDataContext } from '../../../../CategoryInventory/HomeInventory';
+import { LibraryDataContext } from '../../../../CategoryInventory/LibraryInventory';
 import { Link } from 'react-router-dom'
 
-import Comments from '../../Comments';
+import Comments from '../Comments/LibraryComments';
 
 import SearchIcon from '@material-ui/icons/Search';
 import { FiThumbsUp, FiThumbsDown } from 'react-icons/fi';
@@ -12,12 +12,12 @@ import { HiScissors } from 'react-icons/hi';
 import { BiDotsHorizontalRounded } from 'react-icons/bi';
 import { FaRegBell } from 'react-icons/fa';
 
-import '../styles/videoBio.scss';
+import '../../styles/videoBio.scss';
 
 
 export default function VideoBio() {
   const { id } = useParams();
-  const value = useContext(HomeDataContext)
+  const value = useContext(LibraryDataContext)
   const [products] = value.products
 
   const [index, setIndex] = useState(0)
