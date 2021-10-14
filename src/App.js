@@ -63,7 +63,7 @@ function App() {
                       exact
                       component={OptionThree}
                     />
-                    <Route path="/" exact component={HomeData} />
+                    <Route path="/" exact component={Home} />
                     <Route path="/home/:id" exact component={HomeDetails} />
 
                   <Route path="/trending" exact component={TrendingData} />
