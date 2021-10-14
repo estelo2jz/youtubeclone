@@ -12,6 +12,7 @@ import WatchLater from "./components/category/WatchLater";
 import YourVideos from "./components/category/YourVideos";
 import History from "./components/category/History";
 import NavBar from "./components/NavBar";
+import ScrollToTop from './components/ScrollToTop';
 
 // Data
 import HistoryData from "./components/category/Details/CategoryData/HistoryData";
@@ -53,6 +54,7 @@ function App() {
                 {/* Router is whats in charge of determining what url loads what components,
             EX were in a Homepage, and what components should we show the Hompoge component or the search page component  */}
                 <Router>
+                <ScrollToTop>
                   <Sidebar />
                   <Switch>
                     <Route path="/showmore" exact component={ShowmoreMain} />
@@ -92,6 +94,7 @@ function App() {
                       component={SearchPage}
                     />
                   </Switch>
+                </ScrollToTop>
                 </Router>
               </div>
             </HistoryDataProvider>
