@@ -3,14 +3,13 @@ import { useParams } from 'react-router-dom'
 import {SubscriptionDataContext} from '../CategoryInventory/SubscriptionInventory';
 import { Link } from 'react-router-dom'
 
-// import DetailsThumb from '../../DetailsThumb';
-// import JapanContacts from './DetailsContacts/JapanContacts';
+import VideoBio from './components/VideoBio';
+import RecommendVideos from './components/RecommendVideos';
 
 import SearchIcon from '@material-ui/icons/Search';
 
 
 import './styles/main.scss';
-// import HeaderInventory from '../../Home/HeaderInventory';
 
 export default function SubscriptionDetails() {
   const { id } = useParams();
@@ -30,87 +29,25 @@ export default function SubscriptionDetails() {
       {
         details.map(product => (
           <div className="details" key={product._id}>
-            {/* <div className="details__header">
-              <div className="details-header__fullname">
-                <p>{product.title}</p>
-              </div>
-              <div className="details__price">
-                <h3>{product.title}</h3>
-              </div>
-            </div> */}
             <div className="box-details">
               <div className="box-img">
-              <div className="box-img-container">
+                <div className="box-img-container">
                   <video loop controls autoPlay={true} muted >
                    <source src={product.video} type="video/mp4"/>
                   </video>
                 </div>
-                {/* <div className="box-img-container" 
-                  style={{ backgroundImage: `url(${product.images[index]})` }} ref={imgDiv}
-                /> */}
-                <div>
-                  {/* <DetailsThumb images={product.images} setIndex={setIndex} /> */}
+                <div className="box-img-info">
+                  <div className="box-img-info-contents">
+                    <VideoBio />
+                  </div>
                 </div>
               </div>
               <div className="box-specs-container">
-                <p className="box-specs-items">
-                  <span></span>
-                  <span>
-                    {product.title}
-                  </span>
-                </p>
-                <p className="box-specs-items">
-                  <span></span>
-                  <span>
-                    {product.channel}
-                  </span>
-                </p>
-                <p className="box-specs-items">
-                  <span></span>
-                  <span>
-                    {product.channelImage}
-                  </span>
-                </p>
-                <p className="box-specs-items">
-                  <span></span>
-                  <span>
-                    {product.views}
-                  </span>
-                </p>
-                <p className="box-specs-items">
-                  <span></span>
-                  <span>
-                    {product.timestamp}
-                  </span>
-                </p>
-                <p className="box-specs-items">
-                  <span></span>
-                  <span>
-                    {product.icon}
-                  </span>
-                </p>
-                <p className="box-specs-items">
-                  <span></span>
-                  <span>
-                    {product.filter}
-                  </span>
-                </p>
-                <p className="box-specs-items">
-                  <span></span>
-                  <span>
-                    {product.desc}
-                  </span>
-                </p>
-                <p className="box-specs-items">
-                  <span></span>
-                  <span>
-                    {product.mazViews}
-                  </span>
-                </p>
+                <div className="more-videos__container">
+                  <RecommendVideos />
+                </div>
               </div>
             </div>
-            {/* <JapanContacts />
-            <HeaderInventory /> */}
           </div>
         ))
       }
