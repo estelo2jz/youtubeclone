@@ -7,6 +7,7 @@ import { Link } from 'react-router-dom'
 // import JapanContacts from './DetailsContacts/JapanContacts';
 
 import VideoBio from './components/VideoBio';
+import RecommendVideos from './components/RecommendVideos';
 
 import SearchIcon from '@material-ui/icons/Search';
 
@@ -58,7 +59,7 @@ export default function HomeDetails() {
               </div>
               <div className="box-specs-container">
                 <div className="more-videos__container">
-
+                  <RecommendVideos />
                 </div>
               </div>
             </div>
