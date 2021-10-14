@@ -56,10 +56,11 @@
     .box-img {
       width: 50%;
       display: flex;
+      height: 100%;
       flex-direction: column;
 
      .box-img-info {
-       height: 200px;
+       height:100%;
        .box-img-info-contents {
 
        }
@@ -99,9 +100,10 @@
     .box-specs-container {
       width: 50%;
       height: 100%;
-      padding: 20px;
+      padding: 0px;
+      margin: 0px;
       .box-specs-outer {
-        background-color: #d71345;
+        // background-color: #d71345;
         .box-specs-items {
 
           display: flex;
@@ -172,6 +174,7 @@
       .box-specs-container {
         // display: none;
         width: 100%;
+        margin-top: 10px;
 
       }
     }
