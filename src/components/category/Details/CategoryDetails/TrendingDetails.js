@@ -3,7 +3,7 @@ import { useParams } from 'react-router-dom'
 import {TrendingDataContext} from '../CategoryInventory/TrendingInventory';
 import { Link } from 'react-router-dom'
 
-import VideoBio from './components/VideoBio';
+import VideoBio from './components/VideoComponents/TrendingBio';
 import RecommendVideos from './components/RecommendVideos';
 
 import SearchIcon from '@material-ui/icons/Search';
