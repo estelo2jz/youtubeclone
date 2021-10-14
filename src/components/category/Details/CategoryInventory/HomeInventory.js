@@ -17,7 +17,7 @@ export const HomeDataContext = createContext();
 export const HomeDataProvider = (props) => {
   const [products, setProducts] = useState([
     {
-      "_id": "1",
+      "_id": "671",
       title: "Become a Web Developer in 10 minutes | 2019/2020",
       image: "https://cdn.cultofmac.com/wp-content/uploads/2013/11/CoM-webdev.jpg",
       channel: "CodeCamp",
@@ -173,7 +173,7 @@ export const HomeDataProvider = (props) => {
       ],
     },
     {
-      "_id": "2",
+      "_id": "672",
       title: "Subaru Straight PIPE",
       image: "https://i.ytimg.com/vi/cyQQ3pnMf7I/hqdefault.jpg",
       channel: "SUBARU LOVERS",
@@ -329,7 +329,7 @@ export const HomeDataProvider = (props) => {
       ],
     },
     {
-      "_id": "3",
+      "_id": "673",
       title: "Best ANIME of 2020!",
       image: "https://www.denofgeek.com/wp-content/uploads/2020/03/anime-2020.jpg?resize=768%2C432",
       channel: "animeFIGHTS",
@@ -485,7 +485,7 @@ export const HomeDataProvider = (props) => {
       ],
     },
     {
-      "_id": "4",
+      "_id": "674",
       title: "ANIME Romances CUTE MONENTS",
       image: "https://www.lefthudson.com/wp-content/uploads/2019/11/cutest-anime-pics-beautiful-best-cutest-anime-ship-moments-spring-2018-this-week-of-cutest-anime-pics.jpg",
       channel: "LoveANIME",
@@ -641,7 +641,7 @@ export const HomeDataProvider = (props) => {
       ],
     },
     {
-      "_id": "5",
+      "_id": "675",
       title: "CYBERPUNK 2077 TRAILER",
       image: "https://i.ytimg.com/vi/qIcTM8WXFjk/maxresdefault.jpg",
       channel: "CyberPunk2077",
@@ -797,7 +797,7 @@ export const HomeDataProvider = (props) => {
       ],
     },
     {
-      "_id": "6",
+      "_id": "676",
       title: "CyberPunk 2077 GAMEPLAY!",
       channel: "Gameplay4K",
       image: "https://www.gamepressure.com/gallery/html/news/bigphotos/596541437.jpg",
@@ -953,7 +953,7 @@ export const HomeDataProvider = (props) => {
       ],
     },
         {
-      "_id": "7",
+      "_id": "677",
       title: "Discord Bots 3: Coding a Bot with discord.js",
       image: "https://miro.medium.com/max/5760/1*rbSRs0yGxTcOGRdsUFtVxg.png",
       channel: "The Coding Train",
@@ -1111,7 +1111,7 @@ export const HomeDataProvider = (props) => {
 
     
         {
-      "_id": "8",
+      "_id": "678",
       title: "HOME Video 1",
       image: "",
       channel: "",
@@ -1266,162 +1266,7 @@ export const HomeDataProvider = (props) => {
       ],
     },
         {
-      "_id": "9",
-      title: "HOME Video 1",
-      image: "",
-      channel: "",
-      channelImage: "",
-      views: "456",
-      timestamp: "23",
-      icon: <CheckCircleIcon />,
-            thumbsUp: "12K",
-      thumbsDown: "77",
-      actualDate: "Jan 29, 2021",
-      filter: "minutes",
-      "video": "",
-                desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia,Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia,Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia,",
-      maxViews: "K",
-      "images": [
-      ],
-      "commentQuantity": "3,945",
-      comments: [
-        {
-          _id: "1",
-          user: "Beasty", 
-          date: "1 year ago", 
-          comments: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
-          thumbsUp: "2,926",
-          thumbsDown: "457",
-          thumbsUp: "2,926",
-          thumbsDown: "457",
-          replies: "152",
-          imgChannel:"https://yt3.ggpht.com/ytc/AKedOLSi-HsiLB_7ul79thQeWiRMLXl5K0hGftRUPuJF=s88-c-k-c0x00ffffff-no-rj", 
-
-        },
-        {
-          _id: "2",
-          user: "Yung Chakra", 
-          date: "1 year ago", 
-          comments: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
-          thumbsUp: "340",
-          thumbsDown: "143",
-          replies: "243",
-          imgChannel:"https://yt3.ggpht.com/LyxO2n0ziJTcDQDoix5HMLeozuRiR1MGhj_ASnBOtMp3tBZ5ZYSzDAsPxydrqTb0o_pZ10HkdcQ=s48-c-k-c0x00ffffff-no-rj", 
-
-        },
-        {
-          _id: "3",
-          "user": "Swift DG", 
-          "date": "10 moonths ago", 
-          "comments": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
-          thumbsUp: "3,874",
-          thumbsDown: "2,897",
-          replies: "1,009",
-          imgChannel:"https://yt3.ggpht.com/ytc/AKedOLSWjPHlGwm6YBW4ibQ-AaHQXR_quT0ruvotUUmBfw=s48-c-k-c0x00ffffff-no-rj", 
-
-        },
-        {
-          _id: "4",
-          "user": "UnderratedSZN", 
-          "date": "1 year ago (edited)", 
-          "comments": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
-          thumbsUp: "45,324",
-          thumbsDown: "1,657",
-          replies: "35,785",
-          imgChannel:"https://yt3.ggpht.com/ytc/AKedOLR0RIwSiPLGSDYQIQoP9rz1z7n1Mt_ykeUTVUgxpw=s48-c-k-c0x00ffffff-no-rj", 
-
-        },
-        {
-          _id: "5",
-          "user": "Cynjya", 
-          "date": "1 week ago (edited)", 
-          "comments": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
-          thumbsUp: "21,456",
-          thumbsDown: "241",
-          replies: "7,785",
-          imgChannel:"https://yt3.ggpht.com/ytc/AKedOLQhpMwVCpXVj046O6I0E3hHGOtj8I0WbB877Hy_pQ=s48-c-k-c0x00ffffff-no-rj", 
-
-        },
-        {
-          _id: "6",
-          "user": "Lil Raff", 
-          "date": "1 week ago (edited)", 
-          "comments": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
-          thumbsUp: "34,129",
-          thumbsDown: "4,872",
-          replies: "14,567",
-          imgChannel:"https://yt3.ggpht.com/ytc/AKedOLTi53XDmue7LAcHoNsNIEfqjnFXE64S3BLqerct0w=s48-c-k-c0x00ffffff-no-rj", 
-
-        },
-        {
-          _id: "7",
-          "user": "HollwBans", 
-          "date": "1 week ago (edited)", 
-          "comments": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
-          thumbsUp: "1,342",
-          thumbsDown: "991",
-          replies: "865",
-          imgChannel:"https://yt3.ggpht.com/4g86jHpr5rlXdQ_74wfBiqltkBGGOAGdsw-tbEIlHTDuh46Rrd4XlbiceKuDFMIhhcNrGJsmTw=s48-c-k-c0x00ffffff-no-rj", 
-
-        },
-        {
-          _id: "8",
-          "user": "TheSuperSymbo", 
-          "date": "1 week ago (edited)", 
-          "comments": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
-          thumbsUp: "342",
-          thumbsDown: "95",
-          replies: "34",
-          imgChannel:"https://yt3.ggpht.com/ytc/AKedOLQQ3wwzb8U_Es8aOzv0ZzK4xs90Ps5Y3Q3Kgt262A=s48-c-k-c0x00ffffff-no-rj", 
-
-        },
-        {
-          _id: "9",
-          "user": "Ace", 
-          "date": "1 week ago (edited)", 
-          "comments": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
-          thumbsUp: "5,231",
-          thumbsDown: "1,452",
-          replies: "1,674",
-          imgChannel:"https://yt3.ggpht.com/CYFb1AvWK1UJLKsPAJANlQE83jkOqmuD-cR4fmrnXPCLK1sz_-m73LaHBsSMX2WRxSKeI2HzcQ=s48-c-k-c0x00ffffff-no-rj", 
-
-        },
-        {
-          _id: "10",
-          "user": "kevin ross", 
-          "date": "1 week ago (edited)", 
-          "comments": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
-          thumbsUp: "633",
-          thumbsDown: "209",
-          replies: "245",
-          imgChannel:"https://yt3.ggpht.com/ytc/AKedOLSicGhPEEuoqN4ayM3OOnJ8Lwu2vn870foQ3j_v=s48-c-k-c0x00ffffff-no-rj", 
-
-        },
-      ],
-      "maintenanceService": [
-        "parts", "parts", "parts", "parts", "parts",
-        "parts", "parts", "parts", "parts", "parts",
-        "parts", "parts", "parts", "parts", "parts",
-        "parts", "parts", "parts", "parts", "parts",
-        "parts", "parts", "parts", "parts", "parts",
-      ],
-      "aboutUs": [
-        "parts", "parts", "parts", "parts", "parts",
-        "parts", "parts", "parts", "parts", "parts",
-        "parts", "parts", "parts", "parts", "parts",
-        "parts", "parts", "parts", "parts", "parts",
-        "parts", "parts", "parts", "parts", "parts",
-      ],
-      "toBeImported": [
-        "parts", "parts", "parts", "parts", "parts",
-        "parts", "parts", "parts", "parts", "parts",
-        "parts", "parts", "parts", "parts", "parts",
-        "parts", "parts", "parts", "parts", "parts",
-        "parts", "parts", "parts", "parts", "parts",
-      ],
-    },
-    {
-      "_id": "10",
+      "_id": "679",
       title: "HOME Video 1",
       image: "",
       channel: "",
@@ -1576,7 +1421,7 @@ export const HomeDataProvider = (props) => {
       ],
     },
     {
-      "_id": "11",
+      "_id": "6710",
       title: "HOME Video 1",
       image: "",
       channel: "",
@@ -1731,7 +1576,7 @@ export const HomeDataProvider = (props) => {
       ],
     },
     {
-      "_id": "12",
+      "_id": "6711",
       title: "HOME Video 1",
       image: "",
       channel: "",
@@ -1886,7 +1731,7 @@ export const HomeDataProvider = (props) => {
       ],
     },
     {
-      "_id": "13",
+      "_id": "6712",
       title: "HOME Video 1",
       image: "",
       channel: "",
@@ -2041,7 +1886,7 @@ export const HomeDataProvider = (props) => {
       ],
     },
     {
-      "_id": "14",
+      "_id": "6713",
       title: "HOME Video 1",
       image: "",
       channel: "",
@@ -2196,7 +2041,7 @@ export const HomeDataProvider = (props) => {
       ],
     },
     {
-      "_id": "15",
+      "_id": "6714",
       title: "HOME Video 1",
       image: "",
       channel: "",
@@ -2351,7 +2196,7 @@ export const HomeDataProvider = (props) => {
       ],
     },
     {
-      "_id": "16",
+      "_id": "6715",
       title: "HOME Video 1",
       image: "",
       channel: "",
@@ -2506,7 +2351,7 @@ export const HomeDataProvider = (props) => {
       ],
     },
     {
-      "_id": "17",
+      "_id": "6716",
       title: "HOME Video 1",
       image: "",
       channel: "",
@@ -2661,7 +2506,7 @@ export const HomeDataProvider = (props) => {
       ],
     },
     {
-      "_id": "18",
+      "_id": "6717",
       title: "HOME Video 1",
       image: "",
       channel: "",
@@ -2816,7 +2661,7 @@ export const HomeDataProvider = (props) => {
       ],
     },
     {
-      "_id": "19",
+      "_id": "6718",
       title: "HOME Video 1",
       image: "",
       channel: "",
@@ -2971,7 +2816,7 @@ export const HomeDataProvider = (props) => {
       ],
     },
     {
-      "_id": "20",
+      "_id": "6719",
       title: "HOME Video 1",
       image: "",
       channel: "",
@@ -3126,7 +2971,7 @@ export const HomeDataProvider = (props) => {
       ],
     },
     {
-      "_id": "21",
+      "_id": "6720",
       title: "HOME Video 1",
       image: "",
       channel: "",
@@ -3281,7 +3126,7 @@ export const HomeDataProvider = (props) => {
       ],
     },
     {
-      "_id": "22",
+      "_id": "6721",
       title: "HOME Video 1",
       image: "",
       channel: "",
@@ -3436,7 +3281,7 @@ export const HomeDataProvider = (props) => {
       ],
     },
     {
-      "_id": "23",
+      "_id": "6722",
       title: "HOME Video 1",
       image: "",
       channel: "",
@@ -3591,7 +3436,7 @@ export const HomeDataProvider = (props) => {
       ],
     },
     {
-      "_id": "24",
+      "_id": "6723",
       title: "HOME Video 1",
       image: "",
       channel: "",
@@ -3746,7 +3591,7 @@ export const HomeDataProvider = (props) => {
       ],
     },
     {
-      "_id": "25",
+      "_id": "6724",
       title: "HOME Video 1",
       image: "",
       channel: "",
@@ -3901,7 +3746,7 @@ export const HomeDataProvider = (props) => {
       ],
     },
     {
-      "_id": "26",
+      "_id": "6725",
       title: "HOME Video 1",
       image: "",
       channel: "",
@@ -4056,7 +3901,7 @@ export const HomeDataProvider = (props) => {
       ],
     },
     {
-      "_id": "27",
+      "_id": "6726",
       title: "HOME Video 1",
       image: "",
       channel: "",
@@ -4211,7 +4056,7 @@ export const HomeDataProvider = (props) => {
       ],
     },
     {
-      "_id": "28",
+      "_id": "6727",
       title: "HOME Video 1",
       image: "",
       channel: "",
@@ -4366,7 +4211,7 @@ export const HomeDataProvider = (props) => {
       ],
     },
     {
-      "_id": "29",
+      "_id": "6728",
       title: "HOME Video 1",
       image: "",
       channel: "",
@@ -4521,7 +4366,7 @@ export const HomeDataProvider = (props) => {
       ],
     },
     {
-      "_id": "30",
+      "_id": "6729",
       title: "HOME Video 1",
       image: "",
       channel: "",
@@ -4676,7 +4521,7 @@ export const HomeDataProvider = (props) => {
       ],
     },
     {
-      "_id": "31",
+      "_id": "6730",
       title: "HOME Video 1",
       image: "",
       channel: "",
@@ -4831,7 +4676,7 @@ export const HomeDataProvider = (props) => {
       ],
     },
     {
-      "_id": "32",
+      "_id": "6731",
       title: "HOME Video 1",
       image: "",
       channel: "",
@@ -4986,7 +4831,7 @@ export const HomeDataProvider = (props) => {
       ],
     },
     {
-      "_id": "33",
+      "_id": "6732",
       title: "HOME Video 1",
       image: "",
       channel: "",
@@ -5141,7 +4986,7 @@ export const HomeDataProvider = (props) => {
       ],
     },
     {
-      "_id": "34",
+      "_id": "6733",
       title: "HOME Video 1",
       image: "",
       channel: "",
@@ -5296,7 +5141,162 @@ export const HomeDataProvider = (props) => {
       ],
     },
     {
-      "_id": "35",
+      "_id": "6734",
+      title: "HOME Video 1",
+      image: "",
+      channel: "",
+      channelImage: "",
+      views: "456",
+      timestamp: "23",
+      icon: <CheckCircleIcon />,
+            thumbsUp: "12K",
+      thumbsDown: "77",
+      actualDate: "Jan 29, 2021",
+      filter: "minutes",
+      "video": "",
+                desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia,Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia,Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia,",
+      maxViews: "K",
+      "images": [
+      ],
+      "commentQuantity": "3,945",
+      comments: [
+        {
+          _id: "1",
+          user: "Beasty", 
+          date: "1 year ago", 
+          comments: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+          thumbsUp: "2,926",
+          thumbsDown: "457",
+          thumbsUp: "2,926",
+          thumbsDown: "457",
+          replies: "152",
+          imgChannel:"https://yt3.ggpht.com/ytc/AKedOLSi-HsiLB_7ul79thQeWiRMLXl5K0hGftRUPuJF=s88-c-k-c0x00ffffff-no-rj", 
+
+        },
+        {
+          _id: "2",
+          user: "Yung Chakra", 
+          date: "1 year ago", 
+          comments: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+          thumbsUp: "340",
+          thumbsDown: "143",
+          replies: "243",
+          imgChannel:"https://yt3.ggpht.com/LyxO2n0ziJTcDQDoix5HMLeozuRiR1MGhj_ASnBOtMp3tBZ5ZYSzDAsPxydrqTb0o_pZ10HkdcQ=s48-c-k-c0x00ffffff-no-rj", 
+
+        },
+        {
+          _id: "3",
+          "user": "Swift DG", 
+          "date": "10 moonths ago", 
+          "comments": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+          thumbsUp: "3,874",
+          thumbsDown: "2,897",
+          replies: "1,009",
+          imgChannel:"https://yt3.ggpht.com/ytc/AKedOLSWjPHlGwm6YBW4ibQ-AaHQXR_quT0ruvotUUmBfw=s48-c-k-c0x00ffffff-no-rj", 
+
+        },
+        {
+          _id: "4",
+          "user": "UnderratedSZN", 
+          "date": "1 year ago (edited)", 
+          "comments": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+          thumbsUp: "45,324",
+          thumbsDown: "1,657",
+          replies: "35,785",
+          imgChannel:"https://yt3.ggpht.com/ytc/AKedOLR0RIwSiPLGSDYQIQoP9rz1z7n1Mt_ykeUTVUgxpw=s48-c-k-c0x00ffffff-no-rj", 
+
+        },
+        {
+          _id: "5",
+          "user": "Cynjya", 
+          "date": "1 week ago (edited)", 
+          "comments": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+          thumbsUp: "21,456",
+          thumbsDown: "241",
+          replies: "7,785",
+          imgChannel:"https://yt3.ggpht.com/ytc/AKedOLQhpMwVCpXVj046O6I0E3hHGOtj8I0WbB877Hy_pQ=s48-c-k-c0x00ffffff-no-rj", 
+
+        },
+        {
+          _id: "6",
+          "user": "Lil Raff", 
+          "date": "1 week ago (edited)", 
+          "comments": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+          thumbsUp: "34,129",
+          thumbsDown: "4,872",
+          replies: "14,567",
+          imgChannel:"https://yt3.ggpht.com/ytc/AKedOLTi53XDmue7LAcHoNsNIEfqjnFXE64S3BLqerct0w=s48-c-k-c0x00ffffff-no-rj", 
+
+        },
+        {
+          _id: "7",
+          "user": "HollwBans", 
+          "date": "1 week ago (edited)", 
+          "comments": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+          thumbsUp: "1,342",
+          thumbsDown: "991",
+          replies: "865",
+          imgChannel:"https://yt3.ggpht.com/4g86jHpr5rlXdQ_74wfBiqltkBGGOAGdsw-tbEIlHTDuh46Rrd4XlbiceKuDFMIhhcNrGJsmTw=s48-c-k-c0x00ffffff-no-rj", 
+
+        },
+        {
+          _id: "8",
+          "user": "TheSuperSymbo", 
+          "date": "1 week ago (edited)", 
+          "comments": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+          thumbsUp: "342",
+          thumbsDown: "95",
+          replies: "34",
+          imgChannel:"https://yt3.ggpht.com/ytc/AKedOLQQ3wwzb8U_Es8aOzv0ZzK4xs90Ps5Y3Q3Kgt262A=s48-c-k-c0x00ffffff-no-rj", 
+
+        },
+        {
+          _id: "9",
+          "user": "Ace", 
+          "date": "1 week ago (edited)", 
+          "comments": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+          thumbsUp: "5,231",
+          thumbsDown: "1,452",
+          replies: "1,674",
+          imgChannel:"https://yt3.ggpht.com/CYFb1AvWK1UJLKsPAJANlQE83jkOqmuD-cR4fmrnXPCLK1sz_-m73LaHBsSMX2WRxSKeI2HzcQ=s48-c-k-c0x00ffffff-no-rj", 
+
+        },
+        {
+          _id: "10",
+          "user": "kevin ross", 
+          "date": "1 week ago (edited)", 
+          "comments": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+          thumbsUp: "633",
+          thumbsDown: "209",
+          replies: "245",
+          imgChannel:"https://yt3.ggpht.com/ytc/AKedOLSicGhPEEuoqN4ayM3OOnJ8Lwu2vn870foQ3j_v=s48-c-k-c0x00ffffff-no-rj", 
+
+        },
+      ],
+      "maintenanceService": [
+        "parts", "parts", "parts", "parts", "parts",
+        "parts", "parts", "parts", "parts", "parts",
+        "parts", "parts", "parts", "parts", "parts",
+        "parts", "parts", "parts", "parts", "parts",
+        "parts", "parts", "parts", "parts", "parts",
+      ],
+      "aboutUs": [
+        "parts", "parts", "parts", "parts", "parts",
+        "parts", "parts", "parts", "parts", "parts",
+        "parts", "parts", "parts", "parts", "parts",
+        "parts", "parts", "parts", "parts", "parts",
+        "parts", "parts", "parts", "parts", "parts",
+      ],
+      "toBeImported": [
+        "parts", "parts", "parts", "parts", "parts",
+        "parts", "parts", "parts", "parts", "parts",
+        "parts", "parts", "parts", "parts", "parts",
+        "parts", "parts", "parts", "parts", "parts",
+        "parts", "parts", "parts", "parts", "parts",
+      ],
+    },
+    {
+      "_id": "6735",
       title: "HOME Video 1",
       image: "",
       channel: "",
