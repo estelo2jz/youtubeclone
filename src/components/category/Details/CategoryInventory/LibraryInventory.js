@@ -21,7 +21,7 @@ export const LibraryDataProvider = (props) => {
       "images": [
         ''
       ],
-          "commentQuantity": "3,945",
+      "commentQuantity": "3,945",
       comments: [
         {
           _id: "1",
