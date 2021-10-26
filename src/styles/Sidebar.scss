@@ -25,7 +25,7 @@
       .sidebar__bars {
         font-size: 30px;
         margin-top: 15px;
-        // margin-left: -10px;
+        margin-left: -10px;
       }
     }
     .sidebar__youtube-container { 
@@ -74,7 +74,7 @@
       // float: right;
     }
     .sidebar__profile-area {
-      margin-right: 40px;
+      margin-right: 20px;
       cursor: pointer;
       // height: 100px;
     }
@@ -198,6 +198,17 @@
 }
 
 @media only screen and (max-width: 500px) {
+  .sidebar__left-container {
+    // margin-left: 0px;
+    .sidebar__bars-container {
+      .sidebar__bars {
+        margin-left: 0px;
+      }
+    }
+  }
+  .sidebar__profile-area {
+    margin-right: 10px;
+  }
   .sidebar__sub-menu {
     display: none;
   }
