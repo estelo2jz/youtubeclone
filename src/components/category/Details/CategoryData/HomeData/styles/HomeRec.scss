@@ -1,0 +1,49 @@
+.home-rec__container {
+  overflow: hidden;
+
+  a {
+    text-decoration: none;
+  }
+
+  .home-rec {
+    margin: 5px 0px;
+
+    .home-rec__flex-helper {
+      display: flex;
+
+      .home-rec__thumbnail {
+        img {
+          width: 180px;
+        }
+      }
+
+      .home-rec__info {
+        .home-rec__text {
+          padding: 0px 7px;
+          h4 {
+            color: #fff;
+            font-weight: 4500;
+                 overflow: hidden;
+                 text-overflow: ellipsis;
+                 display: -webkit-box;
+                 -webkit-line-clamp: 2;
+                 /* number of lines to show */
+                 -webkit-box-orient: vertical;
+          }
+
+          p:nth-child(1) {
+            color: #fff;
+
+          }
+
+          p:nth-child(2) {
+            color: rgb(172, 171, 171);
+          }
+          p:nth-child(3) {
+            color: rgb(172, 171, 171);
+          }
+        }
+      }
+    }
+  }
+}
