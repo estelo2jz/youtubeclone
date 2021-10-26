@@ -1,6 +1,6 @@
 import React from 'react';
 
-import HomeData from '../../CategoryData/HomeData';
+import HomeRec from '../../CategoryData/HomeData/HomeRec';
 import Comments from './Comments';
 
 import './styles/recVideos.scss';
@@ -9,7 +9,7 @@ const RecommendVideos = () => {
   return (
     <div className="recommended">
       <div className="recommended__container">
-        <HomeData />
+        <HomeRec />
       </div>
       <div className="recommended__contents">
       </div>
