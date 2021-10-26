@@ -91,12 +91,13 @@ export default function VideoBio() {
                 </p>
               </div>
               <div className="video-bio__bottom">
-                {/* <p className="viode-bio__bottom-header">
-                  <span>
-                    {product.image}
-                  </span>
-                </p> */}
                 <div className="video-bio__channel">
+                  <p className="viode-bio__bottom-header">
+                    {/* <span>
+                      {product.channelImage}
+                    </span> */}
+                    <img src={product.channelImage} alt="" />
+                  </p>
                   <p className="viode-bio__">
                     <span>
                       {product.channel}
