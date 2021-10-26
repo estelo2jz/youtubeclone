@@ -1,7 +1,7 @@
 .details {
   width: 100%;
-  padding: 0px 0px;
-    background-color: #181818;
+  padding: 0px 100px;
+  background-color: #181818;
   height: 100%;
   color: #fff;
 
@@ -45,26 +45,25 @@
       }
     }
   }
-  
+
   .box-details {
     display: flex;
     justify-content: space-evenly;
     flex-wrap: wrap;
     width: 100%;
     height: 100%;
-    
+
     .box-img {
-      width: 50%;
+      width: 70%;
       display: flex;
       height: 100%;
       flex-direction: column;
 
-     .box-img-info {
-       height:100%;
-       .box-img-info-contents {
+      .box-img-info {
+        height: 100%;
 
-       }
-     }
+        .box-img-info-contents {}
+      }
 
       .box-img-container {
         // height: 300px;
@@ -73,6 +72,7 @@
         background-position: center;
         background-size: cover;
         background-repeat: no-repeat;
+
         video {
           width: 100%;
         }
@@ -88,21 +88,25 @@
       }
 
       .box-img__options-img {
-    width: 100%;
+        width: 100%;
 
         .box-img__img {
-    width: 100%;
+          width: 100%;
 
         }
       }
     }
 
     .box-specs-container {
-      width: 50%;
+      // overflow-y: scroll;
+      width: 30%;
+      // height: 2500px;
       height: 100%;
       padding: 0px;
       margin: 0px;
+
       .box-specs-outer {
+
         // background-color: #d71345;
         .box-specs-items {
 
@@ -133,6 +137,7 @@
       flex-wrap: wrap;
       width: 70%;
       margin-top: 10px;
+
       img {
         display: block;
         object-fit: cover;
@@ -148,6 +153,8 @@
 
 @media only screen and (max-width: 1000px) {
   .details {
+    padding: 0px !important;
+
     .details__header {
       display: flex;
       flex-direction: column;
@@ -165,10 +172,50 @@
 
     .box-details {
       flex-direction: column;
+
       .box-img {
         width: 100%;
-        .box-img-container {
+
+        .box-img-container {}
+      }
+
+      .box-specs-container {
+        // display: none;
+        width: 100%;
+        margin-top: 10px;
+
+      }
+    }
+  }
+
+}
+
+@media only screen and (max-width: 1300px) {
+  .details {
+    padding: 0px !important;
+
+    .details__header {
+      display: flex;
+      flex-direction: column;
+
+      .details-header__fullname {}
+
+      .details-header__price {
+        p {
+          // padding: 0px !important;
+          // margin: 0px !important;
+
         }
+      }
+    }
+
+    .box-details {
+      flex-direction: column;
+
+      .box-img {
+        width: 100%;
+
+        .box-img-container {}
       }
 
       .box-specs-container {
