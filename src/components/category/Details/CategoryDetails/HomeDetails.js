@@ -2,6 +2,7 @@ import React, { useContext, useState, useRef } from 'react'
 import { useParams } from 'react-router-dom'
 import {HomeDataContext} from '../CategoryInventory/HomeInventory';
 import { Link } from 'react-router-dom'
+import ReactPlayer from 'react-player';
 
 import VideoBio from './components/VideoBio';
 import RecommendVideos from './components/RecommendVideos';
@@ -33,9 +34,10 @@ export default function HomeDetails() {
             <div className="box-details">
               <div className="box-img">
                 <div className="box-img-container">
-                  <video loop controls autoPlay={true} muted >
+                  {/* <video loop controls autoPlay={true} muted >
                    <source src={product.video} type="video/mp4"/>
-                  </video>
+                  </video> */}
+                   <ReactPlayer width="100%" controls="true" autoplay={true} url={product.video} />
                 </div>
                 <div className="box-img-info">
                   <div className="box-img-info-contents">
