@@ -29,7 +29,8 @@ export const HomeDataProvider = (props) => {
       thumbsDown: "77",
       actualDate: "Jan 29, 2021",
       filter: "minutes",
-      "video": Code1,
+      // "video": Code1,
+      "video": 'https://www.youtube.com/watch?v=N6Nq62z2C6c',
                 desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia,Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia,Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia,",
       maxViews: "K",
       images: [
@@ -185,7 +186,7 @@ export const HomeDataProvider = (props) => {
       thumbsDown: "77",
       actualDate: "Jan 29, 2021",
       filter: "minutes",
-      "video": "",
+      "video": "https://www.youtube.com/watch?v=i5Fa-k2Xf0Y",
                 desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia,Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia,Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia,",
       maxViews: "K",
       "images": [
@@ -341,7 +342,7 @@ export const HomeDataProvider = (props) => {
       thumbsDown: "77",
       actualDate: "Jan 29, 2021",
       filter: "minutes",
-      "video": "",
+      "video": "https://www.youtube.com/watch?v=vIcOfNNLbpg",
                 desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia,Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia,Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia,",
       maxViews: "K",
       "images": [
@@ -497,7 +498,7 @@ export const HomeDataProvider = (props) => {
       thumbsDown: "77",
       actualDate: "Jan 29, 2021",
       filter: "minutes",
-      "video": "",
+      "video": "https://www.youtube.com/watch?v=OMNl2mwZYXE",
                 desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia,Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia,Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia,",
       maxViews: "K",
       "images": [
