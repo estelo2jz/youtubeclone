@@ -61,11 +61,14 @@
       .box-img-container {
         // height: 300px;
         width: 100%;
-        min-width: 50%;
+        // min-width: 50%;
         background-position: center;
         background-size: cover;
         background-repeat: no-repeat;
         video {
+          width: 100%;
+        }
+        .ytp-cued-thumbnail-overlay {
           width: 100%;
         }
 
