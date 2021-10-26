@@ -19,7 +19,7 @@ export const HomeDataProvider = (props) => {
     {
       "_id": "671",
       title: "Become a Web Developer in 10 minutes | 2019/2020",
-      image: "https://cdn.cultofmac.com/wp-content/uploads/2013/11/CoM-webdev.jpg",
+      image: "https://i.ytimg.com/an_webp/N6Nq62z2C6c/mqdefault_6s.webp?du=3000&sqp=CKfC4IsG&rs=AOn4CLA0Gh7g7dg1GTWjoe5hZYLZawO_ng",
       channel: "CodeCamp",
       channelImage: "https://previews.123rf.com/images/djvstock/djvstock1511/djvstock151101898/48229587-web-developer-concept-with-technology-icons-design-vector-illustration-10-eps-graphic.jpg",
       views: "228,982",
@@ -176,7 +176,7 @@ export const HomeDataProvider = (props) => {
     {
       "_id": "672",
       title: "Subaru Straight PIPE",
-      image: "https://i.ytimg.com/vi/cyQQ3pnMf7I/hqdefault.jpg",
+      image: "https://i.ytimg.com/an_webp/i5Fa-k2Xf0Y/mqdefault_6s.webp?du=3000&sqp=CLyD4YsG&rs=AOn4CLCGj9VOdJQDauh6Q_zh4wOKRsvyaw",
       channel: "SUBARU LOVERS",
       channelImage: "https://yt3.ggpht.com/ytc/AAUvwnjQjHj0F4ZjZPrt-nAgMdyXSWgY9DPy34mSYvFhTg=s900-c-k-c0x00ffffff-no-rj",
       views: "900K",
@@ -332,7 +332,7 @@ export const HomeDataProvider = (props) => {
     {
       "_id": "673",
       title: "Best ANIME of 2020!",
-      image: "https://www.denofgeek.com/wp-content/uploads/2020/03/anime-2020.jpg?resize=768%2C432",
+      image: "https://i.ytimg.com/an_webp/vIcOfNNLbpg/mqdefault_6s.webp?du=3000&sqp=CLjg4IsG&rs=AOn4CLBCpt_3ZgXXNK4mOsCsnMNGzUP0bQ",
       channel: "animeFIGHTS",
       channelImage: "https://vignette.wikia.nocookie.net/2b7fd0a4-8886-4402-ad9c-ac0f313ddf86/scale-to-width-down/800",
       views: "10.3M",
@@ -488,7 +488,7 @@ export const HomeDataProvider = (props) => {
     {
       "_id": "674",
       title: "ANIME Romances CUTE MONENTS",
-      image: "https://www.lefthudson.com/wp-content/uploads/2019/11/cutest-anime-pics-beautiful-best-cutest-anime-ship-moments-spring-2018-this-week-of-cutest-anime-pics.jpg",
+      image: "https://i.ytimg.com/an_webp/OMNl2mwZYXE/mqdefault_6s.webp?du=3000&sqp=CNuL4YsG&rs=AOn4CLDMO8uaMPIINEc87-Cr1s2MesLRqQ",
       channel: "LoveANIME",
       channelImage: "https://qph.fs.quoracdn.net/main-qimg-139abffb2b1a5948f86535a7440616e6.webp",
       views: "7.3M",
@@ -644,7 +644,7 @@ export const HomeDataProvider = (props) => {
     {
       "_id": "675",
       title: "CYBERPUNK 2077 TRAILER",
-      image: "https://i.ytimg.com/vi/qIcTM8WXFjk/maxresdefault.jpg",
+      image: "https://i.ytimg.com/an_webp/jkP2DgL-JBw/mqdefault_6s.webp?du=3000&sqp=CLiG4YsG&rs=AOn4CLDCmxMzV7NadYvSv0SdOx9f-1_rbw",
       channel: "CyberPunk2077",
       channelImage: "https://attackofthefanboy.com/wp-content/uploads/2020/06/cyber-night-city-wire.jpg",
       views: "100M",
@@ -654,7 +654,7 @@ export const HomeDataProvider = (props) => {
       thumbsDown: "77",
       actualDate: "Jan 29, 2021",
       filter: "minutes",
-      "video": "",
+      "video": "https://www.youtube.com/watch?v=jkP2DgL-JBw",
                 desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia,Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia,Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia,",
       maxViews: "K",
       "images": [
@@ -801,7 +801,7 @@ export const HomeDataProvider = (props) => {
       "_id": "676",
       title: "CyberPunk 2077 GAMEPLAY!",
       channel: "Gameplay4K",
-      image: "https://www.gamepressure.com/gallery/html/news/bigphotos/596541437.jpg",
+      image: "https://i.ytimg.com/an_webp/QH9gRxVa2lI/mqdefault_6s.webp?du=3000&sqp=CISG4YsG&rs=AOn4CLB7pH-rAg8X0U6PTo6h8lJMkQlsCA",
       channelImage: "https://gamespot1.cbsistatic.com/uploads/scale_landscape/123/1239113/3430172-cyberpunk2077-gameplay-promo-notext.jpg",
       views: "6.3M",
       timestamp: "26 days ago",
@@ -810,7 +810,7 @@ export const HomeDataProvider = (props) => {
       thumbsDown: "77",
       actualDate: "Jan 29, 2021",
       filter: "minutes",
-      "video": "",
+      "video": "https://www.youtube.com/watch?v=QH9gRxVa2lI",
                 desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia,Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia,Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia,",
       maxViews: "K",
       "images": [
@@ -956,7 +956,7 @@ export const HomeDataProvider = (props) => {
         {
       "_id": "677",
       title: "Discord Bots 3: Coding a Bot with discord.js",
-      image: "https://miro.medium.com/max/5760/1*rbSRs0yGxTcOGRdsUFtVxg.png",
+      image: "https://i.ytimg.com/an_webp/JKKKHH6Q2S4/mqdefault_6s.webp?du=3000&sqp=COjg4IsG&rs=AOn4CLCQFZm_aVhyWHykiJVO6bv2b6ohVQ",
       channel: "The Coding Train",
       channelImage: "https://i.ytimg.com/vi/8k-zyUyuvlM/maxresdefault.jpg",
       views: "210K",
@@ -966,7 +966,7 @@ export const HomeDataProvider = (props) => {
       thumbsDown: "77",
       actualDate: "Jan 29, 2021",
       filter: "minutes",
-      "video": "",
+      "video": "https://www.youtube.com/watch?v=JKKKHH6Q2S4",
                 desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia,Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia,Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia,",
       maxViews: "K",
       "images": [
