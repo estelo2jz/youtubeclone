@@ -1,7 +1,6 @@
 import "./App.css";
 import Header from "./Header";
 import Home from "./components/Home";
-import RecommendedVideos from "./components/RecommendedVideos";
 import SearchPage from "./components/pages/SearchPage";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import Subs from "./components/category/Subs";
