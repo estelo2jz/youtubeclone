@@ -1,5 +1,5 @@
 import React from 'react';
-import { Link, NavLink } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 import SidebarRow from './SidebarRow';
 import HomeSharpIcon from '@material-ui/icons/HomeSharp';
 import WhatshotSharpIcon from '@material-ui/icons/WhatshotSharp';
