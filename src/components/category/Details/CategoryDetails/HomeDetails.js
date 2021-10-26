@@ -37,7 +37,7 @@ export default function HomeDetails() {
                   {/* <video loop controls autoPlay={true} muted >
                    <source src={product.video} type="video/mp4"/>
                   </video> */}
-                   <ReactPlayer width="100%" controls="true" playing='true' url={product.video} />
+                   <ReactPlayer width="100%" height="500px" controls="true" playing='true' url={product.video} />
                 </div>
                 <div className="box-img-info">
                   <div className="box-img-info-contents">
