@@ -23,6 +23,7 @@ function Header() {
           <img 
             className="header__logo" 
             src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b8/YouTube_Logo_2017.svg/1920px-YouTube_Logo_2017.svg.png"
+            alt=""
           />
         </Link>
       </div>
