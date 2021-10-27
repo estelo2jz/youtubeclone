@@ -21,28 +21,28 @@ function Sidebar() {
         <SidebarRow selected Icon={HomeSharpIcon} title="Home" />
       </Link>
       <Link to="/Trending">
-        <SidebarRow activeClassName Icon={WhatshotSharpIcon} title="Trending" />
+        <SidebarRow Icon={WhatshotSharpIcon} title="Trending" />
       </Link>
       <Link to="/Subscrption">
-        <SidebarRow activeClassName Icon={SubscriptionsSharpIcon} title="Subscriptions" />
+        <SidebarRow Icon={SubscriptionsSharpIcon} title="Subscriptions" />
       </Link>
       <hr />
       <Link to="/Library">
-        <SidebarRow activeClassName Icon={VideoLibrarySharpIcon} title="Library" />
+        <SidebarRow Icon={VideoLibrarySharpIcon} title="Library" />
       </Link>
       <Link to="/History">
-        <SidebarRow activeClassName Icon={HistorySharpIcon} title="History" />
+        <SidebarRow Icon={HistorySharpIcon} title="History" />
       </Link>
       <Link to="/YourVideos">
-        <SidebarRow activeClassName Icon={OndemandVideoSharpIcon} title="Your vidoes" />
+        <SidebarRow Icon={OndemandVideoSharpIcon} title="Your vidoes" />
       </Link>
       <Link to="/WatchLater">
-        <SidebarRow activeClassName Icon={WatchLaterSharpIcon} title="Watch Later" />
+        <SidebarRow Icon={WatchLaterSharpIcon} title="Watch Later" />
       </Link>
       <Link to="/LikedVideos">
-        <SidebarRow activeClassName Icon={ThumbUpSharpIcon} title="Liked videos" />
+        <SidebarRow Icon={ThumbUpSharpIcon} title="Liked videos" />
       </Link>
-      <SidebarRow activeClassName Icon={ExpandMoreSharpIcon} title="Show more" />
+      <SidebarRow Icon={ExpandMoreSharpIcon} title="Show more" />
       <hr />
     </div>
   )
