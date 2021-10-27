@@ -120,6 +120,12 @@
         display: flex;
         align-items: center;
 
+        img {
+          border-radius: 50%;
+          width: 70px;
+          height: 70px;
+        }
+
         p:nth-child(1) {
           font-size: clamp(0.9rem, 1vw, 1rem);
         }
