@@ -93,7 +93,7 @@ export const SidebarData = [
   },
   {
     title: 'Show More',
-    // path: '/showmore',
+    path: '/showmore',
     icon: <FiIcons.FiMoreVertical />,
 
     // iconClosed: <RiIcons.RiArrowDownSFill />,
