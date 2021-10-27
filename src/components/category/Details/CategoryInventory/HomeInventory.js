@@ -2,16 +2,6 @@ import React, { createContext, useState, useEffect } from 'react'
 
 import CheckCircleIcon from '@material-ui/icons/CheckCircle';
 
-import Code1 from '../../../../assets/videos/home/subaru1.mp4';
-// import Code2 from '../../../../assets/videos/home/code2.mp4';
-// import Anime1 from '../../../../assets/videos/home/anime1.mp4';
-// import Anime2 from '../../../../assets/videos/home/anime2.mp4';
-// import CyberPunk1 from '../../../../assets/videos/home/cyberpunk1.mp4';
-// import CyberPunk2 from '../../../../assets/videos/home/cyberpunk2.mp4';
-// import Subaru1 from '../../../../assets/videos/home/subaru1.mp4';
-// import Subaru2 from '../../../../assets/videos/home/subaru2.mp4';
-// import Code1 from '../../../../assets/videos/home/code1.mp4';
-
 export const HomeDataContext = createContext();
 
 export const HomeDataProvider = (props) => {
@@ -29,7 +19,6 @@ export const HomeDataProvider = (props) => {
       thumbsDown: "77",
       actualDate: "Jan 29, 2021",
       filter: "minutes",
-      // "video": Code1,
       "video": 'https://www.youtube.com/watch?v=N6Nq62z2C6c',
                 desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia,Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia,Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia,",
       maxViews: "K",
