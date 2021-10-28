@@ -2,6 +2,9 @@ import React, { useContext } from "react";
 import { SubscriptionDataContext } from "../CategoryInventory/SubscriptionInventory";
 import { Link } from "react-router-dom";
 
+import { BsFillGrid3X2GapFill } from 'react-icons/bs';
+import { AiOutlineUnorderedList } from 'react-icons/ai';
+
 import SearchIcon from "@material-ui/icons/Search";
 import DeleteIcon from "@material-ui/icons/Delete";
 import PauseCircleOutlineIcon from "@material-ui/icons/PauseCircleOutline";
@@ -17,6 +20,18 @@ export default function SubscriptionData() {
 
   return (
     <div className="">
+    <div className="subscription__top-header">
+      <div className="subscription__left">
+        <p>Today</p>
+      </div>
+      <div className="subscription__right">
+        <p>MANAGE</p>
+        <div className="subscription__right-bars">
+          <span><BsFillGrid3X2GapFill /></span>
+          <span><AiOutlineUnorderedList /></span>          
+        </div>
+      </div>
+    </div>
       <div className="subscription-data__container">
         {products.map((product) => (
           <div className="subscription-data" key={product._id}>
