@@ -9,8 +9,7 @@ export const HomeDataProvider = (props) => {
     {
       _id: "671",
       title: "Become a Web Developer in 10 minutes | 2019/2020",
-      image:
-        "https://miro.medium.com/max/900/0*_kzCaYRrAjcxUoHA.jpg",
+      image: "https://miro.medium.com/max/900/0*_kzCaYRrAjcxUoHA.jpg",
       channel: "CodeCamp",
       channelImage:
         "https://previews.123rf.com/images/djvstock/djvstock1511/djvstock151101898/48229587-web-developer-concept-with-technology-icons-design-vector-illustration-10-eps-graphic.jpg",
@@ -21,7 +20,13 @@ export const HomeDataProvider = (props) => {
       thumbsDown: "77",
       actualDate: "Jan 29, 2021",
       filter: "minutes",
-      video: "https://www.youtube.com/watch?v=N6Nq62z2C6c",
+      tags: "",
+      subscribers: "23",
+      subscribersBy: "M",
+      video: [
+        "https://www.youtube.com/watch?v=N6Nq62z2C6c",
+        "https://www.youtube.com/watch?v=McC4QkCvbaY",
+      ],
       desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia,Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia,Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia,",
       maxViews: "K",
       images: [
@@ -45,8 +50,7 @@ export const HomeDataProvider = (props) => {
     {
       _id: "672",
       title: "Subaru Straight PIPE",
-      image:
-      "https://i.ytimg.com/vi/9GNJey6r4mA/maxresdefault.jpg",
+      image: "https://i.ytimg.com/vi/9GNJey6r4mA/maxresdefault.jpg",
       channel: "Sha",
       channelImage:
         "https://yt3.ggpht.com/ytc/AKedOLS1dne_ODKGcfILgob7thXLZxhQ9KN0clrGkKEUbw=s176-c-k-c0x00ffffff-no-rj-mo",
@@ -57,6 +61,9 @@ export const HomeDataProvider = (props) => {
       thumbsDown: "77",
       actualDate: "Jan 29, 2021",
       filter: "minutes",
+      tags: "",
+      subscribers: "23",
+      subscribersBy: "M",
       video: "https://www.youtube.com/watch?v=i5Fa-k2Xf0Y",
       desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia,Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia,Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia,",
       maxViews: "K",
@@ -91,6 +98,9 @@ export const HomeDataProvider = (props) => {
       thumbsDown: "77",
       actualDate: "Jan 29, 2021",
       filter: "minutes",
+      tags: "",
+      subscribers: "23",
+      subscribersBy: "M",
       video: "https://www.youtube.com/watch?v=vIcOfNNLbpg",
       desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia,Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia,Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia,",
       maxViews: "K",
@@ -127,6 +137,9 @@ export const HomeDataProvider = (props) => {
       thumbsDown: "77",
       actualDate: "Jan 29, 2021",
       filter: "minutes",
+      tags: "",
+      subscribers: "23",
+      subscribersBy: "M",
       video: "https://www.youtube.com/watch?v=OMNl2mwZYXE",
       desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia,Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia,Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia,",
       maxViews: "K",
@@ -151,8 +164,7 @@ export const HomeDataProvider = (props) => {
     {
       _id: "675",
       title: "CYBERPUNK 2077 TRAILER",
-      image:
-        "https://i.ytimg.com/vi/qIcTM8WXFjk/maxresdefault.jpg",
+      image: "https://i.ytimg.com/vi/qIcTM8WXFjk/maxresdefault.jpg",
       channel: "CyberPunk2077",
       channelImage:
         "https://attackofthefanboy.com/wp-content/uploads/2020/06/cyber-night-city-wire.jpg",
@@ -163,6 +175,9 @@ export const HomeDataProvider = (props) => {
       thumbsDown: "77",
       actualDate: "Jan 29, 2021",
       filter: "minutes",
+      tags: "",
+      subscribers: "23",
+      subscribersBy: "M",
       video: "https://www.youtube.com/watch?v=jkP2DgL-JBw",
       desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia,Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia,Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia,",
       maxViews: "K",
@@ -188,8 +203,7 @@ export const HomeDataProvider = (props) => {
       _id: "676",
       title: "CyberPunk 2077 GAMEPLAY!",
       channel: "Gameplay4K",
-      image:
-        "https://i.ytimg.com/vi/Mt1BtM0MJrA/maxresdefault.jpg",
+      image: "https://i.ytimg.com/vi/Mt1BtM0MJrA/maxresdefault.jpg",
       channelImage:
         "https://yt3.ggpht.com/ytc/AKedOLSK94hAuDukSvtkiVrRaLHJKo4OmzEQXuwwteNNaw=s68-c-k-c0x00ffffff-no-rj",
       views: "6.3M",
@@ -199,6 +213,9 @@ export const HomeDataProvider = (props) => {
       thumbsDown: "77",
       actualDate: "Jan 29, 2021",
       filter: "minutes",
+      tags: "",
+      subscribers: "23",
+      subscribersBy: "M",
       video: "https://www.youtube.com/watch?v=QH9gRxVa2lI",
       desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia,Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia,Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia,",
       maxViews: "K",
@@ -234,6 +251,9 @@ export const HomeDataProvider = (props) => {
       thumbsDown: "77",
       actualDate: "Jan 29, 2021",
       filter: "minutes",
+      tags: "",
+      subscribers: "23",
+      subscribersBy: "M",
       video: "https://www.youtube.com/watch?v=JKKKHH6Q2S4",
       desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia,Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia,Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia,",
       maxViews: "K",
@@ -257,8 +277,7 @@ export const HomeDataProvider = (props) => {
     {
       _id: "678",
       title: "TOKYO NIGHT CAR CULTURE EXPOSED!",
-      image:
-        "https://i.ytimg.com/vi/Kt3C7nG3qnc/maxresdefault.jpg",
+      image: "https://i.ytimg.com/vi/Kt3C7nG3qnc/maxresdefault.jpg",
       channel: "SAMMIT",
       channelImage:
         "https://yt3.ggpht.com/ytc/AKedOLR7I4zjBuP5ftJp3t20wbRSQs-oy3cL6Hzu54znag=s68-c-k-c0x00ffffff-no-rj",
@@ -269,6 +288,9 @@ export const HomeDataProvider = (props) => {
       thumbsDown: "77",
       actualDate: "Jan 29, 2021",
       filter: "minutes",
+      tags: "",
+      subscribers: "23",
+      subscribersBy: "M",
       video: "https://www.youtube.com/watch?v=Kt3C7nG3qnc",
       desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia,Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia,Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia,",
       maxViews: "K",
@@ -303,6 +325,9 @@ export const HomeDataProvider = (props) => {
       thumbsDown: "77",
       actualDate: "Jan 29, 2021",
       filter: "minutes",
+      tags: "",
+      subscribers: "23",
+      subscribersBy: "M",
       video: "https://www.youtube.com/watch?v=KXTPtiCnVHg",
       desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia,Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia,Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia,",
       maxViews: "K",
@@ -337,6 +362,9 @@ export const HomeDataProvider = (props) => {
       thumbsDown: "77",
       actualDate: "Jan 29, 2021",
       filter: "minutes",
+      tags: "",
+      subscribers: "23",
+      subscribersBy: "M",
       video: "https://www.youtube.com/watch?v=ChveDMh51f8",
       desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia,Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia,Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia,",
       maxViews: "K",
@@ -371,6 +399,9 @@ export const HomeDataProvider = (props) => {
       thumbsDown: "77",
       actualDate: "Jan 29, 2021",
       filter: "minutes",
+      tags: "",
+      subscribers: "23",
+      subscribersBy: "M",
       video: "https://www.youtube.com/watch?v=kwb9jXIWrRg",
       desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia,Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia,Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia,",
       maxViews: "K",
@@ -405,6 +436,9 @@ export const HomeDataProvider = (props) => {
       thumbsDown: "77",
       actualDate: "Jan 29, 2021",
       filter: "minutes",
+      tags: "",
+      subscribers: "23",
+      subscribersBy: "M",
       video: "https://www.youtube.com/watch?v=zuwnLd3d9PA",
       desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia,Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia,Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia,",
       maxViews: "K",
@@ -439,6 +473,9 @@ export const HomeDataProvider = (props) => {
       thumbsDown: "77",
       actualDate: "Jan 29, 2021",
       filter: "minutes",
+      tags: "",
+      subscribers: "23",
+      subscribersBy: "M",
       video: "https://www.youtube.com/watch?v=u0LaoQks5mY",
       desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia,Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia,Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia,",
       maxViews: "K",
@@ -461,8 +498,7 @@ export const HomeDataProvider = (props) => {
     {
       _id: "6714",
       title: "I Paid $500 For AWFUL Knock-Off Anime Merch",
-      image:
-        "https://i.ytimg.com/vi/XpMhtAqOPKA/maxresdefault.jpg",
+      image: "https://i.ytimg.com/vi/XpMhtAqOPKA/maxresdefault.jpg",
       channel: "",
       channelImage:
         "https://yt3.ggpht.com/ytc/AKedOLRD815bikV2XDELfW8ZGM879bGOXQFt8fVKNBOU5g=s68-c-k-c0x00ffffff-no-rj",
@@ -473,6 +509,9 @@ export const HomeDataProvider = (props) => {
       thumbsDown: "77",
       actualDate: "Jan 29, 2021",
       filter: "minutes",
+      tags: "",
+      subscribers: "23",
+      subscribersBy: "M",
       video: "https://www.youtube.com/watch?v=TZt6GDXP2OQ",
       desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia,Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia,Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia,",
       maxViews: "K",
@@ -507,6 +546,9 @@ export const HomeDataProvider = (props) => {
       thumbsDown: "77",
       actualDate: "Jan 29, 2021",
       filter: "minutes",
+      tags: "",
+      subscribers: "23",
+      subscribersBy: "M",
       video: "https://www.youtube.com/watch?v=IaVaoja2Uk4",
       desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia,Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia,Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia,",
       maxViews: "K",
@@ -530,8 +572,7 @@ export const HomeDataProvider = (props) => {
       _id: "6716",
       title:
         "What Is Behind a HUGE Landfill in California | Secrets of Mega Landfill | ENDEVR Documentary",
-      image:
-        "https://i.ytimg.com/vi/FTD03QAkK0E/maxresdefault.jpg",
+      image: "https://i.ytimg.com/vi/FTD03QAkK0E/maxresdefault.jpg",
       channel: "ENDEVR",
       channelImage:
         "https://yt3.ggpht.com/ytc/AKedOLSLwEHCmW1DhnLwvO6Y8Z_1D5DcbILbgNljr1k2lQ=s48-c-k-c0x00ffffff-no-rj",
@@ -542,6 +583,9 @@ export const HomeDataProvider = (props) => {
       thumbsDown: "77",
       actualDate: "Jan 29, 2021",
       filter: "minutes",
+      tags: "",
+      subscribers: "23",
+      subscribersBy: "M",
       video: "https://www.youtube.com/watch?v=FTD03QAkK0E",
       desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia,Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia,Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia,",
       maxViews: "K",
@@ -564,8 +608,7 @@ export const HomeDataProvider = (props) => {
     {
       _id: "6717",
       title: "Why Rolls-Royce Cars Are So Expensive | So Expensive",
-      image:
-        "https://i.ytimg.com/vi/QvpvUOIN1R4/maxresdefault.jpg",
+      image: "https://i.ytimg.com/vi/QvpvUOIN1R4/maxresdefault.jpg",
       channel: "Business Insider",
       channelImage:
         "https://yt3.ggpht.com/ytc/AKedOLT5wSJGXa3Mt-ZQt-siZTsmSAQfSPMAHVTHhgnvzQ=s48-c-k-c0x00ffffff-no-rj",
@@ -576,6 +619,9 @@ export const HomeDataProvider = (props) => {
       thumbsDown: "77",
       actualDate: "Jan 29, 2021",
       filter: "minutes",
+      tags: "",
+      subscribers: "23",
+      subscribersBy: "M",
       video: "https://www.youtube.com/watch?v=NUzDLpSkQTg",
       desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia,Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia,Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia,",
       maxViews: "K",
@@ -598,8 +644,7 @@ export const HomeDataProvider = (props) => {
     {
       _id: "6718",
       title: "BUYING CARS AT AUCTIONS IN JAPAN!",
-      image:
-        "https://i.ytimg.com/vi/hKO-Mnwg2Zc/maxresdefault.jpg",
+      image: "https://i.ytimg.com/vi/hKO-Mnwg2Zc/maxresdefault.jpg",
       channel: "SAMMIT",
       channelImage:
         "https://yt3.ggpht.com/ytc/AKedOLR7I4zjBuP5ftJp3t20wbRSQs-oy3cL6Hzu54znag=s48-c-k-c0x00ffffff-no-rj",
@@ -610,6 +655,9 @@ export const HomeDataProvider = (props) => {
       thumbsDown: "77",
       actualDate: "Jan 29, 2021",
       filter: "minutes",
+      tags: "",
+      subscribers: "23",
+      subscribersBy: "M",
       video: "https://www.youtube.com/watch?v=Vu6AmBFfQO4&t=251s",
       desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia,Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia,Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia,",
       maxViews: "K",
@@ -644,6 +692,9 @@ export const HomeDataProvider = (props) => {
       thumbsDown: "77",
       actualDate: "Jan 29, 2021",
       filter: "minutes",
+      tags: "",
+      subscribers: "23",
+      subscribersBy: "M",
       video: "https://www.youtube.com/watch?v=oorVWW9ywG0",
       desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia,Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia,Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia,",
       maxViews: "K",
@@ -678,6 +729,9 @@ export const HomeDataProvider = (props) => {
       thumbsDown: "77",
       actualDate: "Jan 29, 2021",
       filter: "minutes",
+      tags: "",
+      subscribers: "23",
+      subscribersBy: "M",
       video: "https://www.youtube.com/watch?v=28hYUZMufDg",
       desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia,Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia,Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia,",
       maxViews: "K",
@@ -700,8 +754,7 @@ export const HomeDataProvider = (props) => {
     {
       _id: "6721",
       title: "ImDontai Reacted To Memes For ImDontai & Majin Carp V51",
-      image:
-        "https://i.ytimg.com/vi/JXoXu6FGoAU/maxresdefault.jpg",
+      image: "https://i.ytimg.com/vi/JXoXu6FGoAU/maxresdefault.jpg",
       channel: "ImStillDontai",
       channelImage:
         "https://yt3.ggpht.com/ytc/AKedOLQgQXLTCD6MJRDmN64cFJbubLMVriDRhHjaHZDkFg=s48-c-k-c0x00ffffff-no-rj",
@@ -712,6 +765,9 @@ export const HomeDataProvider = (props) => {
       thumbsDown: "77",
       actualDate: "Jan 29, 2021",
       filter: "minutes",
+      tags: "",
+      subscribers: "23",
+      subscribersBy: "M",
       video: "https://www.youtube.com/watch?v=DKyq7uHXOsA",
       desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia,Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia,Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia,",
       maxViews: "K",
@@ -746,6 +802,9 @@ export const HomeDataProvider = (props) => {
       thumbsDown: "77",
       actualDate: "Jan 29, 2021",
       filter: "minutes",
+      tags: "",
+      subscribers: "23",
+      subscribersBy: "M",
       video: "https://www.youtube.com/watch?v=1sCnvBuDRJ0",
       desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia,Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia,Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia,",
       maxViews: "K",
@@ -768,8 +827,7 @@ export const HomeDataProvider = (props) => {
     {
       _id: "6723",
       title: "DDR5 is FINALLY HERE... and I've got it",
-      image:
-        "https://i.ytimg.com/vi/iHJ16hD4ysk/maxresdefault.jpg",
+      image: "https://i.ytimg.com/vi/iHJ16hD4ysk/maxresdefault.jpg",
       channel: "Linus Tech Tips",
       channelImage:
         "https://yt3.ggpht.com/ytc/AKedOLTK0y25C0RJiEngT1ae9mrZLXIortPD-DKQxOlRkw=s48-c-k-c0x00ffffff-no-rj",
@@ -780,6 +838,9 @@ export const HomeDataProvider = (props) => {
       thumbsDown: "77",
       actualDate: "Jan 29, 2021",
       filter: "minutes",
+      tags: "",
+      subscribers: "23",
+      subscribersBy: "M",
       video: "https://www.youtube.com/watch?v=aJEq7H4Wf6U",
       desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia,Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia,Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia,",
       maxViews: "K",
@@ -802,8 +863,7 @@ export const HomeDataProvider = (props) => {
     {
       _id: "6724",
       title: "First Person View PC BUILD Guide! (POV)",
-      image:
-        "https://i.ytimg.com/vi/v7MYOpFONCU/maxresdefault.jpg",
+      image: "https://i.ytimg.com/vi/v7MYOpFONCU/maxresdefault.jpg",
       channel: "Linus Tech Tips",
       channelImage:
         "https://yt3.ggpht.com/ytc/AKedOLTK0y25C0RJiEngT1ae9mrZLXIortPD-DKQxOlRkw=s48-c-k-c0x00ffffff-no-rj",
@@ -814,6 +874,9 @@ export const HomeDataProvider = (props) => {
       thumbsDown: "77",
       actualDate: "Jan 29, 2021",
       filter: "minutes",
+      tags: "",
+      subscribers: "23",
+      subscribersBy: "M",
       video: "https://www.youtube.com/watch?v=v7MYOpFONCU",
       desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia,Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia,Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia,",
       maxViews: "K",
@@ -836,8 +899,7 @@ export const HomeDataProvider = (props) => {
     {
       _id: "6725",
       title: "How to Pull Off a Bank Heist | The Business of Crime",
-      image:
-        "https://i.ytimg.com/vi/3fN9R3vJGq8/maxresdefault.jpg",
+      image: "https://i.ytimg.com/vi/3fN9R3vJGq8/maxresdefault.jpg",
       channel: "VICE",
       channelImage:
         "https://yt3.ggpht.com/Nv_KBl_Xisv3VhrhtxRU9X61FhknDm_76J5sO9TKT0z_60v61krrzcTNPl_WYe4_U4Cuw2KHeA=s48-c-k-c0x00ffffff-no-rj",
@@ -848,6 +910,9 @@ export const HomeDataProvider = (props) => {
       thumbsDown: "77",
       actualDate: "Jan 29, 2021",
       filter: "minutes",
+      tags: "",
+      subscribers: "23",
+      subscribersBy: "M",
       video: "https://www.youtube.com/watch?v=3fN9R3vJGq8",
       desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia,Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia,Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia,",
       maxViews: "K",
@@ -871,8 +936,7 @@ export const HomeDataProvider = (props) => {
       _id: "6726",
       title:
         "Being teenager in Rio de Janeiro's favelas: Behind the 2016 Brazil Olympic Games | Barber Shop Ep. 4",
-      image:
-        "https://i.ytimg.com/vi/MAcWzZDTGzI/maxresdefault.jpg",
+      image: "https://i.ytimg.com/vi/MAcWzZDTGzI/maxresdefault.jpg",
       channel: "wocomoHUMANITY",
       channelImage:
         "https://yt3.ggpht.com/jXmQcSnmpYWVM4Mx-K4CnNjd9keFE32i7lKdlQqTgunkVkJ2La5Zr7izesiVVyTAHES9pqGNNg=s48-c-k-c0x00ffffff-no-rj",
@@ -883,6 +947,9 @@ export const HomeDataProvider = (props) => {
       thumbsDown: "77",
       actualDate: "Jan 29, 2021",
       filter: "minutes",
+      tags: "",
+      subscribers: "23",
+      subscribersBy: "M",
       video: "https://www.youtube.com/watch?v=MAcWzZDTGzI",
       desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia,Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia,Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia,",
       maxViews: "K",
@@ -917,6 +984,9 @@ export const HomeDataProvider = (props) => {
       thumbsDown: "77",
       actualDate: "Jan 29, 2021",
       filter: "minutes",
+      tags: "",
+      subscribers: "23",
+      subscribersBy: "M",
       video: "https://www.youtube.com/watch?v=IrCQh1usdzE",
       desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia,Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia,Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia,",
       maxViews: "K",
@@ -939,8 +1009,7 @@ export const HomeDataProvider = (props) => {
     {
       _id: "6728",
       title: "Why I Gave Away My 100Mil Award..",
-      image:
-        "https://i.ytimg.com/vi/5ZB4_-NPojk/maxresdefault.jpg",
+      image: "https://i.ytimg.com/vi/5ZB4_-NPojk/maxresdefault.jpg",
       channel: "PewDiePie",
       channelImage:
         "https://yt3.ggpht.com/5oUY3tashyxfqsjO5SGhjT4dus8FkN9CsAHwXWISFrdPYii1FudD4ICtLfuCw6-THJsJbgoY=s48-c-k-c0x00ffffff-no-rj",
@@ -951,6 +1020,9 @@ export const HomeDataProvider = (props) => {
       thumbsDown: "77",
       actualDate: "Jan 29, 2021",
       filter: "minutes",
+      tags: "",
+      subscribers: "23",
+      subscribersBy: "M",
       video: "https://www.youtube.com/watch?v=5ZB4_-NPojk",
       desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia,Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia,Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia,",
       maxViews: "K",
@@ -974,8 +1046,7 @@ export const HomeDataProvider = (props) => {
       _id: "6729",
       title:
         "Building a Nissan R35 GTR : Installing a Titanium Catback Exhaust System & Custom Steering Wheel!",
-      image:
-        "https://i.ytimg.com/vi/Rtp2-7T1N7Y/maxresdefault.jpg",
+      image: "https://i.ytimg.com/vi/Rtp2-7T1N7Y/maxresdefault.jpg",
       channel: "throtl",
       channelImage:
         "https://yt3.ggpht.com/ytc/AKedOLRKv0dhlyuGcJFY2_QOJqgEBxFT_67qaOrpg5YPqQ=s48-c-k-c0x00ffffff-no-rj",
@@ -986,6 +1057,9 @@ export const HomeDataProvider = (props) => {
       thumbsDown: "77",
       actualDate: "Jan 29, 2021",
       filter: "minutes",
+      tags: "",
+      subscribers: "23",
+      subscribersBy: "M",
       video: "https://www.youtube.com/watch?v=Rtp2-7T1N7Y",
       desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia,Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia,Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia,",
       maxViews: "K",
@@ -1009,8 +1083,7 @@ export const HomeDataProvider = (props) => {
       _id: "6730",
       title:
         "CATS ATTACKING PEOPLE COMPILATION - A MUST WATCH VIDEO OF 2020 (CRAZY CATS BEHAVIOR) | IPET",
-      image:
-        "https://i.ytimg.com/vi/t60i9kPv3xQ/maxresdefault.jpg",
+      image: "https://i.ytimg.com/vi/t60i9kPv3xQ/maxresdefault.jpg",
       channel: "iPet",
       channelImage:
         "https://yt3.ggpht.com/ytc/AKedOLRLHRUltVck7O4xrBAzmlmInXwUAqWgwaiI9FrX=s48-c-k-c0x00ffffff-no-rj",
@@ -1021,6 +1094,9 @@ export const HomeDataProvider = (props) => {
       thumbsDown: "77",
       actualDate: "Jan 29, 2021",
       filter: "minutes",
+      tags: "",
+      subscribers: "23",
+      subscribersBy: "M",
       video: "https://www.youtube.com/watch?v=t60i9kPv3xQ",
       desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia,Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia,Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia,",
       maxViews: "K",
@@ -1043,8 +1119,7 @@ export const HomeDataProvider = (props) => {
     {
       _id: "6731",
       title: "Cristiano Ronaldo Goes Sneaker Shopping With Complex",
-      image:
-        "https://i.ytimg.com/vi/0jvt8Js0OU0/maxresdefault.jpg",
+      image: "https://i.ytimg.com/vi/0jvt8Js0OU0/maxresdefault.jpg",
       channel: "Complex",
       channelImage:
         "https://yt3.ggpht.com/ytc/AKedOLR_-UpAXQepoO4VKz7Ez21EI7zg2iy8Wgr3Ubb4hg=s48-c-k-c0x00ffffff-no-rj",
@@ -1055,6 +1130,9 @@ export const HomeDataProvider = (props) => {
       thumbsDown: "77",
       actualDate: "Jan 29, 2021",
       filter: "minutes",
+      tags: "",
+      subscribers: "23",
+      subscribersBy: "M",
       video: "https://www.youtube.com/watch?v=0jvt8Js0OU0",
       desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia,Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia,Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia,",
       maxViews: "K",
@@ -1078,8 +1156,7 @@ export const HomeDataProvider = (props) => {
       _id: "6732",
       title:
         "Young Thug & Lil Baby at Icebox Together for First Time! Spends $150K!!!",
-      image:
-        "https://i.ytimg.com/vi/lOpQmPbLLWM/maxresdefault.jpg",
+      image: "https://i.ytimg.com/vi/lOpQmPbLLWM/maxresdefault.jpg",
       channel: "Icebox",
       channelImage:
         "https://yt3.ggpht.com/ytc/AKedOLRB3MdIad6xYESCRKuinhxdUpFU8N7bSTNbOTfiFA=s48-c-k-c0x00ffffff-no-rj",
@@ -1090,6 +1167,9 @@ export const HomeDataProvider = (props) => {
       thumbsDown: "77",
       actualDate: "Jan 29, 2021",
       filter: "minutes",
+      tags: "",
+      subscribers: "23",
+      subscribersBy: "M",
       video: "https://www.youtube.com/watch?v=lOpQmPbLLWM",
       desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia,Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia,Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia,",
       maxViews: "K",
@@ -1112,8 +1192,7 @@ export const HomeDataProvider = (props) => {
     {
       _id: "6733",
       title: "Instant Karma FAILS! (Police Edition) #8",
-      image:
-        "https://i.ytimg.com/vi/oBBrHKTYBSk/maxresdefault.jpg",
+      image: "https://i.ytimg.com/vi/oBBrHKTYBSk/maxresdefault.jpg",
       channel: "Retk Videos",
       channelImage:
         "https://yt3.ggpht.com/ytc/AKedOLS6FnsR5CS3e5oWJ9decKIsHahmTtk2AihiQq_xcA=s48-c-k-c0x00ffffff-no-rj",
@@ -1124,6 +1203,9 @@ export const HomeDataProvider = (props) => {
       thumbsDown: "77",
       actualDate: "Jan 29, 2021",
       filter: "minutes",
+      tags: "",
+      subscribers: "23",
+      subscribersBy: "M",
       video: "https://www.youtube.com/watch?v=zb_2xCdmyYQ",
       desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia,Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia,Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia,",
       maxViews: "K",
@@ -1146,8 +1228,7 @@ export const HomeDataProvider = (props) => {
     {
       _id: "6734",
       title: "We Nearly 'Drowned' our assistant on a amphibious ATV adventure",
-      image:
-        "https://i.ytimg.com/vi/6cFPDedG0S4/maxresdefault.jpg",
+      image: "https://i.ytimg.com/vi/6cFPDedG0S4/maxresdefault.jpg",
       channel: "Rich Rebuilds",
       channelImage:
         "https://yt3.ggpht.com/ytc/AKedOLTyWdtnCBzETio0QsqPv5ifYuD23SfeftPUEqdKVA=s48-c-k-c0x00ffffff-no-rj",
@@ -1158,6 +1239,9 @@ export const HomeDataProvider = (props) => {
       thumbsDown: "77",
       actualDate: "Jan 29, 2021",
       filter: "minutes",
+      tags: "",
+      subscribers: "23",
+      subscribersBy: "M",
       video: "https://www.youtube.com/watch?v=6cFPDedG0S4",
       desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia,Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia,Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia,",
       maxViews: "K",
@@ -1181,8 +1265,7 @@ export const HomeDataProvider = (props) => {
       _id: "6735",
       title:
         "Adam22 Faces Off with The Guy who Tried to Shoot Him on Live Stream",
-      image:
-        "https://i.ytimg.com/vi/8gSXZaNcPak/maxresdefault.jpg",
+      image: "https://i.ytimg.com/vi/8gSXZaNcPak/maxresdefault.jpg",
       channel: "No Jumper",
       channelImage:
         "https://yt3.ggpht.com/ytc/AKedOLQ7A-cX04iTPkSMX65-YeGbl9uFUSP-b6btMtHK4Q=s48-c-k-c0x00ffffff-no-rj",
@@ -1193,6 +1276,9 @@ export const HomeDataProvider = (props) => {
       thumbsDown: "77",
       actualDate: "Jan 29, 2021",
       filter: "minutes",
+      tags: "",
+      subscribers: "23",
+      subscribersBy: "M",
       video: "https://www.youtube.com/watch?v=8gSXZaNcPak",
       desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia,Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia,Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia,",
       maxViews: "K",
@@ -1215,8 +1301,7 @@ export const HomeDataProvider = (props) => {
     {
       _id: "6736",
       title: "When 21 Savage recorded his verse on 'Who want smoke'",
-      image:
-        "https://i.ytimg.com/vi/GUQvi2F_-jA/maxresdefault.jpg",
+      image: "https://i.ytimg.com/vi/GUQvi2F_-jA/maxresdefault.jpg",
       channel: "Lenarr Young",
       channelImage:
         "https://yt3.ggpht.com/ytc/AKedOLTlapE45kYWaUT0I0taoSb_SLOKv9Co4aE2ACb4hQ=s48-c-k-c0x00ffffff-no-rj",
@@ -1227,6 +1312,9 @@ export const HomeDataProvider = (props) => {
       thumbsDown: "77",
       actualDate: "Jan 29, 2021",
       filter: "minutes",
+      tags: "",
+      subscribers: "23",
+      subscribersBy: "M",
       video: "https://www.youtube.com/watch?v=GUQvi2F_-jA",
       desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia,Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia,Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia,",
       maxViews: "K",
