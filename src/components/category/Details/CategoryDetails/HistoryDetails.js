@@ -16,10 +16,6 @@ export default function HistoryDetails() {
   const value = useContext(HistoryDataContext)
   const [products] = value.products
 
-  const [index, setIndex] = useState(0)
-  const imgDiv = useRef();
-
-
   const details = products.filter((product, index) => {
     return product._id === id
   })
