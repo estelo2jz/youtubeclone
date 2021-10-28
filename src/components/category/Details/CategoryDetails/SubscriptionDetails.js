@@ -16,10 +16,6 @@ export default function SubscriptionDetails() {
   const value = useContext(SubscriptionDataContext)
   const [products] = value.products
 
-  const [index, setIndex] = useState(0)
-  const imgDiv = useRef();
-
-
   const details = products.filter((product, index) => {
     return product._id === id
   })
