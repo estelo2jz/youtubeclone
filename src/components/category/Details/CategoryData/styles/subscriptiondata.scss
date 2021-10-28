@@ -2,10 +2,48 @@
 $heading-size: clamp(2rem, 5vh, 3rem, );
 $text-size: clamp(1rem, 1vw, 1rem);
 
+.subscription__top-header {
+  background-color: black;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  // padding: 10px 20px;
+  padding:  20px 150px;
+  .subscription__left {
+    p {
+      color: white;
+      font-weight: 700;
+    }
+  }
+  .subscription__right {
+    display: flex;
+    align-items: center;
+    p {
+      display: flex;
+      align-items: center;
+      padding: 0px 10px;
+      color: white;
+    }
+    .subscription__right-bars {
+      display: flex;
+      align-items: center;
+      span {
+        display: flex;
+        align-items: center;
+        font-size: 20px;
+        padding: 0px 10px;
+        cursor: pointer;
+        font-weight: 700;
+        color: white;
+      }
+    }
+  }
+}
 
 .subscription-data__container {
+  padding:  0px 150px;
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(270px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
   justify-content: center;
   align-items: center;
   align-content: center;
@@ -14,7 +52,7 @@ $text-size: clamp(1rem, 1vw, 1rem);
   height: 100%;
   display: grid;
   flex-direction: column;
-  grid-gap: 5px;
+  grid-gap: 10px;
   grid-row-gap: 10px;
   overflow: hidden;
   // padding: 40px 0px;
@@ -105,4 +143,22 @@ $text-size: clamp(1rem, 1vw, 1rem);
   margin-left: 3px;
   height: 30px !important;
   width: 30px !important;
+}
+
+@media screen and (max-width: 1000px){
+  .subscription__top-header {
+    padding:  20px 10px;
+    .subscription__left {}
+    .subscription__right {
+      p {
+      }
+      .subscription__right-bars {
+        span {
+        }
+      }
+    }
+  }
+  .subscription-data__container {
+    padding:  0px 10px;
+  }
 }
