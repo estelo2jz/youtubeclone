@@ -93,19 +93,19 @@ export default function VideoBio() {
               <div className="video-bio__bottom">
                 <div className="video-bio__channel">
                   <p className="viode-bio__bottom-header">
-                    {/* <span>
-                      {product.channelImage}
-                    </span> */}
                     <img src={product.channelImage} alt="" />
                   </p>
-                  <p className="viode-bio__">
-                    <span>
+                  <p className="viode-bio__channelName">
+                    <span className="viode-bio__channelName-container">
+                      <div>
                       {product.channel}
-                    </span>
-                  </p>
-                  <p className="">
-                    <span>
+                      </div>
+                      <div className="viode-bio__channelName-icon">
                       {product.icon}
+                      </div>
+                    </span>
+                    <span className="viode-bio__channelName-subs">
+                      {product.subscribers}{product.subscribersBy} subscribers
                     </span>
                   </p>
                 </div>
