@@ -2,6 +2,7 @@ import React, { useContext, useState, useRef } from 'react'
 import { useParams } from 'react-router-dom'
 import {TrendingDataContext} from '../CategoryInventory/TrendingInventory';
 import { Link } from 'react-router-dom'
+import ReactPlayer from 'react-player';
 
 import VideoBio from './components/VideoComponents/TrendingBio';
 import RecommendVideos from './components/RecommendVideos';
@@ -17,10 +18,6 @@ export default function TrendingDetails() {
   const value = useContext(TrendingDataContext)
   const [products] = value.products
 
-  const [index, setIndex] = useState(0)
-  const imgDiv = useRef();
-
-
   const details = products.filter((product, index) => {
     return product._id === id
   })
@@ -33,9 +30,7 @@ export default function TrendingDetails() {
             <div className="box-details">
               <div className="box-img">
                 <div className="box-img-container">
-                  <video loop controls autoPlay={true} muted >
-                   <source src={product.video} type="video/mp4"/>
-                  </video>
+                <ReactPlayer onEnded={true} width="100%" height="500px" controls="true" playing='true' url={product.video} />
                 </div>
                 <div className="box-img-info">
                   <div className="box-img-info-contents">
