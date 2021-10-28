@@ -43,7 +43,7 @@ export default function TrendingData() {
                   <h4>{product.title}</h4>
                   <p>{product.channel}</p>
                   <p>
-                    {product.views} &middot; {product.timestamp}
+                    {product.views} views &middot; {product.timestamp} days ago
                   </p>
                 </div>
               </div>
