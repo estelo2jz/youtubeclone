@@ -33,7 +33,7 @@ export const ShowmoreMain = () => {
             <div className="showmore_-item-option-one">
               <Link to="/showmore/save1">
                 <span>Music's</span>
-                <img src={MusicBg} alt="image" />
+                <img src={MusicBg} alt="" />
               </Link>
             </div>
           </div>
@@ -44,7 +44,7 @@ export const ShowmoreMain = () => {
             <div className="showmore_-item-option-two">
               <Link to="/showmore/save2">
                 <span>Code's</span>
-                <img src={CodeBg} alt="image" />
+                <img src={CodeBg} alt="" />
               </Link>
             </div>
 
@@ -56,7 +56,7 @@ export const ShowmoreMain = () => {
             <div className="showmore_-item-option-three">
               <Link to="/showmore/save3">
                 <span>Anime's</span>
-                <img src={AnimeBg} alt="image" />
+                <img src={AnimeBg} alt="" />
               </Link>
 
             </div>
@@ -65,11 +65,11 @@ export const ShowmoreMain = () => {
         <div className="showmore__item-container">
           {/* <OptionThree /> */}
           <div className="showmore__item">
-            {/* <img src={} alt="image"/> */}
+            {/* <img src={} alt=""/> */}
             <div className="showmore_-item-option-three">
               <a href="/">
                 <span>Anime song OP</span>
-                <img src={AnimeSongBg} alt="image" />
+                <img src={AnimeSongBg} alt="" />
               </a>
 
             </div>
@@ -81,7 +81,7 @@ export const ShowmoreMain = () => {
             <div className="showmore_-item-option-three">
               <a href="/">
                 <span>JDM cars</span>
-                <img src={JDMBg} alt="image" />
+                <img src={JDMBg} alt="" />
               </a>
 
             </div>
@@ -93,7 +93,7 @@ export const ShowmoreMain = () => {
             <div className="showmore_-item-option-three">
               <a href="/">
                 <span>React</span>
-                <img src={ReactBg} alt="image" />
+                <img src={ReactBg} alt="" />
               </a>
 
             </div>
@@ -105,7 +105,7 @@ export const ShowmoreMain = () => {
             <div className="showmore_-item-option-three">
               <a href="/">
                 <span>React Native</span>
-               <img src={NativeBg} alt="image" />
+               <img src={NativeBg} alt="" />
               </a>
 
             </div>
@@ -119,7 +119,7 @@ export const ShowmoreMain = () => {
             <div className="showmore_-item-option-one">
               <Link to="/showmore/save1">
                 <span>Music's</span>
-                <img src={MusicBg} alt="image" />
+                <img src={MusicBg} alt="" />
               </Link>
             </div>
           </div>
@@ -130,7 +130,7 @@ export const ShowmoreMain = () => {
             <div className="showmore_-item-option-two">
               <Link to="/showmore/save2">
                 <span>Code's</span>
-                <img src={CodeBg} alt="image" />
+                <img src={CodeBg} alt="" />
               </Link>
             </div>
 
@@ -142,7 +142,7 @@ export const ShowmoreMain = () => {
             <div className="showmore_-item-option-three">
               <Link to="/showmore/save3">
                 <span>Anime's</span>
-                <img src={AnimeBg} alt="image" />
+                <img src={AnimeBg} alt="" />
               </Link>
 
             </div>
@@ -151,11 +151,11 @@ export const ShowmoreMain = () => {
         <div className="showmore__item-container">
           {/* <OptionThree /> */}
           <div className="showmore__item">
-            {/* <img src={} alt="image"/> */}
+            {/* <img src={} alt=""/> */}
             <div className="showmore_-item-option-three">
               <a href="/">
                 <span>Anime song OP</span>
-                <img src={AnimeSongBg} alt="image" />
+                <img src={AnimeSongBg} alt="" />
               </a>
 
             </div>
@@ -167,7 +167,7 @@ export const ShowmoreMain = () => {
             <div className="showmore_-item-option-three">
               <a href="/">
                 <span>JDM cars</span>
-                <img src={JDMBg} alt="image" />
+                <img src={JDMBg} alt="" />
               </a>
 
             </div>
@@ -179,7 +179,7 @@ export const ShowmoreMain = () => {
             <div className="showmore_-item-option-three">
               <a href="/">
                 <span>React</span>
-                <img src={ReactBg} alt="image" />
+                <img src={ReactBg} alt="" />
               </a>
 
             </div>
@@ -191,7 +191,7 @@ export const ShowmoreMain = () => {
             <div className="showmore_-item-option-three">
               <a href="/">
                 <span>React Native</span>
-                <img src={NativeBg} alt="image" />
+                <img src={NativeBg} alt="" />
               </a>
 
             </div>
