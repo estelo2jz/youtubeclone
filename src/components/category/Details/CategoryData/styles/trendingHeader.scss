@@ -12,19 +12,33 @@
     align-items: center;
     padding-bottom: 40px;
     width: 100%;
+    padding: 0px 300px;
     .trending__category {
-      margin: 10px 10px;
-      text-align: center;
+      margin: 5px;
+      // text-align: center;
       cursor: pointer;
+      background-color: rgb(34, 34, 34);
+      border-radius: 10px;
       // height: 50px;
+      padding: 0px 20px;
+      width: 200px;
+      height: 120px;
+      transition: all 0.5s ease-in-out;
       img {
-        border-radius: 50%;
-        width: 130px;
+        // border-radius: 50%;
+        width: 30px;
+        padding: 10px 0px;
       }
       p {
         color: rgb(170, 169, 169);
         font-weight: bold;
         font-size: 1em;
+        padding: 10px 0px;
+
+      }
+      &:hover {
+      background-color: rgb(0, 0, 0);
+      transition: all 0.3s ease-in-out;
       }
     }
   }
@@ -50,5 +64,25 @@
       overflow: hidden;
   
    }
+  }
+}
+
+@media only screen and (max-width: 1500px) {
+  .trending__container {
+    .trending__category-container {
+      padding: 0px;
+
+      .trending__category {
+        width: 150px;
+        img {
+        }
+        p {
+        }
+      }
+    }
+    .trending__video-container {
+      .trending__videos {
+     }
+    }
   }
 }
