@@ -6,7 +6,6 @@ import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import Subs from "./components/category/Subs";
 import Library from "./components/category/Library";
 import LikedVideos from "./components/category/LikedVideos";
-import Trending from "./components/category/Trending";
 import WatchLater from "./components/category/WatchLater";
 import YourVideos from "./components/category/YourVideos";
 import History from "./components/category/History";
