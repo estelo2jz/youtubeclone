@@ -14,10 +14,6 @@ export default function LibraryDetails() {
   const value = useContext(LibraryDataContext)
   const [products] = value.products
 
-  const [index, setIndex] = useState(0)
-  const imgDiv = useRef();
-
-
   const details = products.filter((product, index) => {
     return product._id === id
   })
