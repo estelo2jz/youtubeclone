@@ -2,6 +2,7 @@ import React from "react";
 import "../styles/Home.scss";
 import HomeData from "../components/category/Details/CategoryData/HomeData";
 import PopularTopic from "./PopularTopic";
+import Carousel from "./category/Carousel/Carousel.";
 
 import "./styles/PopularTopic.scss";
 
@@ -9,13 +10,17 @@ function Home() {
   return (
     <div className="home__container">
       <div className="home__heading">
+        {/* <Carousel /> */}
         <div>
           <PopularTopic />
         </div>
       </div>
       <div className="home__ads-container">
         <div className="home__ads-left">
-          <img src="https://dazedimg-dazedgroup.netdna-ssl.com/900/azure/dazed-prod/1310/3/1313782.jpeg" alt="" />
+          <img
+            src="https://dazedimg-dazedgroup.netdna-ssl.com/900/azure/dazed-prod/1310/3/1313782.jpeg"
+            alt=""
+          />
         </div>
         <div className="home__ads-right">
           <div className="home__ads-top-img">
