@@ -1,0 +1,20 @@
+.popular-tags {
+  .popular-tags__link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    p {
+      background-color: rgb(157, 155, 155);
+      width: 100%;
+      padding: 5px 10px;
+      color: rgb(255, 255, 255);
+      border-radius: 10px;
+      display: inline;
+
+    }
+  }
+  a {
+    text-decoration: none;
+  }
+}
