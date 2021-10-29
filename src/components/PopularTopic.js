@@ -3,16 +3,8 @@ import { Link } from "react-router-dom";
 
 import "./styles/PopularTopic.scss";
 
-function PopularTopic() {
-  var settings = {
-    dots: true,
-    infinite: true,
-    speed: 500,
-    slidesToShow: 1,
-    slidesToScroll: 1,
-  };
+function PopularTopic({topic}) {
   return (
-    
     <div className="popular-topic__container">
       <div className="popular-topic__box">
         <div className="popular-topic__item">
