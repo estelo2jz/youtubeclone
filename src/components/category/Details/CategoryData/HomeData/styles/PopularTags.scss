@@ -4,16 +4,40 @@
     align-items: center;
     justify-content: center;
     width: 100%;
+
     p {
       background-color: rgb(157, 155, 155);
-      width: 100%;
-      padding: 5px 10px;
+      // width: 100%;
+      // padding: 5px 10px;
       color: rgb(255, 255, 255);
-      border-radius: 10px;
-      display: inline;
+      // border-radius: 10px;
+      // display: inline;
+      height: 32px;
+      min-width: 12px;
+      padding: 0 10px;
+      border-radius: 16px;
+      box-sizing: border-box;
+      outline: none;
+      overflow: hidden;
+      cursor: pointer;
+      user-select: none;
+      position: relative;
+      display: -ms-flexbox;
+      display: -webkit-flex;
+      display: flex;
+      -ms-flex-direction: row;
+      -webkit-flex-direction: row;
+      flex-direction: row;
+      -ms-flex-align: center;
+      -webkit-align-items: center;
+      align-items: center;
+      display: -ms-inline-flexbox;
+      display: -webkit-inline-flex;
+      display: inline-flex;
 
     }
   }
+
   a {
     text-decoration: none;
   }
