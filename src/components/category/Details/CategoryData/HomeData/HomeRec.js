@@ -8,6 +8,8 @@ import DeleteIcon from "@material-ui/icons/Delete";
 import PauseCircleOutlineIcon from "@material-ui/icons/PauseCircleOutline";
 import SettingsIcon from "@material-ui/icons/Settings";
 
+import PopularTags from './PopularTags';
+
 // import PopularTopic from "../../../PopularTopic";
 
 import Avatar from "@material-ui/core/Avatar";
@@ -20,6 +22,21 @@ export default function HomeData() {
 
   return (
     <div className="">
+      <div className="home-reac__popular-tags">
+       <PopularTags tag="All" componentLink="/" />
+       <PopularTags tag="Anime" componentLink="/" />
+       <PopularTags tag="Watched" componentLink="/" />
+       <PopularTags tag="RecentlyUploaded" componentLink="/" />
+       <PopularTags tag="Related" componentLink="/" />
+       <PopularTags tag="Subscriptions" componentLink="/" />
+       <PopularTags tag="Hot" componentLink="/" />
+       <PopularTags tag="News" componentLink="/" />
+       <PopularTags tag="Trending" componentLink="/" />
+       <PopularTags tag="Music" componentLink="/" />
+       <PopularTags tag="Media" componentLink="/" />
+       <PopularTags tag="Related" componentLink="/" />
+
+      </div>
       <div className="home-rec__container">
         {products.map((product) => (
           <div className="home-rec" key={product._id}>
